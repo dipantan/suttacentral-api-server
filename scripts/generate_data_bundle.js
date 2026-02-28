@@ -3,7 +3,7 @@ const path = require("path");
 const JSZip = require("jszip");
 
 const DATA_DIR = path.resolve(__dirname, "../data");
-const OUTPUT_DIR = path.resolve(__dirname, "../../pwa/public");
+const OUTPUT_DIR = path.resolve(__dirname, "../public");
 const OUTPUT_FILE = path.join(OUTPUT_DIR, "data.zip");
 
 function addDirectoryToZip(zip, dirPath, rootPath) {

@@ -5,7 +5,7 @@ const { generateBundle } = require("./generate_data_bundle");
 
 const SERVER_DIR = path.resolve(__dirname, "..");
 const BILARA_DATA_DIR = path.join(SERVER_DIR, "data/bilara-data-published");
-const PUBLIC_DIR = path.join(__dirname, "../../pwa/public");
+const PUBLIC_DIR = path.join(SERVER_DIR, "public");
 const VERSION_FILE = path.join(PUBLIC_DIR, "data.json");
 
 /**

@@ -22,9 +22,6 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Create Dummy PWA Directory
-        run: mkdir -p ../pwa/public
-
       - name: Run Build Pipeline
         run: node scripts/build_pipeline.js
         env:
@@ -38,8 +35,8 @@ jobs:
           name: "Daily Data Update - $(date +'%Y-%m-%d')"
           body: "Automated daily sync of Bilara data and SuttaCentral metadata."
           files: |
-            ../pwa/public/data.zip
-            ../pwa/public/data.json
+            public/data.zip
+            public/data.json
           draft: false
           prerelease: false
         env:

@@ -580,7 +580,7 @@ app.get("/api/admin/build-status", (req, res) => {
  *         description: The data bundle hasn't been generated yet.
  */
 app.get("/api/public/download-data", (req, res) => {
-  const zipPath = path.join(__dirname, "../pwa/public/data.zip");
+  const zipPath = path.join(__dirname, "public/data.zip");
 
   if (fs.existsSync(zipPath)) {
     res.download(zipPath, "data.zip");
@@ -607,7 +607,7 @@ app.get("/api/public/download-data", (req, res) => {
  *         description: Version information not found.
  */
 app.get("/api/public/data-version", (req, res) => {
-  const versionPath = path.join(__dirname, "../pwa/public/data.json");
+  const versionPath = path.join(__dirname, "public/data.json");
 
   if (fs.existsSync(versionPath)) {
     res.sendFile(versionPath);
