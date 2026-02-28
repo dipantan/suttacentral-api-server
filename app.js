@@ -9,6 +9,10 @@ const swaggerJsdoc = require("swagger-jsdoc");
 const app = express();
 const PORT = 3000;
 
+const GITHUB_REPO = "dipantan/suttacentral-api-server";
+const DATA_REMOTE_BASE = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/data`;
+const RELEASE_REMOTE_BASE = `https://github.com/${GITHUB_REPO}/releases/latest/download`;
+
 app.use(cors());
 
 // Global state for build process tracking
@@ -81,11 +85,22 @@ try {
 }
 
 // Helpers
-const readJson = (filePath) => {
+const readJson = async (filePath) => {
   try {
     if (fs.existsSync(filePath)) {
       const content = fs.readFileSync(filePath, "utf8");
       return JSON.parse(content);
+    }
+
+    // Fallback: If local file missing, try fetching from GitHub Repo (for Vercel/Serverless)
+    const relativePath = path.relative(__dirname, filePath).replace(/\\/g, "/");
+    if (relativePath.startsWith("data/")) {
+      const remoteUrl = `${DATA_REMOTE_BASE}/${relativePath.replace("data/", "")}`;
+      console.log(
+        `🌐 File missing locally. Fetching from remote: ${remoteUrl}`,
+      );
+      const response = await fetch(remoteUrl);
+      if (response.ok) return await response.json();
     }
   } catch (err) {
     console.error(`Error reading JSON file ${filePath}:`, err);
@@ -178,9 +193,9 @@ const getAuthorName = (uid) => {
  *       500:
  *         description: Root menu not found.
  */
-app.get("/api/menu", (req, res) => {
+app.get("/api/menu", async (req, res) => {
   const rootMenuPath = path.join(MENUS_BASE, "root.json");
-  const rootMenu = readJson(rootMenuPath);
+  const rootMenu = await readJson(rootMenuPath);
   if (rootMenu) {
     res.json(rootMenu);
   } else {
@@ -211,19 +226,15 @@ app.get("/api/menu", (req, res) => {
  *       500:
  *         description: Failed to parse menu file.
  */
-app.get("/api/menu/:uid", (req, res) => {
+app.get("/api/menu/:uid", async (req, res) => {
   const { uid } = req.params;
   const menuPath = path.join(MENUS_BASE, `${uid}.json`);
 
-  if (fs.existsSync(menuPath)) {
-    const menuData = readJson(menuPath);
-    if (menuData) {
-      res.json(menuData);
-    } else {
-      res.status(500).json({ error: "Failed to parse menu file" });
-    }
+  const menuData = await readJson(menuPath);
+  if (menuData) {
+    res.json(menuData);
   } else {
-    res.status(404).json({ error: "Menu not found" });
+    res.status(404).json({ error: "Menu not found or failed to parse" });
   }
 });
 
@@ -329,7 +340,7 @@ app.get("/api/suttaplex/:uid", (req, res) => {
  *       404:
  *         description: Sutta not found in index.
  */
-app.get("/api/suttas/:uid", (req, res) => {
+app.get("/api/suttas/:uid", async (req, res) => {
   const { uid } = req.params;
   const requestedAuthor = req.query.author;
 
@@ -345,7 +356,7 @@ app.get("/api/suttas/:uid", (req, res) => {
   if (suttaEntry.root) {
     rootRelativePath = suttaEntry.root;
     const rootPath = path.join(BILARA_BASE, "root/pli/ms", rootRelativePath);
-    rootData = readJson(rootPath) || {};
+    rootData = (await readJson(rootPath)) || {};
   }
 
   // 2. Translation Selection Logic
@@ -396,7 +407,7 @@ app.get("/api/suttas/:uid", (req, res) => {
       selectedAuthor,
       translationRelativePath,
     );
-    translationData = readJson(translationPath) || {};
+    translationData = (await readJson(translationPath)) || {};
   }
 
   // 4. HTML
@@ -412,7 +423,7 @@ app.get("/api/suttas/:uid", (req, res) => {
       htmlDir,
       htmlFilename,
     );
-    htmlData = readJson(htmlPath) || {};
+    htmlData = (await readJson(htmlPath)) || {};
   }
 
   // 5. Context Data: Comments
@@ -433,7 +444,7 @@ app.get("/api/suttas/:uid", (req, res) => {
       commentRelativeDir,
       commentFilename,
     );
-    commentData = readJson(commentPath) || {};
+    commentData = (await readJson(commentPath)) || {};
   }
 
   // 6. Context Data: Variants
@@ -452,7 +463,7 @@ app.get("/api/suttas/:uid", (req, res) => {
       variantDir,
       variantFilename,
     );
-    variantData = readJson(variantPath) || {};
+    variantData = (await readJson(variantPath)) || {};
   }
 
   // 7. Context Data: Reference
@@ -471,7 +482,7 @@ app.get("/api/suttas/:uid", (req, res) => {
       referenceDir,
       referenceFilename,
     );
-    referenceData = readJson(referencePath) || {};
+    referenceData = (await readJson(referencePath)) || {};
   }
 
   // 8. Publication Data
@@ -585,10 +596,10 @@ app.get("/api/public/download-data", (req, res) => {
   if (fs.existsSync(zipPath)) {
     res.download(zipPath, "data.zip");
   } else {
-    res.status(404).json({
-      error:
-        "Offline data bundle not found. Please run the build pipeline first.",
-    });
+    // If on Vercel/Missing, redirect to GitHub Release
+    const remoteUrl = `${RELEASE_REMOTE_BASE}/data.zip`;
+    console.log(`🌐 ZIP missing locally. Redirecting to: ${remoteUrl}`);
+    res.redirect(remoteUrl);
   }
 });
 
@@ -606,15 +617,18 @@ app.get("/api/public/download-data", (req, res) => {
  *       404:
  *         description: Version information not found.
  */
-app.get("/api/public/data-version", (req, res) => {
+app.get("/api/public/data-version", async (req, res) => {
   const versionPath = path.join(__dirname, "public/data.json");
 
   if (fs.existsSync(versionPath)) {
     res.sendFile(versionPath);
   } else {
-    res.status(404).json({
-      error: "Version data not found. Please run the build pipeline first.",
-    });
+    // Redirect to GitHub Release version
+    const remoteUrl = `${RELEASE_REMOTE_BASE}/data.json`;
+    console.log(
+      `🌐 Version info missing locally. Redirecting to: ${remoteUrl}`,
+    );
+    res.redirect(remoteUrl);
   }
 });
 
