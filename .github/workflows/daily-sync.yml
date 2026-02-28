@@ -1,0 +1,46 @@
+name: Daily Data Sync
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Every day at 00:00 UTC
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Server Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Create Dummy PWA Directory
+        run: mkdir -p ../pwa/public
+
+      - name: Run Build Pipeline
+        run: node scripts/build_pipeline.js
+        env:
+          NODE_ENV: production
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        if: success()
+        with:
+          tag_name: data-sync-${{ github.run_id }}
+          name: "Daily Data Update - $(date +'%Y-%m-%d')"
+          body: "Automated daily sync of Bilara data and SuttaCentral metadata."
+          files: |
+            ../pwa/public/data.zip
+            ../pwa/public/data.json
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
