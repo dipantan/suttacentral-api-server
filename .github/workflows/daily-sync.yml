@@ -2,7 +2,7 @@ name: Daily Data Sync
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Every day at 00:00 UTC
+    - cron: "0 0 * * *" # Every day at 00:00 UTC
   workflow_dispatch: # Allow manual trigger
 
 jobs:
@@ -16,8 +16,8 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
-          cache: 'npm'
+          node-version: "22"
+          cache: "npm"
 
       - name: Install Dependencies
         run: npm install
@@ -45,7 +45,7 @@ jobs:
             ### 📦 Daily Sutta Data Bundle
             - **Data Version (Commit)**: `${{ steps.vars.outputs.version }}`
             - **Build Date**: `${{ steps.vars.outputs.date }}`
-            
+
             This release contains the latest segmented texts from SuttaCentral's `bilara-data` repository.
           files: |
             public/data.zip
