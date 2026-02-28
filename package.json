@@ -17,7 +17,6 @@
   "nodemonConfig": {
     "ignore": [
       "data/*",
-      "pwa/*"
     ]
   }
 }
