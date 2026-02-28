@@ -27,13 +27,26 @@ jobs:
         env:
           NODE_ENV: production
 
+      - name: Extract Version Info
+        id: vars
+        run: |
+          VERSION=$(node -e "console.log(require('./public/data.json').commit.substring(0,7))")
+          DATE=$(date +'%Y-%m-%d')
+          echo "version=${VERSION}" >> $GITHUB_OUTPUT
+          echo "date=${DATE}" >> $GITHUB_OUTPUT
+
       - name: Create Release
         uses: softprops/action-gh-release@v2
         if: success()
         with:
-          tag_name: data-sync-${{ github.run_id }}
-          name: "Daily Data Update - $(date +'%Y-%m-%d')"
-          body: "Automated daily sync of Bilara data and SuttaCentral metadata."
+          tag_name: v${{ steps.vars.outputs.date }}-${{ steps.vars.outputs.version }}
+          name: "Sutta Data Update - ${{ steps.vars.outputs.date }} (${{ steps.vars.outputs.version }})"
+          body: |
+            ### 📦 Daily Sutta Data Bundle
+            - **Data Version (Commit)**: `${{ steps.vars.outputs.version }}`
+            - **Build Date**: `${{ steps.vars.outputs.date }}`
+            
+            This release contains the latest segmented texts from SuttaCentral's `bilara-data` repository.
           files: |
             public/data.zip
             public/data.json
