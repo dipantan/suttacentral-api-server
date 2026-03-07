@@ -7,6 +7,8 @@ const SERVER_DIR = path.resolve(__dirname, "..");
 const BILARA_DATA_DIR = path.join(SERVER_DIR, "data/bilara-data-published");
 const PUBLIC_DIR = path.join(SERVER_DIR, "public");
 const VERSION_FILE = path.join(PUBLIC_DIR, "data.json");
+const LEGACY_DIR = path.join(BILARA_DATA_DIR, "legacy");
+const LEGACY_MAP_FILE = path.join(BILARA_DATA_DIR, "legacy_sutta_map.json");
 
 /**
  * Execute a command synchronously and stream output to console.
@@ -60,20 +62,7 @@ async function buildPipeline() {
         BILARA_DATA_DIR,
       );
       if (pullOutput.includes("Already up to date.")) {
-        // If we have an index file, we can exit. Otherwise, we should probably finish the build.
-        const SUTTA_INDEX_PATH = path.join(
-          SERVER_DIR,
-          "data/generated/sutta_index.json",
-        );
-        if (fs.existsSync(SUTTA_INDEX_PATH)) {
-          console.log(
-            "✅ No new commits found and data exists. Pipeline complete (exiting early).",
-          );
-          process.exit(0);
-        }
-        console.log(
-          "⚠️ Up to date but index is missing. Forcing full build...",
-        );
+        console.log("ℹ️ Data repo up to date. Continuing full build to refresh bundle.");
       }
     } catch (err) {
       console.warn(
@@ -121,9 +110,15 @@ async function buildPipeline() {
   console.log("\n--- Step 5: Building Sutta Index ---");
   runCommand(`node scripts/build_index.js`);
 
-  // --- Step 6: Fetch missing Legacy Suttas ---
-  console.log("\n--- Step 6: Fetching legacy content for missing suttas ---");
-  runCommand(`node scripts/fetch_legacy.js`);
+  // --- Step 6: Fetch missing Legacy Suttas (skip if legacy already provided) ---
+  if (fs.existsSync(LEGACY_DIR) || fs.existsSync(LEGACY_MAP_FILE)) {
+    console.log(
+      "\n--- Step 6: Skipping legacy fetch (legacy content already present) ---",
+    );
+  } else {
+    console.log("\n--- Step 6: Fetching legacy content for missing suttas ---");
+    runCommand(`node scripts/fetch_legacy.js`);
+  }
 
   // --- Step 7: Generate Zip Bundle ---
   console.log("\n--- Step 7: Generating Zip Bundle ---");

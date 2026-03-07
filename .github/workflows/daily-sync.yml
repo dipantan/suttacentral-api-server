@@ -13,19 +13,45 @@ jobs:
       - name: Checkout Server Repository
         uses: actions/checkout@v4
 
+      - name: Check bilara-data for new commit
+        id: check
+        shell: bash
+        run: |
+          set -euo pipefail
+          BILARA_HEAD=$(git ls-remote --heads https://github.com/suttacentral/bilara-data.git published | awk '{print $1}')
+          echo "new_head=${BILARA_HEAD}" >> "$GITHUB_OUTPUT"
+
+          PREV_COMMIT=""
+          if curl -fsL "https://github.com/${{ github.repository }}/releases/latest/download/data.json" -o /tmp/prev-data.json; then
+            PREV_COMMIT=$(jq -r '.commit // empty' /tmp/prev-data.json)
+            echo "prev_commit=${PREV_COMMIT}" >> "$GITHUB_OUTPUT"
+          else
+            echo "prev_commit=" >> "$GITHUB_OUTPUT"
+          fi
+
+          if [[ -n "${PREV_COMMIT}" && "${PREV_COMMIT}" == "${BILARA_HEAD}" ]]; then
+            echo "skip_build=true" >> "$GITHUB_OUTPUT"
+            echo "No new bilara-data commit; skipping build."
+          else
+            echo "skip_build=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "22"
           cache: "npm"
+        if: steps.check.outputs.skip_build != 'true'
 
       - name: Install Dependencies
         run: npm install
+        if: steps.check.outputs.skip_build != 'true'
 
       - name: Run Build Pipeline
         run: node scripts/build_pipeline.js
         env:
           NODE_ENV: production
+        if: steps.check.outputs.skip_build != 'true'
 
       - name: Extract Version Info
         id: vars
@@ -34,10 +60,11 @@ jobs:
           DATE=$(date +'%Y-%m-%d')
           echo "version=${VERSION}" >> $GITHUB_OUTPUT
           echo "date=${DATE}" >> $GITHUB_OUTPUT
+        if: steps.check.outputs.skip_build != 'true'
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
-        if: success()
+        if: success() && steps.check.outputs.skip_build != 'true'
         with:
           tag_name: v${{ steps.vars.outputs.date }}-${{ steps.vars.outputs.version }}
           name: "Sutta Data Update - ${{ steps.vars.outputs.date }} (${{ steps.vars.outputs.version }})"
@@ -62,3 +89,4 @@ jobs:
           delete_expired_data: 30
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: steps.check.outputs.skip_build != 'true'

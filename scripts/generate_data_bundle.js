@@ -10,13 +10,10 @@ function addDirectoryToZip(zip, dirPath, rootPath) {
   const files = fs.readdirSync(dirPath);
 
   for (const file of files) {
-    // Skip .git, node_modules, generated, menus to avoid infinite hangs and bloated zips
-    // We only want bilara-data-published and specific static files.
+    // Skip .git and node_modules to avoid unnecessary content; include menus/generated in bundle
     if (
       file === ".git" ||
-      file === "node_modules" ||
-      file === "generated" ||
-      file === "menus"
+      file === "node_modules"
     ) {
       continue;
     }
