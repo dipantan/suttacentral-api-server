@@ -36,6 +36,31 @@ jobs:
             echo "skip_build=false" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Restore legacy from previous release
+        if: steps.check.outputs.skip_build != 'true'
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p data
+          if curl -fsL "https://github.com/${{ github.repository }}/releases/latest/download/data.zip" -o /tmp/prev.zip; then
+            mkdir -p /tmp/prev
+            # Extract legacy and map from previous bundle if present
+            bsdtar -xf /tmp/prev.zip -C /tmp/prev bilara-data-published/legacy bilara-data-published/legacy_sutta_map.json || true
+            if [ -d /tmp/prev/bilara-data-published/legacy ]; then
+              rm -rf data/bilara-data-published/legacy
+              mkdir -p data/bilara-data-published
+              mv /tmp/prev/bilara-data-published/legacy data/bilara-data-published/
+              echo "Restored legacy directory from previous release"
+            fi
+            if [ -f /tmp/prev/bilara-data-published/legacy_sutta_map.json ]; then
+              mkdir -p data/bilara-data-published
+              mv /tmp/prev/bilara-data-published/legacy_sutta_map.json data/bilara-data-published/
+              echo "Restored legacy_sutta_map.json from previous release"
+            fi
+          else
+            echo "No previous data.zip found; continuing without legacy restore"
+          fi
+
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
