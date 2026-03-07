@@ -10,10 +10,11 @@ function addDirectoryToZip(zip, dirPath, rootPath) {
   const files = fs.readdirSync(dirPath);
 
   for (const file of files) {
-    // Skip .git and node_modules to avoid unnecessary content; include menus/generated in bundle
+    // Skip .git, node_modules, and legacy seed; include menus/generated in bundle
     if (
       file === ".git" ||
-      file === "node_modules"
+      file === "node_modules" ||
+      file === "legacy-seed"
     ) {
       continue;
     }
@@ -21,6 +22,11 @@ function addDirectoryToZip(zip, dirPath, rootPath) {
     const filePath = path.join(dirPath, file);
     const stat = fs.statSync(filePath);
     const relativePath = path.relative(rootPath, filePath).replace(/\\/g, "/");
+
+    // Also skip any nested legacy-seed content if reached indirectly
+    if (relativePath.startsWith("legacy-seed/")) {
+      continue;
+    }
 
     if (stat.isDirectory()) {
       addDirectoryToZip(zip, filePath, rootPath);
