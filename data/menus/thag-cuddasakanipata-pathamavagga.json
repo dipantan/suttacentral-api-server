@@ -1,0 +1,41 @@
+{
+  "uid": "thag-cuddasakanipata-pathamavagga",
+  "root_name": "Paṭhamavagga",
+  "translated_name": "Chapter One ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thag 14.1–2",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "thag14.1",
+      "root_name": "Khadiravaniyarevatattheragāthā",
+      "translated_name": null,
+      "acronym": "Thag 14.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "thag14.2",
+      "root_name": "Godattattheragāthā",
+      "translated_name": null,
+      "acronym": "Thag 14.2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

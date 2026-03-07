@@ -1,0 +1,67 @@
+{
+  "uid": "an2",
+  "root_name": "Dukanipāta",
+  "translated_name": "The Book of the Twos ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 26,
+  "children": [
+    {
+      "uid": "an2-pathamapannasaka",
+      "root_name": "Paṭhamapaṇṇāsaka",
+      "translated_name": "The First Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.1–51",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "an2-dutiyapannasaka",
+      "root_name": "Dutiyapaṇṇāsaka",
+      "translated_name": "The Second Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.52–117",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 6
+    },
+    {
+      "uid": "an2-tatiyapannasaka",
+      "root_name": "Tatiyapaṇṇāsaka",
+      "translated_name": "The Third Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.118–179",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 6
+    },
+    {
+      "uid": "an2-peyyala",
+      "root_name": "Peyyāla",
+      "translated_name": "Abbreviated Texts ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.180–479",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 4
+    }
+  ]
+}

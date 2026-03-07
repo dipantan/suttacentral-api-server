@@ -1,0 +1,28 @@
+{
+  "uid": "ja-satthinipata",
+  "root_name": "Saṭṭhinipāta",
+  "translated_name": "The Book of the Sixties ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 529–530",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "ja-sonakavagga",
+      "root_name": "Soṇakavagga",
+      "translated_name": "Prince Arindama and His Friend Soṇaka ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 529–530",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

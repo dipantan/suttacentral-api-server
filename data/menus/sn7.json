@@ -1,0 +1,41 @@
+{
+  "uid": "sn7",
+  "root_name": "Brāhmaṇasaṁyutta",
+  "translated_name": "Linked Discourses with Brahmins ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Brahmins” contains 22 discourses featuring the Buddha interacting with various members of the brahmanical caste. The brahmins were the custodians of the brahmanical scriptures and traditions, and saw themselves as the spiritual elite of society. A central platform of the Buddha’s ethical teaching was that one’s worth is determined by one’s deeds, not by caste. This was a direct challenge to brahmanical authority, and a number of discourses have an understandably combative air to them. But the brahmins were a diverse community, and it’s just as common to find them relating to the Buddha with respect and gratitude.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 7",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 44,
+  "children": [
+    {
+      "uid": "sn7-arahantavagga",
+      "root_name": "Arahantavagga",
+      "translated_name": "The Chapter on the Perfected Ones ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 7.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "sn7-upasakavagga",
+      "root_name": "Upāsakavagga",
+      "translated_name": "The Chapter on a Lay Follower ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 7.11–22",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 24
+    }
+  ]
+}

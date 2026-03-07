@@ -1,0 +1,28 @@
+{
+  "uid": "thag-pancakanipata",
+  "root_name": "Pañcakanipāta",
+  "translated_name": "The Book of the Fives ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thag 5",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 13,
+  "children": [
+    {
+      "uid": "thag-pancakanipata-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thag 5.1–12",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    }
+  ]
+}

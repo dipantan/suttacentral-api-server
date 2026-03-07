@@ -1,0 +1,28 @@
+{
+  "uid": "an2-adhikaranavagga",
+  "root_name": "Adhikaraṇavagga",
+  "translated_name": "The Chapter on Disciplinary Issues ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.11–20",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "an2.11-20",
+      "root_name": "Adhikaraṇavagga",
+      "translated_name": "Disciplinary Issues ",
+      "acronym": "AN 2.11–20",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

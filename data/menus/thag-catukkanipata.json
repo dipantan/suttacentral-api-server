@@ -1,0 +1,28 @@
+{
+  "uid": "thag-catukkanipata",
+  "root_name": "Catukkanipāta",
+  "translated_name": "The Book of the Fours ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thag 4",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 12,
+  "children": [
+    {
+      "uid": "thag-catukkanipata-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thag 4.1–12",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid": "sn53",
+  "root_name": "Jhānasaṁyutta",
+  "translated_name": "Linked Discourses on Absorption ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Absorption” contains 54 discourses on the topic of absorption meditation (<i lang='pi' translate='no'>jhāna</i>), which however merely apply the standard repetition series to the formula for the four absorptions.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 53",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 5,
+  "children": [
+    {
+      "uid": "sn53-gangapeyyalavagga",
+      "root_name": "Gaṅgāpeyyālavagga",
+      "translated_name": "The Chapter of Abbreviated Texts on the Ganges ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 53.1–12",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn53-appamadavagga",
+      "root_name": "Appamādavagga",
+      "translated_name": "The Chapter on Diligence ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 53.13–22",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn53-balakaraniyavagga",
+      "root_name": "Balakaraṇīyavagga",
+      "translated_name": "The Chapter on Hard Work ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 53.23–34",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn53-esanavagga",
+      "root_name": "Esanāvagga",
+      "translated_name": "The Chapter on Searches ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 53.35–44",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn53-oghavagga",
+      "root_name": "Oghavagga",
+      "translated_name": "The Chapter on Floods ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 53.45–54",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

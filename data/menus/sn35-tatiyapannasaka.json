@@ -1,0 +1,80 @@
+{
+  "uid": "sn35-tatiyapannasaka",
+  "root_name": "Tatiyapaṇṇāsaka",
+  "translated_name": "The Third Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 129,
+  "children": [
+    {
+      "uid": "sn35-yogakkhemivagga",
+      "root_name": "Yogakkhemivagga",
+      "translated_name": "The Chapter on Sanctuary ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.104–113",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 24
+    },
+    {
+      "uid": "sn35-lokakamagunavagga",
+      "root_name": "Lokakāmaguṇavagga",
+      "translated_name": "The Chapter on the World and the Kinds of Sensual Stimulation ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.114–123",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 26
+    },
+    {
+      "uid": "sn35-gahapativagga",
+      "root_name": "Gahapativagga",
+      "translated_name": "The Chapter on Householders ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.124–133",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 30
+    },
+    {
+      "uid": "sn35-devadahavagga",
+      "root_name": "Devadahavagga",
+      "translated_name": "The Chapter at Devadaha ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.134–145",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 25
+    },
+    {
+      "uid": "sn35-navapuranavagga",
+      "root_name": "Navapurāṇavagga",
+      "translated_name": "The Chapter on the Old and the New ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.146–155",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 24
+    }
+  ]
+}

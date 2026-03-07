@@ -1,0 +1,80 @@
+{
+  "uid": "mn-uparipannasa",
+  "root_name": "Uparipaṇṇāsa",
+  "translated_name": "The Final Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "MN 101–152",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 143,
+  "children": [
+    {
+      "uid": "mn-devadahavagga",
+      "root_name": "Devadahavagga",
+      "translated_name": "The Chapter Beginning With Devadaha ",
+      "acronym": null,
+      "blurb": "Diverse teachings.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 101–110",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 30
+    },
+    {
+      "uid": "mn-anupadavagga",
+      "root_name": "Anupadavagga",
+      "translated_name": "The Chapter Beginning with One By One ",
+      "acronym": null,
+      "blurb": "Many of the discourses in this chapter delve into complex and analytical presentations of core teachings. It includes important discourses on meditation.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 111–120",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 27
+    },
+    {
+      "uid": "mn-sunnatavagga",
+      "root_name": "Suññatavagga",
+      "translated_name": "The Chapter Beginning with Emptiness ",
+      "acronym": null,
+      "blurb": "Named after the first discourses, which deal with emptiness, this chapter presents less analytical and more narrative texts.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 121–130",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 25
+    },
+    {
+      "uid": "mn-vibhangavagga",
+      "root_name": "Vibhaṅgavagga",
+      "translated_name": "The Chapter on Analysis ",
+      "acronym": null,
+      "blurb": "A series of discourses presented as technical analyses of shorter teachings.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 131–142",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 33
+    },
+    {
+      "uid": "mn-salayatanavagga",
+      "root_name": "Saḷāyatanavagga",
+      "translated_name": "The Chapter on the Six Senses",
+      "acronym": null,
+      "blurb": "Most discourses in this chapter deal with the six sense fields.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 143–152",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 28
+    }
+  ]
+}

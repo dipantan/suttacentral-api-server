@@ -1,0 +1,28 @@
+{
+  "uid": "an3-patipadavagga",
+  "root_name": "Patipadāvagga",
+  "translated_name": "The Chapter on Practices ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 3.156–162",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an3.156-162",
+      "root_name": "Acelakavagga",
+      "translated_name": "Practices",
+      "acronym": "AN 3.156–162",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

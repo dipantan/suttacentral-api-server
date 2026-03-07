@@ -1,0 +1,28 @@
+{
+  "uid": "thig-atthakanipata",
+  "root_name": "Aṭṭhakanipāta",
+  "translated_name": "The Book of the Eights ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thig 8",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "thig8.1",
+      "root_name": "Sīsūpacālātherīgāthā",
+      "translated_name": null,
+      "acronym": "Thig 8.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

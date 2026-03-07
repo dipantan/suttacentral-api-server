@@ -1,0 +1,28 @@
+{
+  "uid": "an1-anapattivagga",
+  "root_name": "Anāpattivagga",
+  "translated_name": "The Chapter on Non-offense ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 1.150–169",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an1.150-169",
+      "root_name": "Anāpattivagga",
+      "translated_name": "Non-offense ",
+      "acronym": "AN 1.150–169",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "sn28",
+  "root_name": "Sāriputtasaṁyutta",
+  "translated_name": "Linked Discourses with Sāriputta ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Sāriputta” describes Sāriputta’s deep meditation practice, and his conversations with Ānanda, who noticed how radiant and glowing he was. An exception to this pattern is the final sutta, which depicts Sāriputta responding to the challenges of a female wanderer.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 28",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 13,
+  "children": [
+    {
+      "uid": "sn28-sariputtavagga",
+      "root_name": "Sāriputtavagga",
+      "translated_name": "The Chapter with Sāriputta ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 28.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid": "sn4-tatiyavagga",
+  "root_name": "Tatiyavagga",
+  "translated_name": "Chapter Three ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 4.21–25",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 15,
+  "children": [
+    {
+      "uid": "sn4.21",
+      "root_name": "Sambahulasutta",
+      "translated_name": null,
+      "acronym": "SN 4.21",
+      "blurb": "Māra approaches some young mendicants as an old brahmin, and tries to tempt them with talk of the pleasures of youth.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "sn4.22",
+      "root_name": "Samiddhisutta",
+      "translated_name": null,
+      "acronym": "SN 4.22",
+      "blurb": "Māra repeatedly pesters the monk Samiddhi when he is on retreat. The Buddha encourages him, until eventually Samiddhi is able to recognize Māra for himself.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "sn4.23",
+      "root_name": "Godhikasutta",
+      "translated_name": null,
+      "acronym": "SN 4.23",
+      "blurb": "Venerable Godhika finds himself repeatedly falling away from his meditation attainments due to severe illness. Eventually he considers suicide, and Māra tries to get the Buddha to deter him. But the Buddha says Godhika has already attained awakening and has died blamelessly.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "sn4.24",
+      "root_name": "Sattavassānubandhasutta",
+      "translated_name": null,
+      "acronym": "SN 4.24",
+      "blurb": "Māra has tried to distract the Buddha for seven years without success. He laments his failure with the similes of a crab whose limbs are smashed by a group of children, and a crow who tried to eat a stone.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "sn4.25",
+      "root_name": "Māradhītusutta",
+      "translated_name": null,
+      "acronym": "SN 4.25",
+      "blurb": "Depressed, Māra laments to his three daughters of his failure to distract the Buddha. So they take on the task themselves, and assume a variety of sensuous forms to tempt him. But they fail too, and Māra castigates them for being so presumptuous",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "sn8",
+  "root_name": "Vaṅgīsasaṁyutta",
+  "translated_name": "Linked Discourses With Vaṅgīsa ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Vaṅgīsa” contains 12 discourses with verses spoken by Vaṅgīsa, the most renowned poet of early Buddhism. His verses have a sophistication and personal vulnerability that stamp them as perhaps the most distinctive literary voice of the early texts. Several of these discourses speak of his insecurities and struggles, and how he was helped to overcome them. Others speak from his joyous devotion to the Buddha and the Saṅgha, and of his final triumph.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 8",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 24,
+  "children": [
+    {
+      "uid": "sn8-vangisavagga",
+      "root_name": "Vaṅgīsavagga",
+      "translated_name": "The Chapter with the Poet Vaṅgīsa ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 8.1–12",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 24
+    }
+  ]
+}

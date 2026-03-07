@@ -1,0 +1,80 @@
+{
+  "uid": "ja-addhavagga",
+  "root_name": "Aḍḍhavagga",
+  "translated_name": "Half a Chapter ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 371–375",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 5,
+  "children": [
+    {
+      "uid": "ja371",
+      "root_name": "Dīghītikosalajātaka",
+      "translated_name": "King Dīghīti of Kosala ",
+      "acronym": "Ja 371",
+      "blurb": "“Thou art within my power”—This story the Master, whilst dwelling at Jetavana, told concerning some quarrelsome folk from Kosambi.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja372",
+      "root_name": "Migapotakajātaka",
+      "translated_name": "The Fawn ",
+      "acronym": "Ja 372",
+      "blurb": "“To sorrow for the dead”—This story the Master, whilst dwelling at Jetavana, told about a certain elder. It is said that he admitted a youth to orders, and that this novice, after ministering to him zealously, by and bye fell sick and died. The old man overcome with grief at the youth’s death went about loudly lamenting. The Brethren, failing to console him, raised a discussion in the Hall of Truth, saying, “A certain old man on the death of his novice goes about lamenting. By dwelling on the thought of death, he will surely become a castaway.” When the Master came, he inquired of the Brethren what was the subject they had met to discuss, and on hearing what it was he said, “Not now only, but formerly also, the old man went about lamenting, when this youth died.” And with this he related a story of the past.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja373",
+      "root_name": "Mūsikajātaka",
+      "translated_name": "The Tale of Mūsikā ",
+      "acronym": "Ja 373",
+      "blurb": "“People cry “Where is she gone”—This story the Master, whilst residing in the Bamboo Grove, told about Ajatasattu. The incident that led to the story has been already fully told in the Thusa Birth. Here too the Master observed the king at the same moment playing with his boy and also listening to the Law. And knowing as he did that danger to the king will arise through his son, he said, “Sire, kings of old suspected what was open to suspicion, and kept their heirs in confinement, saying, “Let them bear rule, after our bodies have been burned on the funeral pyre.” And with this he told a story of the past.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja374",
+      "root_name": "Cūḷadhanuggahajātaka",
+      "translated_name": "The Shorter Tale of Clever Little Archer ",
+      "acronym": "Ja 374",
+      "blurb": "“Since thou hast gained”—This story was told by the Master whilst living at Jetavana, about the temptation of a Brother by the wife of his unregenerate days. When the Brother confessed that it was owing to the wife that he had left, that he regretted having taken orders, the Master said, “Not now only, Brother, did this woman do you a mischief. Formerly too it was owing to her that your head was cut off.” And at the request of the Brethren he related a story of the past.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja375",
+      "root_name": "Kapotajātaka",
+      "translated_name": "The Pigeon ",
+      "acronym": "Ja 375",
+      "blurb": "“I feel quite well”—This story the Master, whilst dwelling at Jetavana, told concerning a greedy Brother. This story of the greedy Brother has already been fully told in divers ways. In this case the Master asked him if he were greedy and on his confessing that it was so, said, “Not now only, but formerly also, Brother, you were greedy, and through greed came by your death.” And herewith he told a story of the past.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

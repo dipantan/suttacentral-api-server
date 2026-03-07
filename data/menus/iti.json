@@ -1,0 +1,67 @@
+{
+  "uid": "iti",
+  "root_name": "Itivuttaka",
+  "translated_name": "So It Was Said ",
+  "node_type": "branch",
+  "blurb": "112 short discourses in mixed prose and verse, arranged in the Aṅguttara style of ascending numbered sets, from one to four. Alone among Buddhist texts, its survival is attributed not to the Saṅgha, but to a laywoman named Khujjuttarā. According to the Pali commentaries, she was a maid to the Queen of Kosambi, and memorized these teachings from the Buddha, earning her the title of the most learned of the laywomen disciples.",
+  "acronym": "Iti",
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 240,
+  "children": [
+    {
+      "uid": "iti-ekakanipata",
+      "root_name": "Ekakanipāta",
+      "translated_name": "The Book of the Ones ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 1–27",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 56
+    },
+    {
+      "uid": "iti-dukanipata",
+      "root_name": "Dukanipāta",
+      "translated_name": "The Book of the Twos ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 28–49",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 46
+    },
+    {
+      "uid": "iti-tikanipata",
+      "root_name": "Tikanipāta",
+      "translated_name": "The Book of the Threes ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 50–99",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 108
+    },
+    {
+      "uid": "iti-catukkanipata",
+      "root_name": "Catukkanipāta",
+      "translated_name": "The Book of the Fours ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 100–112",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 30
+    }
+  ]
+}

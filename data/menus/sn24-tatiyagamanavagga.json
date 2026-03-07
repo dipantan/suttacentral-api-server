@@ -1,0 +1,54 @@
+{
+  "uid": "sn24-tatiyagamanavagga",
+  "root_name": "Tatiyagamanavagga",
+  "translated_name": "The Chapter on the Third Round ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 24.45–70",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 3,
+  "children": [
+    {
+      "uid": "sn24.45",
+      "root_name": "Navātasutta",
+      "translated_name": null,
+      "acronym": "SN 24.45",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn24.46-69",
+      "root_name": "Etaṁmamādisutta",
+      "translated_name": null,
+      "acronym": "SN 24.46–69",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn24.70",
+      "root_name": "Adukkhamasukhīsutta",
+      "translated_name": null,
+      "acronym": "SN 24.70",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

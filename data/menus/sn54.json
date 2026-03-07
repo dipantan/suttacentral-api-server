@@ -1,0 +1,41 @@
+{
+  "uid": "sn54",
+  "root_name": "Ānāpānasaṁyutta",
+  "translated_name": "Linked Discourses on Breath Meditation ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Breath Meditation” contains 20 discourses on breath meditation (<i lang='pi' translate='no'>ānāpānassati</i>), the most revered form of meditation from early Buddhism until the present day. It was practiced by the Buddha himself. The meditation is taught in a detailed series of sixteen steps. These are partially sequential, but also overlap in some cases. The development of these fulfills all four kinds of mindfulness meditation and the seven factors of awakening. Thus this one form of meditation can lead to awakening; which is not, however, to say that it is invariably the best approach. The Buddha taught many different meditations for a reason; each has its own qualities and benefits. Breath meditation is seen as a peaceful and pleasant meditation which helps still distracting thoughts. It is a simple practice broadly suitable for most meditators, but leading to profound depths.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 54",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 20,
+  "children": [
+    {
+      "uid": "sn54-ekadhammavagga",
+      "root_name": "Ekadhammavagga",
+      "translated_name": "The Chapter on One Thing ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 54.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "sn54-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 54.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    }
+  ]
+}

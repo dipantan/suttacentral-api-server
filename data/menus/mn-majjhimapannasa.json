@@ -1,0 +1,80 @@
+{
+  "uid": "mn-majjhimapannasa",
+  "root_name": "Majjhimapaṇṇāsa",
+  "translated_name": "The Middle Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "MN 51–100",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 182,
+  "children": [
+    {
+      "uid": "mn-gahapativagga",
+      "root_name": "Gahapativagga",
+      "translated_name": "The Chapter on Householders ",
+      "acronym": null,
+      "blurb": "This chapter is addressed to a diverse range of lay people.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 51–60",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 40
+    },
+    {
+      "uid": "mn-bhikkhuvagga",
+      "root_name": "Bhikkhuvagga",
+      "translated_name": "The Chapter on Mendicants ",
+      "acronym": null,
+      "blurb": "Ten discourses to monks, many of them focusing on matters of discipline.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 61–70",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 37
+    },
+    {
+      "uid": "mn-paribbajakavagga",
+      "root_name": "Paribbājakavagga",
+      "translated_name": "The Chapter on Wanderers ",
+      "acronym": null,
+      "blurb": "The Buddha in dialog with ascetics and wanderers.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 71–80",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 38
+    },
+    {
+      "uid": "mn-rajavagga",
+      "root_name": "Rājavagga",
+      "translated_name": "The Chapter on Kings ",
+      "acronym": null,
+      "blurb": "Various dialogs with kings and princes, many of whom followed the Buddha.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 81–90",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 37
+    },
+    {
+      "uid": "mn-brahmanavagga",
+      "root_name": "Brāhmaṇavagga",
+      "translated_name": "The Chapter on Brahmins ",
+      "acronym": null,
+      "blurb": "The Buddha engages with the powerful caste of brahmins, contesting their claims to spiritual authority.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 91–100",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 30
+    }
+  ]
+}

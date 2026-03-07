@@ -1,0 +1,41 @@
+{
+  "uid": "sn52",
+  "root_name": "Anuruddhasaṁyutta",
+  "translated_name": "Linked Discourses with Anuruddha ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Anuruddha” contains 24 discourses with Anuruddha, famous for his powers of clairvoyance, but here revealed as an exponent of mindfulness meditation. It is to mindfulness meditation that he attributes his spiritual attainments, whether psychic powers, absorptions, or awakening. This series of texts can be regarded as a supplement to SN 47.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 52",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 24,
+  "children": [
+    {
+      "uid": "sn52-rahogatavagga",
+      "root_name": "Rahogatavagga",
+      "translated_name": "The Chapter on In Private ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 52.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "sn52-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 52.11–24",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 14
+    }
+  ]
+}

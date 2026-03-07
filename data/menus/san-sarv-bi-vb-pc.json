@@ -1,0 +1,80 @@
+{
+  "uid": "san-sarv-bi-vb-pc",
+  "root_name": "Pācittiya",
+  "translated_name": "Confession ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-sarv-bi-vb-pc93",
+      "root_name": "Paraabhisapana",
+      "translated_name": "Cursing Another ",
+      "acronym": "San Sarv Bi Vb Pc 93",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bi-vb-pc116",
+      "root_name": "Ūnavīsativassa-kumāribhūta",
+      "translated_name": "Ordaining Married Girls Under Twenty ",
+      "acronym": "San Sarv Bi Vb Pc 116",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bi-vb-pc117",
+      "root_name": "Sikkhita-sikkhamānā-asammata",
+      "translated_name": "Ordaining Trained Candidate Without Approval ",
+      "acronym": "San Sarv Bi Vb Pc 117",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bi-vb-pc164",
+      "root_name": "Gandhavaṇṇaka",
+      "translated_name": "Scents and Colors ",
+      "acronym": "San Sarv Bi Vb Pc 164",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bi-vb-pc165",
+      "root_name": "Bhikkhunī-ummaddāpana",
+      "translated_name": "Getting Nuns to Massage",
+      "acronym": "San Sarv Bi Vb Pc 165",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

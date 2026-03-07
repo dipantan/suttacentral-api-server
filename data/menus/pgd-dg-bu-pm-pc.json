@@ -1,0 +1,93 @@
+{
+  "uid": "pgd-dg-bu-pm-pc",
+  "root_name": "Pācittiya",
+  "translated_name": "Confession ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pgd",
+  "root_lang_name": "Gāndhārī",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "pgd-dg-bu-pm-pc65",
+      "root_name": "Ūnavīsativassa",
+      "translated_name": "Ordaining Under Twenty ",
+      "acronym": "Pgd Dg Bu Pm Pc 65",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pgd",
+      "root_lang_name": "Gāndhārī",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "pgd-dg-bu-pm-pc66",
+      "root_name": "Ukkoṭana",
+      "translated_name": "Reopening a Legal Issue ",
+      "acronym": "Pgd Dg Bu Pm Pc 66",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pgd",
+      "root_lang_name": "Gāndhārī",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "pgd-dg-bu-pm-pc67",
+      "root_name": "Theyyasattha",
+      "translated_name": "Travelling With Thieves ",
+      "acronym": "Pgd Dg Bu Pm Pc 67",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pgd",
+      "root_lang_name": "Gāndhārī",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "pgd-dg-bu-pm-pc68",
+      "root_name": "Antarāyika",
+      "translated_name": "Obstructions ",
+      "acronym": "Pgd Dg Bu Pm Pc 68",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pgd",
+      "root_lang_name": "Gāndhārī",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "pgd-dg-bu-pm-pc69",
+      "root_name": "Ukkhittasambhoga",
+      "translated_name": "Living With an Ejected Monastic ",
+      "acronym": "Pgd Dg Bu Pm Pc 69",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pgd",
+      "root_lang_name": "Gāndhārī",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "pgd-dg-bu-pm-pc70",
+      "root_name": "Samaṇuddesaantarāyika",
+      "translated_name": "Obstructions and a Novice",
+      "acronym": "Pgd Dg Bu Pm Pc 70",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pgd",
+      "root_lang_name": "Gāndhārī",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

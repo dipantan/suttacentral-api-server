@@ -1,0 +1,28 @@
+{
+  "uid": "lzh-dg-ve",
+  "root_name": "Ekottara",
+  "translated_name": "Numbered Passages ",
+  "node_type": "branch",
+  "blurb": "The Ekottara (“the numbered passages”) is a text found in the Sarvāstivāda and Dharmaguptaka schools. It is a parallel of a chapter in the Theravāda Parivāra.",
+  "acronym": "Dg VE",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "lzh-dg-ve1",
+      "root_name": "Vinaya Ekottara",
+      "translated_name": "Numbered Sections of Monastic Law",
+      "acronym": "Dg VE 1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

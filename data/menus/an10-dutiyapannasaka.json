@@ -1,0 +1,80 @@
+{
+  "uid": "an10-dutiyapannasaka",
+  "root_name": "Dutiyapaṇṇāsaka",
+  "translated_name": "The Second Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 10.51–100",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 74,
+  "children": [
+    {
+      "uid": "an10-sacittavagga",
+      "root_name": "Sacittavagga",
+      "translated_name": "The Chapter on Your Own Mind ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.51–60",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an10-yamakavagga",
+      "root_name": "Yamakavagga",
+      "translated_name": "The Chapter on Pairs ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.61–70",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 16
+    },
+    {
+      "uid": "an10-akankhavagga",
+      "root_name": "Ākaṅkhavagga",
+      "translated_name": "The Chapter on If You Want ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.71–80",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    },
+    {
+      "uid": "an10-theravagga",
+      "root_name": "Theravagga",
+      "translated_name": "The Chapter on Senior Mendicants ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.81–90",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    },
+    {
+      "uid": "an10-dutiyapannasaka-upalivagga",
+      "root_name": "Upālivagga",
+      "translated_name": "The Chapter with Upāli ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.91–100",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    }
+  ]
+}

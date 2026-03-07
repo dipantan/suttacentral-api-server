@@ -1,0 +1,28 @@
+{
+  "uid": "thig-cattalisanipata",
+  "root_name": "Cattālīsanipāta",
+  "translated_name": "The Book of the Forties ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thig 15",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 3,
+  "children": [
+    {
+      "uid": "thig15.1",
+      "root_name": "Isidāsītherīgāthā",
+      "translated_name": null,
+      "acronym": "Thig 15.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    }
+  ]
+}

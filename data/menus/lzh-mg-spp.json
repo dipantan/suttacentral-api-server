@@ -1,0 +1,28 @@
+{
+  "uid": "lzh-mg-spp",
+  "root_name": "Śāriputraparipṛcchā",
+  "translated_name": "Questions of Sāriputta ",
+  "node_type": "branch",
+  "blurb": "The Śāriputraparipṛcchā (“the questions of Sāriputta”) was translated into Chinese in the 4th or early 5th century. It preserves the Mahāsaṅghika version of early Buddhist history and the schisms.",
+  "acronym": "Spp",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "spp",
+      "root_name": "Śāriputraparipṛcchā",
+      "translated_name": "Questions of Śāriputra",
+      "acronym": "spp",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

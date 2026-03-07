@@ -1,0 +1,67 @@
+{
+  "uid": "san-mu-bu-pm-gbm3-pd",
+  "root_name": "Pāṭidesanīya",
+  "translated_name": "Acknowledgment ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-mu-bu-pm-gbm3-pd1",
+      "root_name": "Paṭhamapāṭidesanīya",
+      "translated_name": "Receiving a Nun’s Food ",
+      "acronym": "San Mu Bu Pm GBM 3 Pd 1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-mu-bu-pm-gbm3-pd2",
+      "root_name": "Dutiyapāṭidesanīya",
+      "translated_name": "Letting a Nun Order Food ",
+      "acronym": "San Mu Bu Pm GBM 3 Pd 2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-mu-bu-pm-gbm3-pd3",
+      "root_name": "Tatiyapāṭidesanīya",
+      "translated_name": "Receiving Food From Designated Families ",
+      "acronym": "San Mu Bu Pm GBM 3 Pd 3",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-mu-bu-pm-gbm3-pd4",
+      "root_name": "Catutthapāṭidesanīya",
+      "translated_name": "Receiving Food in a Dangerous Region ",
+      "acronym": "San Mu Bu Pm GBM 3 Pd 4",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

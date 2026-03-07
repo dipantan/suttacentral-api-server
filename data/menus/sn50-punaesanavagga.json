@@ -1,0 +1,28 @@
+{
+  "uid": "sn50-punaesanavagga",
+  "root_name": "Punaesanāvagga",
+  "translated_name": "Another Chapter on Searches ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 50.89–98",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "sn50.89-98",
+      "root_name": "Punaesanāvagga",
+      "translated_name": "Another Chapter on Searches ",
+      "acronym": "SN 50.89–98",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

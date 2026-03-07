@@ -1,0 +1,80 @@
+{
+  "uid": "iti-tikanipata",
+  "root_name": "Tikanipāta",
+  "translated_name": "The Book of the Threes ",
+  "node_type": "branch",
+  "blurb": "",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Iti 50–99",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 108,
+  "children": [
+    {
+      "uid": "iti-tikanipata-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 50–59",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "iti-tikanipata-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 60–69",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "iti-tikanipata-tatiyavagga",
+      "root_name": "Tatiyavagga",
+      "translated_name": "Chapter Three ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 70–79",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 21
+    },
+    {
+      "uid": "iti-catutthavagga",
+      "root_name": "Catutthavagga",
+      "translated_name": "Chapter Four ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 80–89",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 24
+    },
+    {
+      "uid": "iti-pancamavagga",
+      "root_name": "Pañcamavagga",
+      "translated_name": "Chapter Five ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 90–99",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 23
+    }
+  ]
+}

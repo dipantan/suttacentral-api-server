@@ -1,0 +1,28 @@
+{
+  "uid": "sn32",
+  "root_name": "Valāhakasaṁyutta",
+  "translated_name": "Linked Discourses on Cloud Gods ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Cloud Gods” is the last of four similar sections dealing with the modes in which various semi-celestial beings may be reborn. The current chapter is on the “cloud gods” or <i lang='pi' translate='no'>valāhakas</i>, who are deities of the weather controlling the clouds.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 32",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 12,
+  "children": [
+    {
+      "uid": "sn32-valahakavagga",
+      "root_name": "Valāhakavagga",
+      "translated_name": "The Chapter on Gods of the Clouds ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 32.1–57",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "sn33",
+  "root_name": "Vacchagottasaṁyutta",
+  "translated_name": "Linked Discourses with Vacchagotta ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Vacchagotta” contains 55 discourses, each with a philosophical inquiry by the wanderer Vacchagotta. These do not exhaust his questions; he also appears in a number of other discourses, notably MN 71–73, where he resolves his doubts and becomes perfected. The current chapter shows him repeatedly raising the question of the ten speculative views, and why they appear. The discourses are entirely formulaic and appear to have been produced from a template. Unusually for a section of this length, it lacks <i lang='pi' translate='no'>vaggas</i>.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 33",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 22,
+  "children": [
+    {
+      "uid": "sn33-vacchagottavagga",
+      "root_name": "Vacchagottavagga",
+      "translated_name": "The Chapter with Vacchagotta ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 33.1–55",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 22
+    }
+  ]
+}

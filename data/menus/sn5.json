@@ -1,0 +1,28 @@
+{
+  "uid": "sn5",
+  "root_name": "Bhikkhunīsaṁyutta",
+  "translated_name": "Linked Discourses With Nuns ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Nuns” contains 10 discourses describing occasions when various nuns retreat to a forest for meditation, only to be challenged by Māra. The verses here partly overlap with the Therīgāthā, though there are some that are unique to this context, and we also have a prose narrative to flesh out the context. Māra’s challenges are various; sometimes he is sexist, alleging that women are weak in wisdom (SN 5.2). Several of these short texts are among the most frequently quoted of all the suttas.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 5",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 30,
+  "children": [
+    {
+      "uid": "sn5-bhikkhunivagga",
+      "root_name": "Bhikkhunīvagga",
+      "translated_name": "The Chapter on Nuns ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 5.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 30
+    }
+  ]
+}

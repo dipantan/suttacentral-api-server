@@ -1,0 +1,41 @@
+{
+  "uid": "san-lo-bi-nidana",
+  "root_name": "Nidāna",
+  "translated_name": "Origins ",
+  "node_type": "branch",
+  "blurb": "The Nidāna (“introduction”) contains the story of the foundation of the nuns’ order and the eight <i lang='pi' translate='no'>garudhamma</i> (“important rules”).",
+  "acronym": "Nidana",
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-lo-bi-vb-nidana-v",
+      "root_name": "Nidāna",
+      "translated_name": "Origin Story ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-lo-bi-vb-gd",
+      "root_name": "Garudhamma",
+      "translated_name": "Important Principles ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "uid": "an6",
+  "root_name": "Chakkanipāta",
+  "translated_name": "The Book of the Sixes ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 6",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 150,
+  "children": [
+    {
+      "uid": "an6-pathamapannasaka",
+      "root_name": "Paṭhamapaṇṇāsaka",
+      "translated_name": "The First Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 6.1–54",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 69
+    },
+    {
+      "uid": "an6-dutiyapannasaka",
+      "root_name": "Dutiyapaṇṇāsaka",
+      "translated_name": "The Second Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 6.55–649",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 81
+    }
+  ]
+}

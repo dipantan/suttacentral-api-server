@@ -1,0 +1,67 @@
+{
+  "uid": "sn17",
+  "root_name": "Lābhasakkārasaṁyutta",
+  "translated_name": "Linked Discourses on Gains and Honor ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Gains and Honor” contains 43 discourses warning the mendicants of the terrible dangers inherent in material possessions and love of popularity and honors.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 17",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 46,
+  "children": [
+    {
+      "uid": "sn17-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 17.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 18
+    },
+    {
+      "uid": "sn17-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 17.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 4
+    },
+    {
+      "uid": "sn17-tatiyavagga",
+      "root_name": "Tatiyavagga",
+      "translated_name": "Chapter Three ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 17.21–30",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    },
+    {
+      "uid": "sn17-catutthavagga",
+      "root_name": "Catutthavagga",
+      "translated_name": "Chapter Four ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 17.31–43",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    }
+  ]
+}

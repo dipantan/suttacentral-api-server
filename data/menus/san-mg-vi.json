@@ -1,0 +1,28 @@
+{
+  "uid": "san-mg-vi",
+  "root_name": "Mahāsaṅghika Vinaya",
+  "translated_name": "Monastic Law of the Mahāsaṅghika School ",
+  "node_type": "branch",
+  "blurb": "The Monastic Law for the Mahāsaṁghika school in Sanskrit. This school originally flourished in the area of Magadha in India and is now extinct. It was created during the first schism, and therefore its Vinaya has some unique features not found in other schools. Only the Bhikkhu-pātimokkha has been preserved in Sanskrit.",
+  "acronym": "San Mg Vi",
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-mg-bu-pm",
+      "root_name": "Bhikkhu Pātimokkha",
+      "translated_name": "Monks’ Rules ",
+      "acronym": "San Mg Bu Pm",
+      "blurb": "The Bhikkhu-pātimokkha, “the monastic code for monks,” contains the core rules of monastic life in the form of a long list without any explanatory material. There are 218 such rules for the monks, grouped according to the type of offense incurred for breaking the rule, with the exception of the <i lang='pi' translate='no'>aniyatas</i> (“the undetermined”), the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”) and the <i lang='pi' translate='no'>dhamma-anudhamma</i> (“the rules and their applications”), which are principles to be applied rather than rules in the strict sense.",
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

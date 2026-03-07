@@ -1,0 +1,80 @@
+{
+  "uid": "thag-dukanipata",
+  "root_name": "Dukanipāta",
+  "translated_name": "The Book of the Twos ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thag 2",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 57,
+  "children": [
+    {
+      "uid": "thag-dukanipata-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thag 2.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "thag-dukanipata-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thag 2.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    },
+    {
+      "uid": "thag-dukanipata-tatiyavagga",
+      "root_name": "Tatiyavagga",
+      "translated_name": "Chapter Three ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thag 2.21–30",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    },
+    {
+      "uid": "thag-dukanipata-catutthavagga",
+      "root_name": "Catutthavagga",
+      "translated_name": "Chapter Four ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thag 2.31–40",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "thag-dukanipata-pancamavagga",
+      "root_name": "Pañcamavagga",
+      "translated_name": "Chapter Five ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thag 2.41–49",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    }
+  ]
+}

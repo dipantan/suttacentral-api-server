@@ -1,0 +1,28 @@
+{
+  "uid": "sn12-sikkhasuttadipeyyalaekadasaka",
+  "root_name": "Sikkhāsuttādipeyyālaekādasaka",
+  "translated_name": "Sets of Eleven on Training, Etc. ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 12.93–213",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "sn12.93-213",
+      "root_name": "Sikkhāsuttādipeyyālaekādasaka",
+      "translated_name": "Sets of Eleven on Training, Etc. ",
+      "acronym": "SN 12.93–213",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

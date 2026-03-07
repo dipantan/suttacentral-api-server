@@ -1,0 +1,80 @@
+{
+  "uid": "an10-tatiyapannasaka",
+  "root_name": "Tatiyapaṇṇāsaka",
+  "translated_name": "The Third Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 10.101–154",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 58,
+  "children": [
+    {
+      "uid": "an10-samanasannavagga",
+      "root_name": "Samaṇasaññāvagga",
+      "translated_name": "The Chapter on Perceptions for Ascetics ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.101–112",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    },
+    {
+      "uid": "an10-paccorohanivagga",
+      "root_name": "Paccorohaṇivagga",
+      "translated_name": "The Chapter on the Ceremony of Descent ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.113–122",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    },
+    {
+      "uid": "an10-parisuddhavagga",
+      "root_name": "Parisuddhavagga",
+      "translated_name": "The Chapter on Purified ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.123–133",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    },
+    {
+      "uid": "an10-tatiyapannasaka-sadhuvagga",
+      "root_name": "Sādhuvagga",
+      "translated_name": "The Chapter on Good ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.134–144",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    },
+    {
+      "uid": "an10-ariyavagga",
+      "root_name": "Ariyavagga",
+      "translated_name": "The Chapter on the Noble Path ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.145–154",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    }
+  ]
+}

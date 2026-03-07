@@ -1,0 +1,93 @@
+{
+  "uid": "sn31-gandhabbavagga",
+  "root_name": "Gandhabbavagga",
+  "translated_name": "The Chapter on Centaurs ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 31.1–112",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 7,
+  "children": [
+    {
+      "uid": "sn31.1",
+      "root_name": "Suddhikasutta",
+      "translated_name": null,
+      "acronym": "SN 31.1",
+      "blurb": "Centaurs may live in fragrant roots and other vegetation.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn31.2",
+      "root_name": "Sucaritasutta",
+      "translated_name": null,
+      "acronym": "SN 31.2",
+      "blurb": "Someone of good conduct and appropriate aspiration may be reborn as a centaur.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn31.3",
+      "root_name": "Mūlagandhadātāsutta",
+      "translated_name": null,
+      "acronym": "SN 31.3",
+      "blurb": "Someone of good conduct and appropriate aspiration may be reborn as a god living in fragrant roots if they give fragrant roots.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn31.4-12",
+      "root_name": "Sāragandhādidātāsuttanavaka",
+      "translated_name": null,
+      "acronym": "SN 31.4–12",
+      "blurb": "Someone of good conduct and appropriate aspiration may be reborn as a god living in various kinds of vegetation if they give the gift of that kind of vegetation.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn31.13-22",
+      "root_name": "Mūlagandhadānūpakārasuttadasaka",
+      "translated_name": null,
+      "acronym": "SN 31.13–22",
+      "blurb": "Someone of good conduct and appropriate aspiration may be reborn as a god living in fragrant roots if they give various gifts.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn31.23-112",
+      "root_name": "Sāragandhādidānūpakārasuttanavutika",
+      "translated_name": null,
+      "acronym": "SN 31.23–112",
+      "blurb": "Someone of good conduct and appropriate aspiration may be reborn as a god living in various kinds of vegetation if they give various gifts",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

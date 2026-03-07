@@ -1,0 +1,54 @@
+{
+  "uid": "vv-purisavimana",
+  "root_name": "Purisavimāna",
+  "translated_name": "Men’s Mansions ",
+  "node_type": "branch",
+  "blurb": "",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Vv 51-85",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 7,
+  "children": [
+    {
+      "uid": "vv-maharathavagga",
+      "root_name": "Mahārathavagga",
+      "translated_name": "The Chapter of the Great Chariot ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Vv 51–64",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "vv-payasivagga",
+      "root_name": "Pāyāsivagga",
+      "translated_name": "Chapter With Pāyāsi ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Vv 65–74",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "vv-sunikkhittavagga",
+      "root_name": "Sunikkhittavagga",
+      "translated_name": "The Chapter With Sunikkhitta ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Vv 75–85",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    }
+  ]
+}

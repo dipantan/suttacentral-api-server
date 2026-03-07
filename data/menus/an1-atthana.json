@@ -1,0 +1,54 @@
+{
+  "uid": "an1-atthana",
+  "root_name": "Aṭṭhānavagga",
+  "translated_name": "Three Chapters on the Impossible ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 1.268–295",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 3,
+  "children": [
+    {
+      "uid": "an1.268-277",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": "AN 1.268–277",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an1.278-286",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": "AN 1.278–286",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an1.287-295",
+      "root_name": "Tatiyavagga",
+      "translated_name": "Chapter Three ",
+      "acronym": "AN 1.287–295",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

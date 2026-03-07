@@ -1,0 +1,28 @@
+{
+  "uid": "lzh-dg-vs",
+  "root_name": "Saṁyutta",
+  "translated_name": "Linked Passages ",
+  "node_type": "branch",
+  "blurb": "The Saṁyutta (“the linked passages”) is a text found in the Mahīśāsaka and Dharmaguptaka schools. It is a parallel of a chapter in the Theravāda Parivāra.",
+  "acronym": "Lzh Dg VS",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "lzh-dg-vs1",
+      "root_name": "調部 (Saṁyutta)",
+      "translated_name": "Linked Passages",
+      "acronym": "Lzh Dg VS 1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

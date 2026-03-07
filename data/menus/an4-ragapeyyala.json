@@ -1,0 +1,80 @@
+{
+  "uid": "an4-ragapeyyala",
+  "root_name": "Rāgapeyyāla",
+  "translated_name": "Abbreviated Texts Beginning with Greed ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 4.274–783",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 10,
+  "children": [
+    {
+      "uid": "an4.274",
+      "root_name": "Satipaṭṭhānasutta",
+      "translated_name": null,
+      "acronym": "AN 4.274",
+      "blurb": "Develop insight into greed through the four kinds of mindfulness meditation.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an4.275",
+      "root_name": "Sammappadhānasutta",
+      "translated_name": null,
+      "acronym": "AN 4.275",
+      "blurb": "Develop insight into greed through the four right efforts.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an4.276",
+      "root_name": "Iddhipādasutta",
+      "translated_name": null,
+      "acronym": "AN 4.276",
+      "blurb": "Develop insight into greed through the four bases of psychic power.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an4.277-303",
+      "root_name": "Pariññādisutta",
+      "translated_name": null,
+      "acronym": "AN 4.277–303",
+      "blurb": "Develop complete understanding, etc., of greed. ",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an4.304-783",
+      "root_name": "Dosaabhiññādisutta",
+      "translated_name": null,
+      "acronym": "AN 4.304–783",
+      "blurb": "Develop complete understanding, etc., of hate, etc. ",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

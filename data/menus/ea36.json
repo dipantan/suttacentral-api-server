@@ -1,0 +1,80 @@
+{
+  "uid": "ea36",
+  "root_name": "Ekottarikāgama 36",
+  "translated_name": null,
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "ea36.1",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "EA 36.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "ea36.2",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "EA 36.2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "ea36.3",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "EA 36.3",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "ea36.4",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "EA 36.4",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "ea36.5",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "EA 36.5",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

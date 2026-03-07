@@ -1,0 +1,56 @@
+[
+  {
+    "uid": "middle",
+    "root_name": "Majjhima",
+    "translated_name": "Collections of Middle Discourses ",
+    "node_type": "branch",
+    "blurb": "Collections of “middle-length” discourses and other related texts.",
+    "acronym": "Middle",
+    "root_lang_iso": null,
+    "root_lang_name": null,
+    "child_range": null,
+    "yellow_brick_road": true,
+    "yellow_brick_road_count": 609,
+    "children": [
+      {
+        "uid": "mn",
+        "root_name": "Majjhimanikāya",
+        "translated_name": "Middle Discourses Collection ",
+        "acronym": "MN",
+        "blurb": "The Middle Discourses (Majjhima Nikāya, abbreviated MN) is a collection of 152 discourses in the Pali canon (Tipiṭaka) of the Theravada school of Buddhism. The word “middle” refers to the length of the individual discourses. This is perhaps the most popular collection of early discourses. It contains a wide variety of teachings, many of them presented as narratives between the Buddha and a diverse range of his contemporaries. The collection parallels the Madhyamāgama (MA) of the Sarvāstivāda school, which survives as a translation in the Chinese canon.",
+        "node_type": "branch",
+        "root_lang_iso": "pli",
+        "root_lang_name": "Pāli",
+        "child_range": "MN",
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 543
+      },
+      {
+        "uid": "ma",
+        "root_name": "Madhyamāgama",
+        "translated_name": "Middle Discourses Compilation ",
+        "acronym": "MA",
+        "blurb": "The version of the Middle Discourses found in the Chinese canon is known as the Madhyamāgama (Zhong ahan jing, 中阿含經), and is believed to stem from the Sarvāstivāda school. The original text is believed to have been in a form of Prākrit, probably Gandhārī, with some Sanskrit influence. It was translated in 60 fascicles by Gautama Saṅghadeva (瞿曇僧伽提婆) of the Eastern Jin Dynasty (東晋) at Dongting Monastery (東亭寺) in CE 397–398. It consists of 222 sutras, organized into five <i lang='pi' translate='no'>adhyāyas</i> and eighteen <i lang='pi' translate='no'>vargas</i>. The contents are similar to the Pali Majjhima Nikāya, though the collections are far from identical. In the Taishō edition of the Chinese canon, it is text number 26, located at T vol. 1, 421a.",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": "MA",
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 66
+      },
+      {
+        "uid": "ma-ot",
+        "root_name": "Other Madhyama Sūtras",
+        "translated_name": "Other Middle Discourses ",
+        "acronym": "Other MA",
+        "blurb": "72 middle-length discourses that in the Taishō edition of the Chinese canon have been gathered in the first volume, at sūtra numbers 27–98, following the Madhyamāgama. These are miscellaneous translations of various discourses from the Majjhima, made at various times by various translators.",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": "MA ot",
+        "yellow_brick_road": false,
+        "yellow_brick_road_count": 0
+      }
+    ]
+  }
+]

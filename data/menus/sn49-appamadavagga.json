@@ -1,0 +1,28 @@
+{
+  "uid": "sn49-appamadavagga",
+  "root_name": "Appamādavagga",
+  "translated_name": "The Chapter on Diligence ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 49.13–22",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "sn49.13-22",
+      "root_name": "Appamādavagga",
+      "translated_name": "Diligence ",
+      "acronym": "SN 49.13–22",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

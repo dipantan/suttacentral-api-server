@@ -1,0 +1,28 @@
+{
+  "uid": "iti-catukkanipata",
+  "root_name": "Catukkanipāta",
+  "translated_name": "The Book of the Fours ",
+  "node_type": "branch",
+  "blurb": "",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Iti 100–112",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 30,
+  "children": [
+    {
+      "uid": "iti-brahmanadhammayagavagga",
+      "root_name": "Brāhmaṇadhammayāgavagga",
+      "translated_name": "The Chapter on the Holy Offering of the Teaching ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 100–112",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 30
+    }
+  ]
+}

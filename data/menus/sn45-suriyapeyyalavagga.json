@@ -1,0 +1,93 @@
+{
+  "uid": "sn45-suriyapeyyalavagga",
+  "root_name": "Sūriyapeyyālavagga",
+  "translated_name": "The Chapter of Abbreviated Texts on the Sun ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 45.49–62",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 12,
+  "children": [
+    {
+      "uid": "sn45.49",
+      "root_name": "Kalyāṇamittasutta",
+      "translated_name": null,
+      "acronym": "SN 45.49",
+      "blurb": "As the dawn precedes the sun, good friendship precedes the eightfold path.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn45.50-54",
+      "root_name": "Sīlasampadādisuttapañcaka",
+      "translated_name": null,
+      "acronym": "SN 45.50–54",
+      "blurb": "As the dawn precedes the sun, ethics, enthusiasm, confidence, right view, and diligence precede the eightfold path.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn45.55",
+      "root_name": "Yonisomanasikārasampadāsutta",
+      "translated_name": null,
+      "acronym": "SN 45.55",
+      "blurb": "As the dawn precedes the sun, proper attention precedes the eightfold path.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn45.56",
+      "root_name": "Dutiyakalyāṇamittasutta",
+      "translated_name": null,
+      "acronym": "SN 45.56",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn45.57-61",
+      "root_name": "Dutiyasīlasampadādisuttapañcaka",
+      "translated_name": null,
+      "acronym": "SN 45.57–61",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn45.62",
+      "root_name": "Dutiyayonisomanasikārasampadāsutta",
+      "translated_name": null,
+      "acronym": "SN 45.62",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

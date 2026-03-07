@@ -1,0 +1,28 @@
+{
+  "uid": "lzh-dg-ab",
+  "root_name": "Dharmaguptaka Abhidharma",
+  "translated_name": "Systematic Treatises of the Dharmaguptaka School ",
+  "node_type": "branch",
+  "blurb": "Abhidharma of the Dharmaguptaka school in Chinese translation.",
+  "acronym": "Dg Ab",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "sab",
+      "root_name": "Śāripūtrābhidharma",
+      "translated_name": "Sāriputta’s Systematic Treatise ",
+      "acronym": "Sab",
+      "blurb": "The Śāriputrābhidharmaśāstra (Shelifu Apitan Lun, 舍利弗阿毘曇論) is the only extant work of the Dharmaguptaka Abhidhamma, and was translated in thirty facsicles by Dharmayaśas and Dharmagupta in CE 408 at Ch'ang An (長安). It shares some content with the Vibhaṅga and Dharmaskandha, and other details with other texts. It seems this book may contain the entire Abhidhamma system of the Dharmaguptakas. In the Taishō edition of the Chinese canon, it is text number 1548, located at T vol. 28, 525a.",
+      "node_type": "branch",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": "Sab",
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

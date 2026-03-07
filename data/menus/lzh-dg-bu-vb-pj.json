@@ -1,0 +1,67 @@
+{
+  "uid": "lzh-dg-bu-vb-pj",
+  "root_name": "Pārājika",
+  "translated_name": "Expulsion ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "lzh-dg-bu-vb-pj1",
+      "root_name": "Methunadhamma",
+      "translated_name": "Sexual Intercourse ",
+      "acronym": "Lzh Dg Bu Vb Pj 1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "lzh-dg-bu-vb-pj2",
+      "root_name": "Adinnādāna",
+      "translated_name": "Theft ",
+      "acronym": "Lzh Dg Bu Vb Pj 2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "lzh-dg-bu-vb-pj3",
+      "root_name": "Manussaviggaha",
+      "translated_name": "Murder ",
+      "acronym": "Lzh Dg Bu Vb Pj 3",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "lzh-dg-bu-vb-pj4",
+      "root_name": "Uttarimanussadhamma",
+      "translated_name": "Laying False Claim to Superhuman Attainments ",
+      "acronym": "Lzh Dg Bu Vb Pj 4",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

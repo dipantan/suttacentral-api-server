@@ -1,0 +1,80 @@
+{
+  "uid": "an4-catutthapannasaka",
+  "root_name": "Catutthapaṇṇāsaka",
+  "translated_name": "The Fourth Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 4.151–200",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 65,
+  "children": [
+    {
+      "uid": "an4-indriyavagga",
+      "root_name": "Indriyavagga",
+      "translated_name": "The Chapter on Faculties ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 4.151–160",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    },
+    {
+      "uid": "an4-patipadavagga",
+      "root_name": "Paṭipadāvagga",
+      "translated_name": "The Chapter on Practice ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 4.161–170",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    },
+    {
+      "uid": "an4-sancetaniyavagga",
+      "root_name": "Sañcetaniyavagga",
+      "translated_name": "The Chapter on Intention ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 4.171–180",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    },
+    {
+      "uid": "an4-brahmanavagga",
+      "root_name": "Brāhmaṇavagga",
+      "translated_name": "The Chapter on Brahmins ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 4.181–190",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    },
+    {
+      "uid": "an4-mahavagga",
+      "root_name": "Mahāvagga",
+      "translated_name": "The Great Chapter ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 4.191–200",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    }
+  ]
+}

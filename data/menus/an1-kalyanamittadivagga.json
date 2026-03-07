@@ -1,0 +1,28 @@
+{
+  "uid": "an1-kalyanamittadivagga",
+  "root_name": "Kalyāṇamittādivagga",
+  "translated_name": "The Chapter on Good Friends ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 1.71–81",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an1.71-81",
+      "root_name": "Kalyāṇamittādivagga",
+      "translated_name": "Good Friends ",
+      "acronym": "AN 1.71–81",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

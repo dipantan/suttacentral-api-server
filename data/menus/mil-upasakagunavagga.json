@@ -1,0 +1,93 @@
+{
+  "uid": "mil-upasakagunavagga",
+  "root_name": "Upāsakaguṇavagga",
+  "translated_name": "Qualities of a Lay Follower ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Mil 4.1–6",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 12,
+  "children": [
+    {
+      "uid": "mil4.1",
+      "root_name": "Aṭṭhamantaparivajjanīyaṭṭhāna",
+      "translated_name": "Eight Places to Avoid When Discussing ",
+      "acronym": "Mil 4.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "mil4.2",
+      "root_name": "Aṭṭhamantavināsakapuggala",
+      "translated_name": "Eight People Who Spoil a Conversation ",
+      "acronym": "Mil 4.2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "mil4.3",
+      "root_name": "Navaguyhamantavidhaṁsaka",
+      "translated_name": "Nine People Who Spill Secrets ",
+      "acronym": "Mil 4.3",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "mil4.4",
+      "root_name": "Aṭṭhapaññāpaṭilābhakāraṇa",
+      "translated_name": "Eight Causes for Ripening of Wisdom ",
+      "acronym": "Mil 4.4",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "mil4.5",
+      "root_name": "Ācariyaguṇa",
+      "translated_name": "Qualities of a Teacher ",
+      "acronym": "Mil 4.5",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "mil4.6",
+      "root_name": "Upāsakaguṇa",
+      "translated_name": "Qualities of a Lay Follower ",
+      "acronym": "Mil 4.6",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

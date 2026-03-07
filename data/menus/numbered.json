@@ -1,0 +1,69 @@
+[
+  {
+    "uid": "numbered",
+    "root_name": "Aṅguttara",
+    "translated_name": "Collections of Numbered Discourses ",
+    "node_type": "branch",
+    "blurb": "Collections of “numbered” or “numerical” discourses and other related texts.",
+    "acronym": "Numbered",
+    "root_lang_iso": null,
+    "root_lang_name": null,
+    "child_range": null,
+    "yellow_brick_road": true,
+    "yellow_brick_road_count": 2112,
+    "children": [
+      {
+        "uid": "an",
+        "root_name": "Aṅguttaranikāya",
+        "translated_name": "Numbered Discourses Collection ",
+        "acronym": "AN",
+        "blurb": "The “Numbered” or “Numerical” Discourses are usually known as Aṅguttara Nikāya in Pali, abbreviated AN. However, the Pali tradition also knows the form Ekottara (“one-up” or “incremental”), and this is the form usually found in the northern collections. These collections organize texts in numbered sets, from one to eleven. Compared to the other <i lang='pi' translate='no'>nikāyas</i>, they are more oriented to the lay community. The Ekottarikāgama (EA) in Chinese is a highly unusual text, which features a range of variations within itself when it comes even to basic doctrines. It shares considerably less in common with the Pali Aṅguttara than the other collections do with their counterparts. In addition, there is a partial Ekottarikāgama in Chinese, as well as a variety of individual discourses and fragments in Chinese and Sanskrit.",
+        "node_type": "branch",
+        "root_lang_iso": "pli",
+        "root_lang_name": "Pāli",
+        "child_range": "AN",
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 1962
+      },
+      {
+        "uid": "ea",
+        "root_name": "Ekottarikāgama (1st)",
+        "translated_name": "Numbered Discourses Compilation (1st) ",
+        "acronym": "EA",
+        "blurb": "The main version of the Numbered or Incremental Discourses found in the Chinese canon is known as the Ekottarikāgama (Zengyi ahan jing, 增一阿含經), and has been tentatively ascribed to the Mahāsaṅghika school. It was translated by Gautama Saṅghadeva (瞿曇僧伽提婆), who also translated the Madhyamāgama, in CE 397. Consisting of 51 fascicles, it is organized into 52 chapters, containing a total of 451 sutras. Like the Pali Aṅguttara, it is arranged by numbered sets from one to eleven. However, despite the structural similarity, the contents diverge widely from the Pali. It contains relatively fewer parallels than the other āgama collections. In the Taishō edition of the Chinese canon, it is text number 125, located at T vol. 2, 549a.",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": "EA",
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 150
+      },
+      {
+        "uid": "ea-2",
+        "root_name": "Ekottarikāgama (2nd)",
+        "translated_name": "Numbered Discourses Compilation (2nd) ",
+        "acronym": "EA 2 [T 150A]",
+        "blurb": "A partial translation of the Ekottarikāgama was made by An Shigao (安世高 ) in CE 148–170. Known as Qi Chu San Guan Jing (七處三觀經), it consists of one fascicle containing 47 shorter sutras. In the Taishō edition of the Chinese canon, it is text number 150A, located at T vol. 2, 875b.",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": "EA-2",
+        "yellow_brick_road": false,
+        "yellow_brick_road_count": 0
+      },
+      {
+        "uid": "ea-ot",
+        "root_name": "Other Ekottarika Sūtras",
+        "translated_name": "Other Numbered Discourses ",
+        "acronym": "Other EA",
+        "blurb": "29 shorter discourses that in the Taishō edition of the Chinese canon have been gathered in the second volume, at sūtra numbers 126–151, following the complete Ekottarikāgama collection. These are miscellaneous translations of various discourses from the Ekottara, made at various times by various translators.",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": "EA ot",
+        "yellow_brick_road": false,
+        "yellow_brick_road_count": 0
+      }
+    ]
+  }
+]

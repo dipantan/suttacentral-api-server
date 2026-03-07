@@ -1,0 +1,41 @@
+{
+  "uid": "cp-mettaparami",
+  "root_name": "Mettāpāramī",
+  "translated_name": "The Perfection of Love ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Cp 33–34",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 3,
+  "children": [
+    {
+      "uid": "cp33",
+      "root_name": "Suvaṇṇasāmacariya",
+      "translated_name": "The Conduct of Golden Sāma ",
+      "acronym": "Cp 33",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "cp34",
+      "root_name": "Ekarājacariya",
+      "translated_name": "The Conduct of the One King ",
+      "acronym": "Cp 34",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

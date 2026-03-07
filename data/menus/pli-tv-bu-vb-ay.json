@@ -1,0 +1,41 @@
+{
+  "uid": "pli-tv-bu-vb-ay",
+  "root_name": "Aniyata",
+  "translated_name": "Undetermined ",
+  "node_type": "branch",
+  "blurb": "The rules in this category are known in Pali as <i lang='pi' translate='no'>aniyata</i>, “undetermined”. There are two such rules for the monks, but none for the nuns. These are procedures to establish a course of action when a monk is accused of behaving in a sexually inappropriate way with a woman.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 3,
+  "children": [
+    {
+      "uid": "pli-tv-bu-vb-ay1",
+      "root_name": "Paṭhamaaniyata",
+      "translated_name": "1. Sitting with a woman in a concealed place ",
+      "acronym": "Bu Ay 1",
+      "blurb": "A female lay disciple may see a monk sitting in a secluded place with a woman. If she accuses him of an offense entailing expulsion, suspension, or confession, and he admits to the offense, then he incurs an offense accordingly.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "pli-tv-bu-vb-ay2",
+      "root_name": "Dutiyaaniyata",
+      "translated_name": "2. Sitting alone with a woman ",
+      "acronym": "Bu Ay 2",
+      "blurb": "A female lay disciple may see a monk sitting in private with a woman. If she accuses him of an offense entailing suspension or confession, and he admits to the offense, then he incurs an offense accordingly.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

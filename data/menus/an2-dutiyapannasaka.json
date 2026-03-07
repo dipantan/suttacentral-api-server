@@ -1,0 +1,80 @@
+{
+  "uid": "an2-dutiyapannasaka",
+  "root_name": "Dutiyapaṇṇāsaka",
+  "translated_name": "The Second Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.52–117",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 6,
+  "children": [
+    {
+      "uid": "an2-puggalavagga",
+      "root_name": "Puggalavagga",
+      "translated_name": "The Chapter on Individuals ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.52–63",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an2-sukhavagga",
+      "root_name": "Sukhavagga",
+      "translated_name": "The Chapter on Happiness ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.64–76",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an2-sanimittavagga",
+      "root_name": "Sanimittavagga",
+      "translated_name": "The Chapter with a Foundation ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.77–86",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an2-dhammavagga",
+      "root_name": "Dhammavagga",
+      "translated_name": "The Chapter on Two Things ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.87–97",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an2-balavagga2",
+      "root_name": "Bālavagga",
+      "translated_name": "The Chapter on Fools ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.98–117",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

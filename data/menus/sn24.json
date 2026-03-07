@@ -1,0 +1,67 @@
+{
+  "uid": "sn24",
+  "root_name": "Diṭṭhisaṁyutta",
+  "translated_name": "Linked Discourses on Views ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Views” contains 96 discourses on views, methodically analyzed through the lens of the aggregates. A wide variety of views is assessed, most of which are familiar from elsewhere in the canon, although the first one is unique.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 24",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 47,
+  "children": [
+    {
+      "uid": "sn24-sotapattivagga",
+      "root_name": "Sotāpattivagga",
+      "translated_name": "The Chapter on Stream-Entry ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 24.1–18",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 29
+    },
+    {
+      "uid": "sn24-dutiyagamanavagga",
+      "root_name": "Dutiyagamanavagga",
+      "translated_name": "The Chapter on the Second Round ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 24.19–44",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    },
+    {
+      "uid": "sn24-tatiyagamanavagga",
+      "root_name": "Tatiyagamanavagga",
+      "translated_name": "The Chapter on the Third Round ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 24.45–70",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "sn24-catutthagamanavagga",
+      "root_name": "Catutthagamanavagga",
+      "translated_name": "The Chapter on the Fourth Round ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 24.71–96",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    }
+  ]
+}

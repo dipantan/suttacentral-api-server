@@ -1,0 +1,54 @@
+{
+  "uid": "thag-timsanipata-pathamavagga",
+  "root_name": "Paṭhamavagga",
+  "translated_name": "Chapter One ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thag 17.1–3",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 5,
+  "children": [
+    {
+      "uid": "thag17.1",
+      "root_name": "Phussattheragāthā",
+      "translated_name": null,
+      "acronym": "Thag 17.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "thag17.2",
+      "root_name": "Sāriputtattheragāthā",
+      "translated_name": null,
+      "acronym": "Thag 17.2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "thag17.3",
+      "root_name": "Ānandattheragāthā",
+      "translated_name": null,
+      "acronym": "Thag 17.3",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

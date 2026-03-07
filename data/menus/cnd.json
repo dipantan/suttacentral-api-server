@@ -1,0 +1,54 @@
+{
+  "uid": "cnd",
+  "root_name": "Cūḷaniddesa",
+  "translated_name": "Shorter Exposition ",
+  "node_type": "branch",
+  "blurb": "The Cūḷaniddesa or “Shorter Exposition” is really one half of a book together with the Mahāniddesa or “Great Exposition”. They offer commentaries on certain portions of the Sutta Nipāta, and lack counterparts in the northern canons. The Cūḷaniddesa comments on the “Way to the Beyond” and the “Rhinoceros Horn Sutta”.",
+  "acronym": "Cnd",
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "cnd-parayanavaggagatha",
+      "root_name": "Pārāyanavaggagāthā",
+      "translated_name": "The Way to the Beyond ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cnd 1–4",
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "cnd-parayanavagganiddesa",
+      "root_name": "Pārāyanavagganiddesa",
+      "translated_name": "Exposition of the Way to the Beyond ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cnd 5–22",
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "cnd23",
+      "root_name": "Khaggavisāṇasuttaniddesa",
+      "translated_name": "Exposition of the Rhinoceros Horn Discourse",
+      "acronym": "Cnd 23",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

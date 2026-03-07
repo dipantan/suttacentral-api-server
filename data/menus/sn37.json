@@ -1,0 +1,54 @@
+{
+  "uid": "sn37",
+  "root_name": "Mātugāmasaṁyutta",
+  "translated_name": "Linked Discourses on Females ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Females” contains 34 discourses regarding various qualities of women. Note that the Pali texts use two distinct terms for women, <i lang='pi' translate='no'>itthī</i> and <i lang='pi' translate='no'>mātugāma</i>, the latter of which can be translated as “females”. These texts deal with such themes as the kinds of suffering unique to women, why women are reborn in various states, or the qualities that lead to a woman taking charge in her marriage.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 37",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 41,
+  "children": [
+    {
+      "uid": "sn37-pathamapeyyalavagga",
+      "root_name": "Paṭhamapeyyālavagga",
+      "translated_name": "First Chapter of Abbreviated Texts ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 37.1–14",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 16
+    },
+    {
+      "uid": "sn37-dutiyapeyyalavagga",
+      "root_name": "Dutiyapeyyālavagga",
+      "translated_name": "Second Chapter of Abbreviated Texts ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 37.15–24",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "sn37-balavagga",
+      "root_name": "Balavagga",
+      "translated_name": "The Chapter on Powers ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 37.25–34",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    }
+  ]
+}

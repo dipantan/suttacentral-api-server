@@ -1,0 +1,80 @@
+{
+  "uid": "an6-pathamapannasaka",
+  "root_name": "Paṭhamapaṇṇāsaka",
+  "translated_name": "The First Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 6.1–54",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 69,
+  "children": [
+    {
+      "uid": "an6-ahuneyyavagga",
+      "root_name": "Āhuneyyavagga",
+      "translated_name": "The Chapter on Worthy of Offerings ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 6.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "an6-saraniyavagga",
+      "root_name": "Sāraṇīyavagga",
+      "translated_name": "The Chapter on Warm-hearted ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 6.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    },
+    {
+      "uid": "an6-anuttariyavagga",
+      "root_name": "Anuttariyavagga",
+      "translated_name": "The Chapter on Unsurpassable ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 6.21–30",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "an6-pathamapannasaka-devatavagga",
+      "root_name": "Devatāvagga",
+      "translated_name": "The Chapter on Deities ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 6.31–42",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 16
+    },
+    {
+      "uid": "an6-dhammikavagga",
+      "root_name": "Dhammikavagga",
+      "translated_name": "The Chapter with Dhammika ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 6.43–54",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 18
+    }
+  ]
+}

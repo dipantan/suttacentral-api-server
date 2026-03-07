@@ -1,0 +1,93 @@
+{
+  "uid": "ne",
+  "root_name": "Netti",
+  "translated_name": "The Guidebook ",
+  "node_type": "branch",
+  "blurb": "The Netti or “Guide” is a systematic treatise intended to provide a guide for reading and interpreting the texts of the <i lang='pi' translate='no'>nikāyas</i>. It is similar to the Peṭakopadesa, and the exact relationship between these two texts is not clear. The text provides an array of methods for reading texts, illustrating them with quotations, and taking the four noble truths as the overall framework. A colophon in the text attributes it to the Buddha's disciple Kaccāna. It is, however, a late text, lacking counterparts in the northern collections. It is not universally accepted as canonical; SuttaCentral’s Pali texts, however, stem from the Mahāsaṅgīti edition, which as a Burmese text does include it.",
+  "acronym": "Ne",
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 37,
+  "children": [
+    {
+      "uid": "ne1",
+      "root_name": "Saṅgahavāra",
+      "translated_name": "Comprehensive Section ",
+      "acronym": "Ne 1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ne 1",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ne2",
+      "root_name": "Uddesavāra",
+      "translated_name": "Specification Section ",
+      "acronym": "Ne 2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ne 2",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ne3",
+      "root_name": "Niddesavāra",
+      "translated_name": "Demonstrative Subsection ",
+      "acronym": "Ne 3",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ne 3",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ne-patiniddesavara",
+      "root_name": "Paṭiniddesavāra",
+      "translated_name": "Counter-demonstrative Subsection ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ne 4–35",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 32
+    },
+    {
+      "uid": "ne36",
+      "root_name": "Nayasamuṭṭhāna",
+      "translated_name": "Molding of the Five Guidelines ",
+      "acronym": "Ne 36",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ne 36",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ne37",
+      "root_name": "Sāsanapaṭṭhāna",
+      "translated_name": "The Pattern of the Dispensation",
+      "acronym": "Ne 37",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ne 37",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

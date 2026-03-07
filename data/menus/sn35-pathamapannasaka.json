@@ -1,0 +1,80 @@
+{
+  "uid": "sn35-pathamapannasaka",
+  "root_name": "Paṭhamapaṇṇāsaka",
+  "translated_name": "The First Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 81,
+  "children": [
+    {
+      "uid": "sn35-aniccavagga",
+      "root_name": "Aniccavagga",
+      "translated_name": "The Chapter on  Impermanence ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.1–12",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 24
+    },
+    {
+      "uid": "sn35-yamakavagga",
+      "root_name": "Yamakavagga",
+      "translated_name": "The Chapter on Pairs ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.13–22",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 22
+    },
+    {
+      "uid": "sn35-sabbavagga",
+      "root_name": "Sabbavagga",
+      "translated_name": "The Chapter on the All ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.23–32",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 28
+    },
+    {
+      "uid": "sn35-jatidhammavagga",
+      "root_name": "Jātidhammavagga",
+      "translated_name": "The Chapter on Liable to Be Reborn ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.33–42",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn35-sabbaaniccavagga",
+      "root_name": "Sabbaaniccavagga",
+      "translated_name": "The Chapter on All is Impermanent ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.43–52",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 5
+    }
+  ]
+}

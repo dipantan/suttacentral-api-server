@@ -1,0 +1,80 @@
+{
+  "uid": "an9-dutiyapannasaka",
+  "root_name": "Dutiyapaṇṇāsaka",
+  "translated_name": "The Second Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 9.52–432",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 34,
+  "children": [
+    {
+      "uid": "an9-khemavagga",
+      "root_name": "Khemavagga",
+      "translated_name": "The Chapter on a Safe Place ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.52–62",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    },
+    {
+      "uid": "an9-satipatthanavagga",
+      "root_name": "Satipaṭṭhānavagga",
+      "translated_name": "The Chapter on Mindfulness Meditation ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.63–72",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    },
+    {
+      "uid": "an9-sammappadhanavagga",
+      "root_name": "Sammappadhānavagga",
+      "translated_name": "The Chapter on Right Efforts ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.73–82",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "an9-iddhipadavagga",
+      "root_name": "Iddhipādavagga",
+      "translated_name": "The Chapter on Bases of Psychic Power ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.83–92",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "an9-ragapeyyala",
+      "root_name": "Rāgapeyyāla",
+      "translated_name": "Abbreviated Texts Beginning With Greed ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.93–432",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 4
+    }
+  ]
+}

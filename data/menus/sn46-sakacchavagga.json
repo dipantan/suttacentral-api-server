@@ -1,0 +1,93 @@
+{
+  "uid": "sn46-sakacchavagga",
+  "root_name": "Sākacchavagga",
+  "translated_name": "The Chapter on Discussion ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 46.51–56",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 12,
+  "children": [
+    {
+      "uid": "sn46.51",
+      "root_name": "Āhārasutta",
+      "translated_name": null,
+      "acronym": "SN 46.51",
+      "blurb": "The Buddha spells out in detail the factors that nourish the hindrances, and those that nourish the awakening factors.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn46.52",
+      "root_name": "Pariyāyasutta",
+      "translated_name": null,
+      "acronym": "SN 46.52",
+      "blurb": "Some wanderers tell some Buddhist mendicants that they, too, teach the five hindrances and the seven awakening factors, so what is the difference? The Buddha explains by giving a detailed analytical treatment that he says is beyond the scope of the wanderers.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn46.53",
+      "root_name": "Aggisutta",
+      "translated_name": null,
+      "acronym": "SN 46.53",
+      "blurb": "Which awakening factors should be developed when the mind is tired, and which when it is energetic? And what is always useful?",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn46.54",
+      "root_name": "Mettāsahagatasutta",
+      "translated_name": null,
+      "acronym": "SN 46.54",
+      "blurb": "Some wanderers tell some Buddhist mendicants that they, too, teach the five hindrances and the four Brahmā meditations, so what is the difference? The Buddha explains the detailed connection between the Brahmā meditations and the awakening factors, which taken together lead to liberation.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn46.55",
+      "root_name": "Saṅgāravasutta",
+      "translated_name": null,
+      "acronym": "SN 46.55",
+      "blurb": "The brahmin Saṅgārava asks why sometimes verses stay in memory while other times they don’t. The Buddha replies that it is due to the presence of either the hindrances of awakening factors. He gives a set of similes illustrating each of the hindrances with different bowls of water.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn46.56",
+      "root_name": "Abhayasutta",
+      "translated_name": null,
+      "acronym": "SN 46.56",
+      "blurb": "Prince Abhaya reports Pūraṇa Kassapa’s view that there is no cause for ignorance or knowledge, and asks the Buddha’s opinion. The Buddha replies that the cause of ignorance is the hindrances, and the cause of knowledge is the awakening factors.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

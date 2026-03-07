@@ -1,0 +1,67 @@
+{
+  "uid": "sn35",
+  "root_name": "Saḷāyatanasaṁyutta",
+  "translated_name": "Linked Discourses on the Six Sense Fields ",
+  "node_type": "branch",
+  "blurb": "The number of discourses in the “Linked Discourses on the Six Sense Fields” varies between editions, mainly due to the way repetitions are counted; SuttaCentral follows Bhikkhu Bodhi’s translation in counting 248 discourses. The six sense fields complement the five aggregates as the summary of the noble truth of suffering. Where the aggregates focus on the functional structure of experience as basis for views of self, the emphasis here is on how sense experience stimulates desire. Despite this difference in orientation, the two collections share much in common, and often the exact same template is applied in both cases. The six sense fields are the means through which the world is known, and so each of them has an “inner” and an “outer” aspect—the “eye” and “sights”, etc. Though common, it’s best to avoid thinking of the external sense field as the “object”, since in the suttas they are depicted in relation to the observing mind, and not as independently existing entities. This is straightforward until we come to the last sense, the “mind” and “thoughts” or “mental phenomena”. Just to clear up a possible confusion, this “sixth sense” is simply the mental faculty, and has nothing to do with psychic powers. The outer aspect is <i lang='pi' translate='no'>dhammā</i>, a term so ambiguous its translation is always difficult. Here it refers to anything that may be known directly by the mind, distinct from the five senses. The most technically correct translation is probably “mental phenomena”, but “thought’ may be used as a more colloquial rendering, so long as it includes ideas, imagination, and so on, not just verbalized cognition.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 35",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 455,
+  "children": [
+    {
+      "uid": "sn35-pathamapannasaka",
+      "root_name": "Paṭhamapaṇṇāsaka",
+      "translated_name": "The First Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 81
+    },
+    {
+      "uid": "sn35-dutiyapannasaka",
+      "root_name": "Dutiyapaṇṇāsaka",
+      "translated_name": "The Second Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 135
+    },
+    {
+      "uid": "sn35-tatiyapannasaka",
+      "root_name": "Tatiyapaṇṇāsaka",
+      "translated_name": "The Third Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 129
+    },
+    {
+      "uid": "sn35-catutthapannasaka",
+      "root_name": "Catutthapaṇṇāsaka",
+      "translated_name": "The Fourth Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 110
+    }
+  ]
+}

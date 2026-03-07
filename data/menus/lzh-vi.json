@@ -1,0 +1,28 @@
+{
+  "uid": "lzh-vi",
+  "root_name": "Other Vinaya",
+  "translated_name": "Other Vinaya ",
+  "node_type": "branch",
+  "blurb": "Various topics related to the Vinaya.",
+  "acronym": "Other Vi",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "t1478.1",
+      "root_name": "大愛道比丘尼經",
+      "translated_name": "Mahāprajāpatī Bhikṣuṇī",
+      "acronym": "T 1478.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid": "mil-mendakapanha",
+  "root_name": "Meṇḍakapañha",
+  "translated_name": "The Question of Meṇḍaka ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Mil 5",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 56,
+  "children": [
+    {
+      "uid": "mil-iddhibalavagga",
+      "root_name": "Iddhibalavagga",
+      "translated_name": "Extending the Life Span With Psychic Power ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Mil 5.1",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    },
+    {
+      "uid": "mil-abhejjavagga",
+      "root_name": "Abhejjavagga",
+      "translated_name": "Without Schism ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Mil 5.2",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 8
+    },
+    {
+      "uid": "mil-panamitavagga",
+      "root_name": "Paṇāmitavagga",
+      "translated_name": "Dismissal ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Mil 5.3",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    },
+    {
+      "uid": "mil-sabbannutananavagga",
+      "root_name": "Sabbaññutañāṇavagga",
+      "translated_name": "Omniscience ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Mil 5.4",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "mil-santhavavagga",
+      "root_name": "Santhavavagga",
+      "translated_name": "Dwelling-Places ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Mil 5.5",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    }
+  ]
+}

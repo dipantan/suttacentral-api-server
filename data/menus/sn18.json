@@ -1,0 +1,41 @@
+{
+  "uid": "sn18",
+  "root_name": "Rāhulasaṁyutta",
+  "translated_name": "Linked Discourses with Rāhula ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Rāhula” contains 22 discourses with the Buddha interrogating his son Rāhula on fundamental doctrines such as the aggregates or sense fields.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 18",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 17,
+  "children": [
+    {
+      "uid": "sn18-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 18.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    },
+    {
+      "uid": "sn18-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 18.11–22",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 6
+    }
+  ]
+}

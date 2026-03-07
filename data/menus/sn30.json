@@ -1,0 +1,28 @@
+{
+  "uid": "sn30",
+  "root_name": "Supaṇṇasaṁyutta",
+  "translated_name": "Linked Discourses on Phoenixes ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Phoenixes” is the second of four similar sections dealing with the modes in which various semi-celestial beings may be reborn. The current chapter is on the “phoenixes” or <i lang='pi' translate='no'>supaṇṇas</i>, otherwise known as <i lang='pi' translate='no'>garuḍa</i>, powerful bird-spirits that are the natural antagonists to the dragons in Indian mythology.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 30",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 8,
+  "children": [
+    {
+      "uid": "sn30-supannavagga",
+      "root_name": "Supaṇṇavagga",
+      "translated_name": "The Chapter on Phoenixes ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 30.1–46",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 8
+    }
+  ]
+}

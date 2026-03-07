@@ -1,0 +1,41 @@
+{
+  "uid": "an8",
+  "root_name": "Aṭṭhakanipāta",
+  "translated_name": "The Book of the Eights ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 8",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 158,
+  "children": [
+    {
+      "uid": "an8-pathamapannasaka",
+      "root_name": "Paṭhamapaṇṇāsaka",
+      "translated_name": "The First Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 8.1–50",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 100
+    },
+    {
+      "uid": "an8-dutiyapannasaka",
+      "root_name": "Dutiyapaṇṇāsaka",
+      "translated_name": "The Second Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 8.51–627",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 58
+    }
+  ]
+}

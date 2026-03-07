@@ -1,0 +1,67 @@
+{
+  "uid": "sn14",
+  "root_name": "Dhātusaṁyutta",
+  "translated_name": "Linked Discourses on the Elements ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on the Elements” contains 39 discourses on various factors classified as “elements” (<i lang='pi' translate='no'>dhātu</i>). In Buddhism, the term “element” is applied to a range of phenomena, most commonly the main material properties of earth, water, fire and air. Here, however, these four elements play only a small role, and much of the text is devoted to analysis of the perceptual process, and to various character traits. The relation or dependence of elements on each other is a major theme, and this chapter can be seen as an appendix to the chapter on causality.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 14",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 61,
+  "children": [
+    {
+      "uid": "sn14-nanattavagga",
+      "root_name": "Nānattavagga",
+      "translated_name": "The Chapter on Diversity ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 14.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 17
+    },
+    {
+      "uid": "sn14-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 14.11–22",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "sn14-kammapathavagga",
+      "root_name": "Kammapathavagga",
+      "translated_name": "The Chapter on Ways of Performing Deeds ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 14.23–29",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 7
+    },
+    {
+      "uid": "sn14-catutthavagga",
+      "root_name": "Catutthavagga",
+      "translated_name": "Chapter Four ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 14.30–39",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 17
+    }
+  ]
+}

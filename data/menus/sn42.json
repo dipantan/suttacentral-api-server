@@ -1,0 +1,28 @@
+{
+  "uid": "sn42",
+  "root_name": "Gāmaṇisaṁyutta",
+  "translated_name": "Linked Discourses with Chiefs ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Chiefs” contains 13 discourses featuring various headmen or chiefs. They sometimes ask questions relating to their professions, from entertainers to warriors, while several discourses touch on familiar Dhamma themes, such as overcoming anger, the validity of brahmanical rites, or whether monastics should use money. Some of the chiefs are quite adversarial, aiming to trip up the Buddha in debate, or accusing him of being a magician. In the end, though, the Buddha’s compassionate and measured responses win them over.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 42",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 26,
+  "children": [
+    {
+      "uid": "sn42-gamanivagga",
+      "root_name": "Gāmaṇivagga",
+      "translated_name": "The Chapter on Chiefs ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 42.1–13",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 26
+    }
+  ]
+}

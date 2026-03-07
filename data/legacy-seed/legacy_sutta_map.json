@@ -1,0 +1,1582 @@
+{
+  "patthana1.1": {
+    "author_uid": "agganyani",
+    "path": "legacy/en/agganyani/abhidhamma/patthana/patthana1/patthana1.1.html"
+  },
+  "vb6": {
+    "author_uid": "anandajoti",
+    "path": "legacy/en/anandajoti/abhidhamma/vb/vb6.html"
+  },
+  "vb7": {
+    "author_uid": "anandajoti",
+    "path": "legacy/en/anandajoti/abhidhamma/vb/vb7.html"
+  },
+  "kv1.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv1/kv1.1.html"
+  },
+  "kv1.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv1/kv1.10.html"
+  },
+  "kv1.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv1/kv1.2.html"
+  },
+  "kv1.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv1/kv1.3.html"
+  },
+  "kv1.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv1/kv1.4.html"
+  },
+  "kv1.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv1/kv1.5.html"
+  },
+  "kv1.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv1/kv1.6.html"
+  },
+  "kv1.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv1/kv1.7.html"
+  },
+  "kv1.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv1/kv1.8.html"
+  },
+  "kv1.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv1/kv1.9.html"
+  },
+  "kv10.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv10/kv10.1.html"
+  },
+  "kv10.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv10/kv10.10.html"
+  },
+  "kv10.11": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv10/kv10.11.html"
+  },
+  "kv10.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv10/kv10.2.html"
+  },
+  "kv10.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv10/kv10.3.html"
+  },
+  "kv10.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv10/kv10.4.html"
+  },
+  "kv10.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv10/kv10.5.html"
+  },
+  "kv10.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv10/kv10.6.html"
+  },
+  "kv10.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv10/kv10.7.html"
+  },
+  "kv10.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv10/kv10.8.html"
+  },
+  "kv10.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv10/kv10.9.html"
+  },
+  "kv11.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv11/kv11.1.html"
+  },
+  "kv11.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv11/kv11.2.html"
+  },
+  "kv11.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv11/kv11.3.html"
+  },
+  "kv11.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv11/kv11.4.html"
+  },
+  "kv11.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv11/kv11.5.html"
+  },
+  "kv11.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv11/kv11.6.html"
+  },
+  "kv11.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv11/kv11.7.html"
+  },
+  "kv11.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv11/kv11.8.html"
+  },
+  "kv12.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv12/kv12.1.html"
+  },
+  "kv12.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv12/kv12.10.html"
+  },
+  "kv12.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv12/kv12.2.html"
+  },
+  "kv12.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv12/kv12.3.html"
+  },
+  "kv12.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv12/kv12.4.html"
+  },
+  "kv12.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv12/kv12.5.html"
+  },
+  "kv12.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv12/kv12.6.html"
+  },
+  "kv12.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv12/kv12.7.html"
+  },
+  "kv12.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv12/kv12.8.html"
+  },
+  "kv12.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv12/kv12.9.html"
+  },
+  "kv13.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv13/kv13.1.html"
+  },
+  "kv13.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv13/kv13.10.html"
+  },
+  "kv13.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv13/kv13.2.html"
+  },
+  "kv13.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv13/kv13.3.html"
+  },
+  "kv13.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv13/kv13.4.html"
+  },
+  "kv13.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv13/kv13.5.html"
+  },
+  "kv13.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv13/kv13.6.html"
+  },
+  "kv13.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv13/kv13.7.html"
+  },
+  "kv13.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv13/kv13.8.html"
+  },
+  "kv13.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv13/kv13.9.html"
+  },
+  "kv14.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv14/kv14.1.html"
+  },
+  "kv14.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv14/kv14.2.html"
+  },
+  "kv14.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv14/kv14.3.html"
+  },
+  "kv14.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv14/kv14.4.html"
+  },
+  "kv14.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv14/kv14.5.html"
+  },
+  "kv14.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv14/kv14.6.html"
+  },
+  "kv14.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv14/kv14.7.html"
+  },
+  "kv14.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv14/kv14.8.html"
+  },
+  "kv14.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv14/kv14.9.html"
+  },
+  "kv15.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv15/kv15.1.html"
+  },
+  "kv15.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv15/kv15.10.html"
+  },
+  "kv15.11": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv15/kv15.11.html"
+  },
+  "kv15.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv15/kv15.2.html"
+  },
+  "kv15.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv15/kv15.3.html"
+  },
+  "kv15.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv15/kv15.4.html"
+  },
+  "kv15.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv15/kv15.5.html"
+  },
+  "kv15.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv15/kv15.6.html"
+  },
+  "kv15.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv15/kv15.7.html"
+  },
+  "kv15.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv15/kv15.8.html"
+  },
+  "kv15.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv15/kv15.9.html"
+  },
+  "kv16.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv16/kv16.1.html"
+  },
+  "kv16.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv16/kv16.10.html"
+  },
+  "kv16.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv16/kv16.2.html"
+  },
+  "kv16.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv16/kv16.3.html"
+  },
+  "kv16.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv16/kv16.4.html"
+  },
+  "kv16.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv16/kv16.5.html"
+  },
+  "kv16.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv16/kv16.6.html"
+  },
+  "kv16.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv16/kv16.7.html"
+  },
+  "kv16.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv16/kv16.8.html"
+  },
+  "kv16.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv16/kv16.9.html"
+  },
+  "kv17.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv17/kv17.1.html"
+  },
+  "kv17.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv17/kv17.10.html"
+  },
+  "kv17.11": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv17/kv17.11.html"
+  },
+  "kv17.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv17/kv17.2.html"
+  },
+  "kv17.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv17/kv17.3.html"
+  },
+  "kv17.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv17/kv17.4.html"
+  },
+  "kv17.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv17/kv17.5.html"
+  },
+  "kv17.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv17/kv17.6.html"
+  },
+  "kv17.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv17/kv17.7.html"
+  },
+  "kv17.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv17/kv17.8.html"
+  },
+  "kv17.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv17/kv17.9.html"
+  },
+  "kv18.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv18/kv18.1.html"
+  },
+  "kv18.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv18/kv18.2.html"
+  },
+  "kv18.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv18/kv18.3.html"
+  },
+  "kv18.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv18/kv18.4.html"
+  },
+  "kv18.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv18/kv18.5.html"
+  },
+  "kv18.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv18/kv18.6.html"
+  },
+  "kv18.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv18/kv18.7.html"
+  },
+  "kv18.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv18/kv18.8.html"
+  },
+  "kv18.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv18/kv18.9.html"
+  },
+  "kv19.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv19/kv19.1.html"
+  },
+  "kv19.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv19/kv19.2.html"
+  },
+  "kv19.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv19/kv19.3.html"
+  },
+  "kv19.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv19/kv19.4.html"
+  },
+  "kv19.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv19/kv19.5.html"
+  },
+  "kv19.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv19/kv19.6.html"
+  },
+  "kv19.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv19/kv19.7.html"
+  },
+  "kv19.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv19/kv19.8.html"
+  },
+  "kv2.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv2/kv2.1.html"
+  },
+  "kv2.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv2/kv2.10.html"
+  },
+  "kv2.11": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv2/kv2.11.html"
+  },
+  "kv2.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv2/kv2.2.html"
+  },
+  "kv2.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv2/kv2.3.html"
+  },
+  "kv2.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv2/kv2.4.html"
+  },
+  "kv2.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv2/kv2.5.html"
+  },
+  "kv2.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv2/kv2.6.html"
+  },
+  "kv2.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv2/kv2.7.html"
+  },
+  "kv2.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv2/kv2.8.html"
+  },
+  "kv2.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv2/kv2.9.html"
+  },
+  "kv20.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv20/kv20.1.html"
+  },
+  "kv20.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv20/kv20.2.html"
+  },
+  "kv20.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv20/kv20.3.html"
+  },
+  "kv20.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv20/kv20.4.html"
+  },
+  "kv20.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv20/kv20.5.html"
+  },
+  "kv20.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv20/kv20.6.html"
+  },
+  "kv21.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv21/kv21.1.html"
+  },
+  "kv21.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv21/kv21.2.html"
+  },
+  "kv21.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv21/kv21.3.html"
+  },
+  "kv21.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv21/kv21.4.html"
+  },
+  "kv21.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv21/kv21.5.html"
+  },
+  "kv21.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv21/kv21.6.html"
+  },
+  "kv21.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv21/kv21.7.html"
+  },
+  "kv21.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv21/kv21.8.html"
+  },
+  "kv22.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv22/kv22.1.html"
+  },
+  "kv22.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv22/kv22.2.html"
+  },
+  "kv22.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv22/kv22.3.html"
+  },
+  "kv22.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv22/kv22.4.html"
+  },
+  "kv22.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv22/kv22.5.html"
+  },
+  "kv22.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv22/kv22.6.html"
+  },
+  "kv22.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv22/kv22.7.html"
+  },
+  "kv22.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv22/kv22.8.html"
+  },
+  "kv23.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv23/kv23.1.html"
+  },
+  "kv23.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv23/kv23.2.html"
+  },
+  "kv23.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv23/kv23.3.html"
+  },
+  "kv23.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv23/kv23.4.html"
+  },
+  "kv23.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv23/kv23.5.html"
+  },
+  "kv3.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.1.html"
+  },
+  "kv3.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.10.html"
+  },
+  "kv3.11": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.11.html"
+  },
+  "kv3.12": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.12.html"
+  },
+  "kv3.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.2.html"
+  },
+  "kv3.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.3.html"
+  },
+  "kv3.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.4.html"
+  },
+  "kv3.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.5.html"
+  },
+  "kv3.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.6.html"
+  },
+  "kv3.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.7.html"
+  },
+  "kv3.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.8.html"
+  },
+  "kv3.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv3/kv3.9.html"
+  },
+  "kv4.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv4/kv4.1.html"
+  },
+  "kv4.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv4/kv4.10.html"
+  },
+  "kv4.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv4/kv4.2.html"
+  },
+  "kv4.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv4/kv4.3.html"
+  },
+  "kv4.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv4/kv4.4.html"
+  },
+  "kv4.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv4/kv4.5.html"
+  },
+  "kv4.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv4/kv4.6.html"
+  },
+  "kv4.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv4/kv4.7.html"
+  },
+  "kv4.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv4/kv4.8.html"
+  },
+  "kv4.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv4/kv4.9.html"
+  },
+  "kv5.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv5/kv5.1.html"
+  },
+  "kv5.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv5/kv5.10.html"
+  },
+  "kv5.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv5/kv5.2.html"
+  },
+  "kv5.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv5/kv5.3.html"
+  },
+  "kv5.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv5/kv5.4.html"
+  },
+  "kv5.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv5/kv5.5.html"
+  },
+  "kv5.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv5/kv5.6.html"
+  },
+  "kv5.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv5/kv5.7.html"
+  },
+  "kv5.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv5/kv5.8.html"
+  },
+  "kv5.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv5/kv5.9.html"
+  },
+  "kv6.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv6/kv6.1.html"
+  },
+  "kv6.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv6/kv6.10.html"
+  },
+  "kv6.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv6/kv6.2.html"
+  },
+  "kv6.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv6/kv6.3.html"
+  },
+  "kv6.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv6/kv6.4.html"
+  },
+  "kv6.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv6/kv6.5.html"
+  },
+  "kv6.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv6/kv6.6.html"
+  },
+  "kv6.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv6/kv6.7.html"
+  },
+  "kv6.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv6/kv6.8.html"
+  },
+  "kv6.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv6/kv6.9.html"
+  },
+  "kv7.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv7/kv7.1.html"
+  },
+  "kv7.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv7/kv7.10.html"
+  },
+  "kv7.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv7/kv7.2.html"
+  },
+  "kv7.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv7/kv7.3.html"
+  },
+  "kv7.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv7/kv7.4.html"
+  },
+  "kv7.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv7/kv7.5.html"
+  },
+  "kv7.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv7/kv7.6.html"
+  },
+  "kv7.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv7/kv7.7.html"
+  },
+  "kv7.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv7/kv7.8.html"
+  },
+  "kv7.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv7/kv7.9.html"
+  },
+  "kv8.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv8/kv8.1.html"
+  },
+  "kv8.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv8/kv8.10.html"
+  },
+  "kv8.11": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv8/kv8.11.html"
+  },
+  "kv8.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv8/kv8.2.html"
+  },
+  "kv8.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv8/kv8.3.html"
+  },
+  "kv8.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv8/kv8.4.html"
+  },
+  "kv8.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv8/kv8.5.html"
+  },
+  "kv8.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv8/kv8.6.html"
+  },
+  "kv8.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv8/kv8.7.html"
+  },
+  "kv8.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv8/kv8.8.html"
+  },
+  "kv8.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv8/kv8.9.html"
+  },
+  "kv9.1": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv9/kv9.1.html"
+  },
+  "kv9.10": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv9/kv9.10.html"
+  },
+  "kv9.11": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv9/kv9.11.html"
+  },
+  "kv9.2": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv9/kv9.2.html"
+  },
+  "kv9.3": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv9/kv9.3.html"
+  },
+  "kv9.4": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv9/kv9.4.html"
+  },
+  "kv9.5": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv9/kv9.5.html"
+  },
+  "kv9.6": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv9/kv9.6.html"
+  },
+  "kv9.7": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv9/kv9.7.html"
+  },
+  "kv9.8": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv9/kv9.8.html"
+  },
+  "kv9.9": {
+    "author_uid": "aung-rhysdavids",
+    "path": "legacy/en/aung-rhysdavids/abhidhamma/kv/kv9/kv9.9.html"
+  },
+  "pp1.1": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp1/pp1.1.html"
+  },
+  "pp1.10": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp1/pp1.10.html"
+  },
+  "pp1.2": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp1/pp1.2.html"
+  },
+  "pp1.3": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp1/pp1.3.html"
+  },
+  "pp1.4": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp1/pp1.4.html"
+  },
+  "pp1.5": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp1/pp1.5.html"
+  },
+  "pp1.6": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp1/pp1.6.html"
+  },
+  "pp1.7": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp1/pp1.7.html"
+  },
+  "pp1.8": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp1/pp1.8.html"
+  },
+  "pp1.9": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp1/pp1.9.html"
+  },
+  "pp2.1": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp2/pp2.1.html"
+  },
+  "pp2.10": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp2/pp2.10.html"
+  },
+  "pp2.2": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp2/pp2.2.html"
+  },
+  "pp2.3": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp2/pp2.3.html"
+  },
+  "pp2.4": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp2/pp2.4.html"
+  },
+  "pp2.5": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp2/pp2.5.html"
+  },
+  "pp2.6": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp2/pp2.6.html"
+  },
+  "pp2.7": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp2/pp2.7.html"
+  },
+  "pp2.8": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp2/pp2.8.html"
+  },
+  "pp2.9": {
+    "author_uid": "law",
+    "path": "legacy/en/law/abhidhamma/pp/pp2/pp2.9.html"
+  },
+  "patthana1.10": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.10.html"
+  },
+  "patthana1.11": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.11.html"
+  },
+  "patthana1.12": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.12.html"
+  },
+  "patthana1.13": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.13.html"
+  },
+  "patthana1.14": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.14.html"
+  },
+  "patthana1.15": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.15.html"
+  },
+  "patthana1.16": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.16.html"
+  },
+  "patthana1.17": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.17.html"
+  },
+  "patthana1.18": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.18.html"
+  },
+  "patthana1.19": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.19.html"
+  },
+  "patthana1.2": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.2.html"
+  },
+  "patthana1.20": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.20.html"
+  },
+  "patthana1.21": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.21.html"
+  },
+  "patthana1.22": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.22.html"
+  },
+  "patthana1.23": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.23.html"
+  },
+  "patthana1.3": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.3.html"
+  },
+  "patthana1.4": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.4.html"
+  },
+  "patthana1.5": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.5.html"
+  },
+  "patthana1.6": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.6.html"
+  },
+  "patthana1.7": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.7.html"
+  },
+  "patthana1.8": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.8.html"
+  },
+  "patthana1.9": {
+    "author_uid": "narada",
+    "path": "legacy/en/narada/abhidhamma/patthana/patthana1/patthana1.9.html"
+  },
+  "ds2.1.1": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.1.1.html"
+  },
+  "ds2.1.10": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.1.10.html"
+  },
+  "ds2.1.2": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.1.2.html"
+  },
+  "ds2.1.3": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.1.3.html"
+  },
+  "ds2.1.4": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.1.4.html"
+  },
+  "ds2.1.5": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.1.5.html"
+  },
+  "ds2.1.6": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.1.6.html"
+  },
+  "ds2.1.7": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.1.7.html"
+  },
+  "ds2.1.8": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.1.8.html"
+  },
+  "ds2.1.9": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.1.9.html"
+  },
+  "ds2.2.1": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.2.1.html"
+  },
+  "ds2.2.2": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.2.2.html"
+  },
+  "ds2.2.3": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.2.3.html"
+  },
+  "ds2.3.1": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.3.1.html"
+  },
+  "ds2.3.2": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.3.2.html"
+  },
+  "ds2.3.3": {
+    "author_uid": "rhysdavids_litt",
+    "path": "legacy/en/rhysdavids_litt/abhidhamma/ds/ds2/ds2.3.3.html"
+  },
+  "ds1.1": {
+    "author_uid": "sujato",
+    "path": "legacy/en/sujato/abhidhamma/ds/ds1/ds1.1.html"
+  },
+  "ds1.2": {
+    "author_uid": "sujato",
+    "path": "legacy/en/sujato/abhidhamma/ds/ds1/ds1.2.html"
+  },
+  "ds1.3": {
+    "author_uid": "sujato",
+    "path": "legacy/en/sujato/abhidhamma/ds/ds1/ds1.3.html"
+  },
+  "vb1": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb1.html"
+  },
+  "vb10": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb10.html"
+  },
+  "vb11": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb11.html"
+  },
+  "vb12": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb12.html"
+  },
+  "vb13": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb13.html"
+  },
+  "vb14": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb14.html"
+  },
+  "vb15": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb15.html"
+  },
+  "vb16": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb16.html"
+  },
+  "vb17": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb17.html"
+  },
+  "vb18": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb18.html"
+  },
+  "vb2": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb2.html"
+  },
+  "vb3": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb3.html"
+  },
+  "vb4": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb4.html"
+  },
+  "vb5": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb5.html"
+  },
+  "vb8": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb8.html"
+  },
+  "vb9": {
+    "author_uid": "thittila",
+    "path": "legacy/en/thittila/abhidhamma/vb/vb9.html"
+  },
+  "ya10.1.1": {
+    "author_uid": "ukumarabhivamsa",
+    "path": "legacy/en/ukumarabhivamsa/abhidhamma/ya/ya10/ya10.1.1.html"
+  },
+  "ya10.1.2": {
+    "author_uid": "ukumarabhivamsa",
+    "path": "legacy/en/ukumarabhivamsa/abhidhamma/ya/ya10/ya10.1.2.html"
+  },
+  "ya10.2.1": {
+    "author_uid": "ukumarabhivamsa",
+    "path": "legacy/en/ukumarabhivamsa/abhidhamma/ya/ya10/ya10.2.1.html"
+  },
+  "ya10.3.1": {
+    "author_uid": "ukumarabhivamsa",
+    "path": "legacy/en/ukumarabhivamsa/abhidhamma/ya/ya10/ya10.3.1.html"
+  },
+  "ya10.3.2": {
+    "author_uid": "ukumarabhivamsa",
+    "path": "legacy/en/ukumarabhivamsa/abhidhamma/ya/ya10/ya10.3.2.html"
+  },
+  "ya10.3.3": {
+    "author_uid": "ukumarabhivamsa",
+    "path": "legacy/en/ukumarabhivamsa/abhidhamma/ya/ya10/ya10.3.3.html"
+  },
+  "ya10.3.4": {
+    "author_uid": "ukumarabhivamsa",
+    "path": "legacy/en/ukumarabhivamsa/abhidhamma/ya/ya10/ya10.3.4.html"
+  },
+  "ya10.3.5": {
+    "author_uid": "ukumarabhivamsa",
+    "path": "legacy/en/ukumarabhivamsa/abhidhamma/ya/ya10/ya10.3.5.html"
+  },
+  "ya10.3.6": {
+    "author_uid": "ukumarabhivamsa",
+    "path": "legacy/en/ukumarabhivamsa/abhidhamma/ya/ya10/ya10.3.6.html"
+  },
+  "ya6.1.1": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya6/ya6.1.1.html"
+  },
+  "ya6.1.2": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya6/ya6.1.2.html"
+  },
+  "ya6.2.1": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya6/ya6.2.1.html"
+  },
+  "ya6.2.2": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya6/ya6.2.2.html"
+  },
+  "ya6.2.3": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya6/ya6.2.3.html"
+  },
+  "ya6.3": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya6/ya6.3.html"
+  },
+  "ya7.1": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya7/ya7.1.html"
+  },
+  "ya7.2.1": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya7/ya7.2.1.html"
+  },
+  "ya7.2.2": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya7/ya7.2.2.html"
+  },
+  "ya7.2.3": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya7/ya7.2.3.html"
+  },
+  "ya7.2.4": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya7/ya7.2.4.html"
+  },
+  "ya7.2.5": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya7/ya7.2.5.html"
+  },
+  "ya7.2.6": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya7/ya7.2.6.html"
+  },
+  "ya7.2.7": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya7/ya7.2.7.html"
+  },
+  "ya7.2.8": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya7/ya7.2.8.html"
+  },
+  "ya8.1.1": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya8/ya8.1.1.html"
+  },
+  "ya8.1.2": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya8/ya8.1.2.html"
+  },
+  "ya8.1.3": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya8/ya8.1.3.html"
+  },
+  "ya8.2.1": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya8/ya8.2.1.html"
+  },
+  "ya8.2.2": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya8/ya8.2.2.html"
+  },
+  "ya8.2.3": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya8/ya8.2.3.html"
+  },
+  "ya9.1.1": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya9/ya9.1.1.html"
+  },
+  "ya9.1.2": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya9/ya9.1.2.html"
+  },
+  "ya9.2.1": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya9/ya9.2.1.html"
+  },
+  "ya9.2.2": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya9/ya9.2.2.html"
+  },
+  "ya9.2.3": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya9/ya9.2.3.html"
+  },
+  "ya9.3": {
+    "author_uid": "unandamedha",
+    "path": "legacy/en/unandamedha/abhidhamma/ya/ya9/ya9.3.html"
+  },
+  "dt1.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt1/dt1.1.html"
+  },
+  "dt1.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt1/dt1.2.html"
+  },
+  "dt1.3": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt1/dt1.3.html"
+  },
+  "dt1.4": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt1/dt1.4.html"
+  },
+  "dt1.5": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt1/dt1.5.html"
+  },
+  "dt2.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.1.html"
+  },
+  "dt2.10": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.10.html"
+  },
+  "dt2.11": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.11.html"
+  },
+  "dt2.12": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.12.html"
+  },
+  "dt2.13": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.13.html"
+  },
+  "dt2.14": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.14.html"
+  },
+  "dt2.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.2.html"
+  },
+  "dt2.3": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.3.html"
+  },
+  "dt2.4": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.4.html"
+  },
+  "dt2.5": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.5.html"
+  },
+  "dt2.6": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.6.html"
+  },
+  "dt2.7": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.7.html"
+  },
+  "dt2.8": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.8.html"
+  },
+  "dt2.9": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/dt/dt2/dt2.9.html"
+  },
+  "ya1.1.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya1/ya1.1.1.html"
+  },
+  "ya1.1.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya1/ya1.1.2.html"
+  },
+  "ya1.2.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya1/ya1.2.1.html"
+  },
+  "ya1.2.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya1/ya1.2.2.html"
+  },
+  "ya2.1.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya2/ya2.1.1.html"
+  },
+  "ya2.1.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya2/ya2.1.2.html"
+  },
+  "ya2.2.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya2/ya2.2.1.html"
+  },
+  "ya2.2.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya2/ya2.2.2.html"
+  },
+  "ya2.2.3": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya2/ya2.2.3.html"
+  },
+  "ya2.3.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya2/ya2.3.1.html"
+  },
+  "ya2.3.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya2/ya2.3.2.html"
+  },
+  "ya2.3.3": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya2/ya2.3.3.html"
+  },
+  "ya2.3.4": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya2/ya2.3.4.html"
+  },
+  "ya2.3.5": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya2/ya2.3.5.html"
+  },
+  "ya2.3.6": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya2/ya2.3.6.html"
+  },
+  "ya3.1.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya3/ya3.1.1.html"
+  },
+  "ya3.1.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya3/ya3.1.2.html"
+  },
+  "ya3.2.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya3/ya3.2.1.html"
+  },
+  "ya3.2.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya3/ya3.2.2.html"
+  },
+  "ya3.2.3": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya3/ya3.2.3.html"
+  },
+  "ya3.3.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya3/ya3.3.1.html"
+  },
+  "ya3.3.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya3/ya3.3.2.html"
+  },
+  "ya3.3.3": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya3/ya3.3.3.html"
+  },
+  "ya3.3.4": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya3/ya3.3.4.html"
+  },
+  "ya3.3.5": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya3/ya3.3.5.html"
+  },
+  "ya3.3.6": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya3/ya3.3.6.html"
+  },
+  "ya4.1.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya4/ya4.1.1.html"
+  },
+  "ya4.1.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya4/ya4.1.2.html"
+  },
+  "ya4.2.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya4/ya4.2.1.html"
+  },
+  "ya4.3": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya4/ya4.3.html"
+  },
+  "ya5.1.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya5/ya5.1.1.html"
+  },
+  "ya5.1.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya5/ya5.1.2.html"
+  },
+  "ya5.2.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya5/ya5.2.1.html"
+  },
+  "ya5.2.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya5/ya5.2.2.html"
+  },
+  "ya5.2.3": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya5/ya5.2.3.html"
+  },
+  "ya5.3.1": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya5/ya5.3.1.html"
+  },
+  "ya5.3.2": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya5/ya5.3.2.html"
+  },
+  "ya5.3.3": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya5/ya5.3.3.html"
+  },
+  "ya5.3.4": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya5/ya5.3.4.html"
+  },
+  "ya5.3.5": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya5/ya5.3.5.html"
+  },
+  "ya5.3.6": {
+    "author_uid": "unarada",
+    "path": "legacy/en/unarada/abhidhamma/ya/ya5/ya5.3.6.html"
+  }
+}

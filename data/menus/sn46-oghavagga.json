@@ -1,0 +1,41 @@
+{
+  "uid": "sn46-oghavagga",
+  "root_name": "Oghavagga",
+  "translated_name": "The Chapter on Floods ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 46.121–130",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "sn46.121-129",
+      "root_name": "Oghādisutta",
+      "translated_name": "Floods, Etc. ",
+      "acronym": "SN 46.121–129",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn46.130",
+      "root_name": "Uddhambhāgiyasutta",
+      "translated_name": "Higher Fetters ",
+      "acronym": "SN 46.130",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

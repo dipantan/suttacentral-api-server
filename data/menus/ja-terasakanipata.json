@@ -1,0 +1,28 @@
+{
+  "uid": "ja-terasakanipata",
+  "root_name": "Terasakanipāta",
+  "translated_name": "The Book of the Thirteens ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 474–483",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 10,
+  "children": [
+    {
+      "uid": "ja-ambavagga",
+      "root_name": "Ambavagga",
+      "translated_name": "Mangoes ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 474–483",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    }
+  ]
+}

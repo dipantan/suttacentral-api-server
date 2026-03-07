@@ -1,0 +1,67 @@
+{
+  "uid": "san-bu-pm-qizil-ss",
+  "root_name": "Saṅghādisesa",
+  "translated_name": "Suspension ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-bu-pm-qizil-ss6",
+      "root_name": "Kuṭikāra",
+      "translated_name": "Building a Hut ",
+      "acronym": "San Bu Pm Qizil Ss 6",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-bu-pm-qizil-ss7",
+      "root_name": "Vihārakāra",
+      "translated_name": "Building a Dwelling ",
+      "acronym": "San Bu Pm Qizil Ss 7",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-bu-pm-qizil-ss8",
+      "root_name": "Duṭṭhadosa",
+      "translated_name": "Making a Groundless Accusation Out of Anger ",
+      "acronym": "San Bu Pm Qizil Ss 8",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-bu-pm-qizil-ss9",
+      "root_name": "Aññabhāgiya",
+      "translated_name": "Making an Accusation Out of Anger on an Irrelevant Pretext ",
+      "acronym": "San Bu Pm Qizil Ss 9",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "mil-arambhakatha",
+  "root_name": "Ārambhakathā",
+  "translated_name": "Background Inspiration ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Mil 1",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "mil1",
+      "root_name": "Ārambhakathā",
+      "translated_name": "Background Inspiration ",
+      "acronym": "Mil 1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

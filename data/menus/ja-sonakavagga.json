@@ -1,0 +1,41 @@
+{
+  "uid": "ja-sonakavagga",
+  "root_name": "Soṇakavagga",
+  "translated_name": "Prince Arindama and His Friend Soṇaka ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 529–530",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "ja529",
+      "root_name": "Soṇakajātaka",
+      "translated_name": "Prince Arindama and His Friend Soṇaka ",
+      "acronym": "Ja 529",
+      "blurb": "“A thousand crowns”—This is a story told by the Master, while dwelling at Jetavana, concerning the Perfection of Renunciation. On this occasion the Bodhisatta sitting in the Hall of Truth in the midst of the Brethren, as they were singing the praises of the Perfection of Renunciation, said, “Brethren, not now only, but of old also the Tathagata verily left the world and made the Great Renunciation,” and so saying he related a story of the past.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja530",
+      "root_name": "Saṅkiccajātaka",
+      "translated_name": "Prince Brahmadatta and His Friend Saṁkicca ",
+      "acronym": "Ja 530",
+      "blurb": "“At sight of Brahmadatta”—This story the Master, while dwelling in the mango grove of Jivaka, told concerning the murder of his own father by Ajatasattu. ",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

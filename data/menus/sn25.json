@@ -1,0 +1,28 @@
+{
+  "uid": "sn25",
+  "root_name": "Okkantasaṁyutta",
+  "translated_name": "Linked Discourses on Stepping Into ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Arrival” is the first of three similar sections, each of which takes a set of ten doctrinal items (shared also with SN 18 Rāhula) and presents it according to a set pattern. The current chapter focuses on the distinction between those who accept the teachings by either faith or intellectual understanding, and those who have realized them for themselves.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 25",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 12,
+  "children": [
+    {
+      "uid": "sn25-cakkhuvagga",
+      "root_name": "Cakkhuvagga",
+      "translated_name": "The Chapter on the Eye ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 25.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    }
+  ]
+}

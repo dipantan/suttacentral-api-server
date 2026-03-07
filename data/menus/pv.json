@@ -1,0 +1,67 @@
+{
+  "uid": "pv",
+  "root_name": "Petavatthu",
+  "translated_name": "Stories of Hungry Ghosts ",
+  "node_type": "branch",
+  "blurb": "The Stories of Hungry Ghosts” contains fifty-one stories in verse that illustrate rebirth as a hungry ghost as a result of bad deeds. It is a counterpart to the Vimānavatthu. These are late devotional and moralistic texts with no direct counterparts in other collections.",
+  "acronym": "Pv",
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 22,
+  "children": [
+    {
+      "uid": "pv-uragavagga",
+      "root_name": "Uragavagga",
+      "translated_name": "The Snake ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Pv 1–12",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 6
+    },
+    {
+      "uid": "pv-ubbarivagga",
+      "root_name": "Ubbarivagga",
+      "translated_name": "Queen Ubbari ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Pv 13–25",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 5
+    },
+    {
+      "uid": "pv-culavagga",
+      "root_name": "Cūḷavagga",
+      "translated_name": "The Lesser Chapter ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Pv 26–35",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 6
+    },
+    {
+      "uid": "pv-mahavagga",
+      "root_name": "Mahāvagga",
+      "translated_name": "The Great Chapter ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Pv 36–51",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 5
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid": "san-bu-pm-qizil",
+  "root_name": "Bhikkhu Pātimokkha (Qizil)",
+  "translated_name": "Monks’ Rules (Qizil edition) ",
+  "node_type": "branch",
+  "blurb": "The Bhikkhu-pātimokkha, “the monastic code for monks,” contains the core rules of monastic life in the form of a long list without any explanatory material. There are at least 260 such rules for the monks, grouped according to the type of offense incurred for breaking the rule, with the exception of the <i lang='pi' translate='no'>aniyatas</i> (“the undetermined”), and the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”), which are principles to be applied rather than rules in the strict sense.",
+  "acronym": "San Bu Pm Qizil",
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-bu-pm-qizil-pj",
+      "root_name": "Pārājika",
+      "translated_name": "Expulsion ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-bu-pm-qizil-ss",
+      "root_name": "Saṅghādisesa",
+      "translated_name": "Suspension ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-bu-pm-qizil-np",
+      "root_name": "Nissaggiya Pācittiya",
+      "translated_name": "Relinquishment With Confession ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-bu-pm-qizil-pc",
+      "root_name": "Pācittiya",
+      "translated_name": "Confession ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-bu-pm-qizil-sk",
+      "root_name": "Sekhiya",
+      "translated_name": "Rules for Training ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

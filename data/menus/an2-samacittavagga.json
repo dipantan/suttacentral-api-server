@@ -1,0 +1,28 @@
+{
+  "uid": "an2-samacittavagga",
+  "root_name": "Samacittavagga",
+  "translated_name": "The Chapter on the Peaceful Mind ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.32–41",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "an2.32-41",
+      "root_name": "Samacittavagga",
+      "translated_name": "Peaceful Mind ",
+      "acronym": "AN 2.32–41",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

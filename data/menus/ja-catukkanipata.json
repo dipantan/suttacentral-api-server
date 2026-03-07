@@ -1,0 +1,80 @@
+{
+  "uid": "ja-catukkanipata",
+  "root_name": "Catukkanipāta",
+  "translated_name": "The Book of the Fours ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 301–350",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 50,
+  "children": [
+    {
+      "uid": "ja-kalingavagga",
+      "root_name": "Kāliṅgavagga",
+      "translated_name": "King Kāliṅga ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 301–310",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ja-pucimandavagga",
+      "root_name": "Pucimandavagga",
+      "translated_name": "The Neem Tree ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 311–320",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ja-kutidusakavagga",
+      "root_name": "Kuṭidūsakavagga",
+      "translated_name": "One Who Ruined a Hut ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 321–330",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ja-kokilavagga",
+      "root_name": "Kokilavagga",
+      "translated_name": "The Cuckoo ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 331–340",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ja-catukkanipata-culakunalavagga",
+      "root_name": "Cūḷakuṇālavagga",
+      "translated_name": "The Chapter on the Cuckoo ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 341–350",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    }
+  ]
+}

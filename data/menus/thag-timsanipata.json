@@ -1,0 +1,28 @@
+{
+  "uid": "thag-timsanipata",
+  "root_name": "Tiṁsanipāta",
+  "translated_name": "The Book of the Thirties ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thag 17",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 5,
+  "children": [
+    {
+      "uid": "thag-timsanipata-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thag 17.1–3",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 5
+    }
+  ]
+}

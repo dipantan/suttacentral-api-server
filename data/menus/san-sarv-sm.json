@@ -1,0 +1,28 @@
+{
+  "uid": "san-sarv-sm",
+  "root_name": "Śikṣamānā rules",
+  "translated_name": "Rules for Female Trainees ",
+  "node_type": "branch",
+  "blurb": "The rules for female trainees (“ the <i lang='pi' translate='no'>sikkhamānā</i> rules”) is a fragment of the fifth rule for trainee nuns.",
+  "acronym": "San Sarv Sm",
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-sarv-sm5",
+      "root_name": "Śikṣamānā 5",
+      "translated_name": "Trainee Nun Rule 5",
+      "acronym": "San Sarv Sm 5",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

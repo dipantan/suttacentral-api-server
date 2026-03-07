@@ -1,0 +1,80 @@
+{
+  "uid": "an8-ragapeyyala",
+  "root_name": "Rāgapeyyāla",
+  "translated_name": "Abbreviated Texts Beginning With Greed ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 8.118–627",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 10,
+  "children": [
+    {
+      "uid": "an8.118",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 8.118",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an8.119",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 8.119",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an8.120",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 8.120",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an8.121-147",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 8.121–147",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an8.148-627",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 8.148–627",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

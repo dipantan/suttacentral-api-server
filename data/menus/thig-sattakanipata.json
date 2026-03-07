@@ -1,0 +1,54 @@
+{
+  "uid": "thig-sattakanipata",
+  "root_name": "Sattakanipāta",
+  "translated_name": "The Book of the Sevens ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thig 7",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 6,
+  "children": [
+    {
+      "uid": "thig7.1",
+      "root_name": "Uttarātherīgāthā",
+      "translated_name": null,
+      "acronym": "Thig 7.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "thig7.2",
+      "root_name": "Cālātherīgāthā",
+      "translated_name": null,
+      "acronym": "Thig 7.2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "thig7.3",
+      "root_name": "Upacālātherīgāthā",
+      "translated_name": null,
+      "acronym": "Thig 7.3",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "ja-mahanipata",
+  "root_name": "Mahānipāta",
+  "translated_name": "The Great Book ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 538–547",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 10,
+  "children": [
+    {
+      "uid": "ja-mugapakkhavagga",
+      "root_name": "Mūgapakkhavagga",
+      "translated_name": "Mūgapakkha the Wise ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 538–547",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    }
+  ]
+}

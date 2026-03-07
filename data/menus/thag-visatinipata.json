@@ -1,0 +1,28 @@
+{
+  "uid": "thag-visatinipata",
+  "root_name": "Vīsatinipāta",
+  "translated_name": "The Book of the Twenties ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thag 16",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 15,
+  "children": [
+    {
+      "uid": "thag-visatinipata-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thag 16.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    }
+  ]
+}

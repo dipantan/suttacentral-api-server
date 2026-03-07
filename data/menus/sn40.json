@@ -1,0 +1,28 @@
+{
+  "uid": "sn40",
+  "root_name": "Moggallānasaṁyutta",
+  "translated_name": "Linked Discourses with Moggallāna ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Moggallāna” contains 11 discourses featuring Moggallāna, one of the chief disciples. He tells the monks of his struggles in meditation, and how he was encouraged by the Buddha. In the last two discourses, he visit the heavens and teaches the gods.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 40",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 15,
+  "children": [
+    {
+      "uid": "sn40-moggallanavagga",
+      "root_name": "Moggallānavagga",
+      "translated_name": "The Chapter with Moggallāna ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 40.1–11",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    }
+  ]
+}

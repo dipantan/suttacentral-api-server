@@ -1,0 +1,28 @@
+{
+  "uid": "cp-upekkhaparami",
+  "root_name": "Upekkhāpāramī",
+  "translated_name": "The Perfection of Equanimity ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Cp 35",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "cp35",
+      "root_name": "Mahālomahaṁsacariya",
+      "translated_name": "The Hair-raising Conduct",
+      "acronym": "Cp 35",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

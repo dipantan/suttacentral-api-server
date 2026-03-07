@@ -1,0 +1,28 @@
+{
+  "uid": "mil-matika",
+  "root_name": "Mātikā",
+  "translated_name": "Matrix ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Mil 7.1",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "mil7.1",
+      "root_name": "Mātikā",
+      "translated_name": "Matrix ",
+      "acronym": "Mil 7.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

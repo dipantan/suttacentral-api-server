@@ -1,0 +1,54 @@
+{
+  "uid": "ja-nilinikavagga",
+  "root_name": "Niḷinikāvagga",
+  "translated_name": "Princess Niḷinikā ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 526–528",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 3,
+  "children": [
+    {
+      "uid": "ja526",
+      "root_name": "Niḷinikājātaka",
+      "translated_name": "Princess Niḷinikā ",
+      "acronym": "Ja 526",
+      "blurb": "“Lo! the land”—This story the Master told while residing at Jetavana concerning the temptation of a Brother by the wife of his unregenerate days. And in telling the story he asked the Brother by whom he had been led astray. “By a former wife,” said he. “Verily, Brother,” the Master said, “she worketh mischief for you. Of old it was owing to her that you fell away from mystic meditation and were mightily destroyed.” And so saying he told a story of the past.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja527",
+      "root_name": "Ummādantījātaka",
+      "translated_name": "The Merchant’s Daughter Ummadantī ",
+      "acronym": "Ja 527",
+      "blurb": "“Whose house is this”—This story the Master, while residing at Jetavana, told about a back-sliding Brother.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja528",
+      "root_name": "Mahābodhijātaka",
+      "translated_name": "The Longer Tale of the Young Man Bodhi ",
+      "acronym": "Ja 528",
+      "blurb": "“What mean, these things”—This story the Master, while residing at Jetavana, told concerning the Perfection of Wisdom. The incident will be found related in the Mahaummagga. Now on this occasion the Master said, “Not now only, but formerly also, the Tathagata was wise and crushed all disputants,” and with these words he told a story of the past.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

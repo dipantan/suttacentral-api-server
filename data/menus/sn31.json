@@ -1,0 +1,28 @@
+{
+  "uid": "sn31",
+  "root_name": "Gandhabbakāyasaṁyutta",
+  "translated_name": "Linked Discourses on Centaurs ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Centaurs” is the third of four similar sections dealing with the modes in which various semi-celestial beings may be reborn. The current chapter is on the <i lang='pi' translate='no'>gandhabbas</i>, “centaurs”, although here rather more like “fairies”, who take on a number of benign aspects as minor deities associated with music, childbirth, and as here, plants.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 31",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 7,
+  "children": [
+    {
+      "uid": "sn31-gandhabbavagga",
+      "root_name": "Gandhabbavagga",
+      "translated_name": "The Chapter on Centaurs ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 31.1–112",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 7
+    }
+  ]
+}

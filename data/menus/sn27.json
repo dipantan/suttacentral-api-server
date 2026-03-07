@@ -1,0 +1,28 @@
+{
+  "uid": "sn27",
+  "root_name": "Kilesasaṁyutta",
+  "translated_name": "Linked Discourses on Corruptions ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Corruptions” is the third of three similar sections, each of which takes a set of ten doctrinal items and presents it according to a set pattern. The current chapter focuses on the fact that desire for these things is a corruption of the mind.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 27",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 11,
+  "children": [
+    {
+      "uid": "sn27-kilesavagga",
+      "root_name": "Kilesavagga",
+      "translated_name": "The Chapter on Corruptions ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 27.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    }
+  ]
+}

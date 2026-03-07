@@ -1,0 +1,80 @@
+{
+  "uid": "an3-pathamapannasaka",
+  "root_name": "Paṭhamapaṇṇāsaka",
+  "translated_name": "The First Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 3.1–50",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 103,
+  "children": [
+    {
+      "uid": "an3-balavagga",
+      "root_name": "Bālavagga",
+      "translated_name": "The Chapter on Fools ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 3.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an3-rathakaravagga",
+      "root_name": "Rathakāravagga",
+      "translated_name": "The Chapter on the Chariot-maker ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 3.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an3-puggalavagga",
+      "root_name": "Puggalavagga",
+      "translated_name": "The Chapter on Individuals ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 3.21–30",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 21
+    },
+    {
+      "uid": "an3-devadutavagga",
+      "root_name": "Devadūtavagga",
+      "translated_name": "The Chapter on Messengers of the Gods ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 3.31–40",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 22
+    },
+    {
+      "uid": "an3-culavagga",
+      "root_name": "Cūḷavagga",
+      "translated_name": "A Short Chapter ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 3.41–50",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    }
+  ]
+}

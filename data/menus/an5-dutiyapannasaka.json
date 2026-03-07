@@ -1,0 +1,80 @@
+{
+  "uid": "an5-dutiyapannasaka",
+  "root_name": "Dutiyapaṇṇāsaka",
+  "translated_name": "The Second Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 5.51–100",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 76,
+  "children": [
+    {
+      "uid": "an5-nivaranavagga",
+      "root_name": "Nīvaraṇavagga",
+      "translated_name": "The Chapter on Hindrances ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.51–60",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 21
+    },
+    {
+      "uid": "an5-sannavagga",
+      "root_name": "Saññāvagga",
+      "translated_name": "The Chapter on Perceptions ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.61–70",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 14
+    },
+    {
+      "uid": "an5-yodhajivavagga",
+      "root_name": "Yodhājīvavagga",
+      "translated_name": "The Chapter on a Warrior ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.71–80",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 17
+    },
+    {
+      "uid": "an5-theravagga",
+      "root_name": "Theravagga",
+      "translated_name": "The Chapter on Senior Mendicants ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.81–90",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "an5-kakudhavagga",
+      "root_name": "Kakudhavagga",
+      "translated_name": "The Chapter with Kakudha ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.91–100",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 14
+    }
+  ]
+}

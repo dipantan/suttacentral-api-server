@@ -1,0 +1,67 @@
+{
+  "uid": "vv-itthivimana",
+  "root_name": "Itthivimāna",
+  "translated_name": "Women’s Mansions ",
+  "node_type": "branch",
+  "blurb": "",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Vv 1–50",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 15,
+  "children": [
+    {
+      "uid": "vv-pithavagga",
+      "root_name": "Pīṭhavagga",
+      "translated_name": "The Chapter on Thrones ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Vv 1–17",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 8
+    },
+    {
+      "uid": "vv-cittalatavagga",
+      "root_name": "Cittalatāvagga",
+      "translated_name": "The Chapter With the Creeper ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Vv 18–28",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "vv-paricchattakavagga",
+      "root_name": "Pāricchattakavagga",
+      "translated_name": "The Chapter With the Coral Tree ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Vv 29–38",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "vv-manjitthakavagga",
+      "root_name": "Mañjiṭṭhakavagga",
+      "translated_name": "The Chapter With the Crimson Mansion ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Vv 39–50",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    }
+  ]
+}

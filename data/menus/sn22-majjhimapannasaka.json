@@ -1,0 +1,80 @@
+{
+  "uid": "sn22-majjhimapannasaka",
+  "root_name": "Majjhimapaṇṇāsaka",
+  "translated_name": "The Middle Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 140,
+  "children": [
+    {
+      "uid": "sn22-upayavagga",
+      "root_name": "Upayavagga",
+      "translated_name": "The Chapter on Involvement ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 22.53–62",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 30
+    },
+    {
+      "uid": "sn22-arahantavagga",
+      "root_name": "Arahantavagga",
+      "translated_name": "The Chapter on the Perfected Ones ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 22.63–72",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 24
+    },
+    {
+      "uid": "sn22-khajjaniyavagga",
+      "root_name": "Khajjanīyavagga",
+      "translated_name": "The Chapter on Itchy ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 22.73–82",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 27
+    },
+    {
+      "uid": "sn22-theravagga",
+      "root_name": "Theravagga",
+      "translated_name": "The Chapter on Senior Mendicants ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 22.83–92",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 30
+    },
+    {
+      "uid": "sn22-pupphavagga",
+      "root_name": "Pupphavagga",
+      "translated_name": "The Chapter on Flowers ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 22.93–102",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 29
+    }
+  ]
+}

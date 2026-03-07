@@ -1,0 +1,54 @@
+{
+  "uid": "ja-pancakanipata",
+  "root_name": "Pañcakanipāta",
+  "translated_name": "The Book of the Fives ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 351–375",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 25,
+  "children": [
+    {
+      "uid": "ja-manikundalavagga",
+      "root_name": "Maṇikuṇḍalavagga",
+      "translated_name": "Jeweled Earrings ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 351–360",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ja-vannarohavagga",
+      "root_name": "Vaṇṇārohavagga",
+      "translated_name": "In Beauty and Stature ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 361–370",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ja-addhavagga",
+      "root_name": "Aḍḍhavagga",
+      "translated_name": "Half a Chapter ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 371–375",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 5
+    }
+  ]
+}

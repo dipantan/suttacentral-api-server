@@ -1,0 +1,67 @@
+{
+  "uid": "pli-tv-bu-pm-pd",
+  "root_name": "Pāṭidesanīya",
+  "translated_name": "Acknowledgment ",
+  "node_type": "branch",
+  "blurb": "The rules in this category are known in Pali as <i lang='pi' translate='no'>pāṭidesanīya</i>, “entailing acknowledgement”. There are four such rules for the monks, none of which are shared with the nuns. What distinguishes these rules from the <i lang='pi' translate='no'>pācittiyas</i> is the manner of confession. For these rules the confession is done using a unique formula, with the second rule being the only one in the Monastic Code where all the offenders confess together as a group.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "pli-tv-bu-pm-pd1",
+      "root_name": "Paṭhamapāṭidesanīya",
+      "translated_name": "1. The training rule on receiving a nun’s food ",
+      "acronym": "Bu Pd 1",
+      "blurb": "A monk who receives food from a nun must acknowledge the offense.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "pli-tv-bu-pm-pd2",
+      "root_name": "Dutiyapāṭidesanīya",
+      "translated_name": "2. Letting a nun give directions to donors ",
+      "acronym": "Bu Pd 2",
+      "blurb": "A monk at an invitational meal who does not tell a nun to stop directing the distribution of food must acknowledge the offense.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "pli-tv-bu-pm-pd3",
+      "root_name": "Tatiyapāṭidesanīya",
+      "translated_name": "3. Receiving food from a designated family ",
+      "acronym": "Bu Pd 3",
+      "blurb": "A monk who receives food from anyone designated as “in training” must acknowledge the offense.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "pli-tv-bu-pm-pd4",
+      "root_name": "Catutthapāṭidesanīya",
+      "translated_name": "4. Receiving food in a dangerous place ",
+      "acronym": "Bu Pd 4",
+      "blurb": "A monk who receives food in a dangerous wilderness dwelling must acknowledge the offense.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

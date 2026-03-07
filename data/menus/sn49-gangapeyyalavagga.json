@@ -1,0 +1,28 @@
+{
+  "uid": "sn49-gangapeyyalavagga",
+  "root_name": "Gaṅgāpeyyālavagga",
+  "translated_name": "The Chapter of Abbreviated Texts on the Ganges ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 49.1–12",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "sn49.1-12",
+      "root_name": "Gaṅgāpeyyālavagga",
+      "translated_name": "Abbreviated Texts on the Ganges ",
+      "acronym": "SN 49.1–12",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

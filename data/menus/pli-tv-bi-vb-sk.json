@@ -1,0 +1,54 @@
+{
+  "uid": "pli-tv-bi-vb-sk",
+  "root_name": "Sekhiya",
+  "translated_name": "Rules of Training ",
+  "node_type": "branch",
+  "blurb": "The rules in this category are known in Pali as <i lang='pi' translate='no'>sekhiya</i>, “involving training”. There are seventy-five such rules, and they are the same both for the monks and the nuns. The <i lang='pi' translate='no'>sekhiyas</i> are mostly rules of etiquette. Breaking a <i lang='pi' translate='no'>sekhiya</i> is only considered to be a transgression if the offender is acting out of disrespect for the rule.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 4,
+  "children": [
+    {
+      "uid": "pli-tv-bi-vb-sk1",
+      "root_name": "Parimaṇḍala",
+      "translated_name": "1. Not wearing the sarong evenly all around ",
+      "acronym": "Bi Sk 1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": null,
+      "root_name": null,
+      "translated_name": null,
+      "acronym": null,
+      "blurb": null,
+      "node_type": null,
+      "root_lang_iso": null,
+      "root_lang_name": null,
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "pli-tv-bi-vb-sk75",
+      "root_name": "Udakeuccāra",
+      "translated_name": "75. Defecating in water ",
+      "acronym": "Bi Sk 75",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

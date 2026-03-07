@@ -1,0 +1,80 @@
+{
+  "uid": "sn45-gangapeyyalavagga",
+  "root_name": "Gaṅgāpeyyālavagga",
+  "translated_name": "The Chapter of Abbreviated Texts on the Ganges ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 45.91–102",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 9,
+  "children": [
+    {
+      "uid": "sn45.91",
+      "root_name": "Paṭhamapācīnaninnasutta",
+      "translated_name": null,
+      "acronym": "SN 45.91",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn45.92-95",
+      "root_name": "Dutiyādipācīnaninnasuttacatukka",
+      "translated_name": null,
+      "acronym": "SN 45.92–95",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn45.96",
+      "root_name": "Chaṭṭhapācīnaninnasutta",
+      "translated_name": null,
+      "acronym": "SN 45.96",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn45.97",
+      "root_name": "Paṭhamasamuddaninnasutta",
+      "translated_name": null,
+      "acronym": "SN 45.97",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn45.98-102",
+      "root_name": "Dutiyādisamuddaninnasuttapañcaka",
+      "translated_name": null,
+      "acronym": "SN 45.98–102",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

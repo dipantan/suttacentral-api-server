@@ -1,0 +1,41 @@
+{
+  "uid": "iti-dukanipata",
+  "root_name": "Dukanipāta",
+  "translated_name": "The Book of the Twos ",
+  "node_type": "branch",
+  "blurb": "",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Iti 28–49",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 46,
+  "children": [
+    {
+      "uid": "iti-dukanipata-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 28–37",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "iti-dukanipata-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 38–49",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 26
+    }
+  ]
+}

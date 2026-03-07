@@ -1,0 +1,67 @@
+{
+  "uid": "sn35-catutthapannasaka",
+  "root_name": "Catutthapaṇṇāsaka",
+  "translated_name": "The Fourth Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 110,
+  "children": [
+    {
+      "uid": "sn35-nandikkhayavagga",
+      "root_name": "Nandikkhayavagga",
+      "translated_name": "The Chapter on the End of Relishing ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.156–167",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 18
+    },
+    {
+      "uid": "sn35-satthipeyyalavagga",
+      "root_name": "Saṭṭhipeyyālavagga",
+      "translated_name": "The Chapter on Sixty Abbreviated Texts ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.168–227",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 31
+    },
+    {
+      "uid": "sn35-samuddavagga",
+      "root_name": "Samuddavagga",
+      "translated_name": "The Chapter on the Ocean ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.228–237",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 29
+    },
+    {
+      "uid": "sn35-asivisavagga",
+      "root_name": "Āsīvisavagga",
+      "translated_name": "The Chapter on the Simile of the Vipers ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.238–248",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 32
+    }
+  ]
+}

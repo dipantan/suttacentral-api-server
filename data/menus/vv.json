@@ -1,0 +1,41 @@
+{
+  "uid": "vv",
+  "root_name": "Vimānavatthu",
+  "translated_name": "Stories of Heavenly Mansions ",
+  "node_type": "branch",
+  "blurb": "The “Stories of Celestial Mansions” contains eighty-five stories in verse that illustrate the heavenly rewards of virtuous deeds, especially making offerings to the Buddha or the Saṅgha. It is a counterpart to the Petavatthu. These are late devotional texts with no direct counterparts in other collections.",
+  "acronym": "Vv",
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 22,
+  "children": [
+    {
+      "uid": "vv-itthivimana",
+      "root_name": "Itthivimāna",
+      "translated_name": "Women’s Mansions ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Vv 1–50",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    },
+    {
+      "uid": "vv-purisavimana",
+      "root_name": "Purisavimāna",
+      "translated_name": "Men’s Mansions ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Vv 51-85",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 7
+    }
+  ]
+}

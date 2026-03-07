@@ -1,0 +1,28 @@
+{
+  "uid": "sn16",
+  "root_name": "Kassapasaṁyutta",
+  "translated_name": "Linked Discourses with Kassapa ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Kassapa” contains 13 discourses featuring one of the most famous of the Buddha’s disciples, the monk Kassapa. Kassapa was an ascetic and diligent practitioner, whose sometimes critical voice was tempered by a love of nature and a tender concern for the lay community. These discourses show his magnificent spiritual attainments, and his overriding concern for the health and longevity of the Buddhist community.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 16",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 37,
+  "children": [
+    {
+      "uid": "sn16-kassapavagga",
+      "root_name": "Kassapavagga",
+      "translated_name": "The Chapter with Kassapa ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 16.1–13",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 37
+    }
+  ]
+}

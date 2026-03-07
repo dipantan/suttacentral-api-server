@@ -1,0 +1,28 @@
+{
+  "uid": "an2-sukhavagga",
+  "root_name": "Sukhavagga",
+  "translated_name": "The Chapter on Happiness ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.64–76",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an2.64-76",
+      "root_name": "Sukhavagga",
+      "translated_name": "Happiness ",
+      "acronym": "AN 2.64–76",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

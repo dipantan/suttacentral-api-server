@@ -1,0 +1,41 @@
+{
+  "uid": "mvs",
+  "root_name": "Mahāvibhāṣā Śāstra",
+  "translated_name": "Great Commentary ",
+  "node_type": "branch",
+  "blurb": "The full title is Abhidharmamahāvibhāṣaśāstra (Apidamo Dapiposha Lun, 阿毘達磨大毘婆沙論). This is the major commentarial treatise of the Sarvāstivādin school. It was compiled by Katyāyāniputra, but attributed to 500 arahants around 600 years after the Buddha. This possibly refers to a council held under the auspices of King Kanishka. Translated by Xuanzang August 18th, 656–July 27th, 659. It doesn’t fall within the scope of SuttaCentral, except it contains a few recognized sutta parallels as quotations. In the Taishō edition of the Chinese canon, it is text number 1545, located at T vol. 27, 1a.",
+  "acronym": "Mvs",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": "Mvs",
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "t1545.98",
+      "root_name": "阿毘達磨大毘婆沙論 1",
+      "translated_name": "The Great Treatise on Abhidharma 1",
+      "acronym": "T 1545.98",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "t1545.178",
+      "root_name": "阿毘達磨大毘婆沙論 2",
+      "translated_name": "The Great Treatise on Abhidharma 2",
+      "acronym": "T 1545.178",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

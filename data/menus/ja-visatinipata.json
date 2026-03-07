@@ -1,0 +1,28 @@
+{
+  "uid": "ja-visatinipata",
+  "root_name": "Vīsatinipāta",
+  "translated_name": "The Book of the Twenties ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 497–510",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 14,
+  "children": [
+    {
+      "uid": "ja-matangavagga",
+      "root_name": "Mātaṅgavagga",
+      "translated_name": "Mātaṅga the Wise ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 497–510",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 14
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "uid": "sab",
+  "root_name": "Śāripūtrābhidharma",
+  "translated_name": "Sāriputta’s Systematic Treatise ",
+  "node_type": "branch",
+  "blurb": "The Śāriputrābhidharmaśāstra (Shelifu Apitan Lun, 舍利弗阿毘曇論) is the only extant work of the Dharmaguptaka Abhidhamma, and was translated in thirty facsicles by Dharmayaśas and Dharmagupta in CE 408 at Ch'ang An (長安). It shares some content with the Vibhaṅga and Dharmaskandha, and other details with other texts. It seems this book may contain the entire Abhidhamma system of the Dharmaguptakas. In the Taishō edition of the Chinese canon, it is text number 1548, located at T vol. 28, 525a.",
+  "acronym": "Sab",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": "Sab",
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "t1548.25",
+      "root_name": "舍利弗阿毘曇論",
+      "translated_name": null,
+      "acronym": "T 1548.25",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "t1548.126",
+      "root_name": "舍利弗阿毘曇論",
+      "translated_name": null,
+      "acronym": "T 1548.126",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

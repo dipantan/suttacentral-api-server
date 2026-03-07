@@ -1,0 +1,28 @@
+{
+  "uid": "hv",
+  "root_name": "Haimavata Vinayamātṛkā",
+  "translated_name": "Vinayamātṛkā of the Haimavata School ",
+  "node_type": "branch",
+  "blurb": "The Vinayamātṛkā, T1463, is possibly an extant Vinaya text of the Haimavata school.",
+  "acronym": "Hv",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "t1463.1",
+      "root_name": "毘尼母經卷第",
+      "translated_name": "Vinayamātṛkā",
+      "acronym": "T 1463.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "an1-panihitaacchavagga",
+  "root_name": "Paṇihitaacchavagga",
+  "translated_name": "The Chapter on a Spike ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 1.41–50",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "an1.41-50",
+      "root_name": "Paṇihitaacchavagga",
+      "translated_name": "A Spike ",
+      "acronym": "AN 1.41–50",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

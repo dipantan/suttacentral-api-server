@@ -1,0 +1,41 @@
+{
+  "uid": "ja-chakkanipata",
+  "root_name": "Chakkanipāta",
+  "translated_name": "The Book of the Sixes ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 376–395",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 20,
+  "children": [
+    {
+      "uid": "ja-avariyavagga",
+      "root_name": "Avāriyavagga",
+      "translated_name": "Avāriyā’s Father, The Foolish Ferryman ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 376–385",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ja-kharaputtavagga",
+      "root_name": "Kharaputtavagga",
+      "translated_name": "The Foolish Donkey ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 386–395",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    }
+  ]
+}

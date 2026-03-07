@@ -1,0 +1,80 @@
+{
+  "uid": "mn-mulapannasa",
+  "root_name": "Mūlapaṇṇāsa",
+  "translated_name": "The First Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "MN 1–50",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 218,
+  "children": [
+    {
+      "uid": "mn-mulapariyayavagga",
+      "root_name": "Mūlapariyāyavagga",
+      "translated_name": "The Chapter on the Root of All Things ",
+      "acronym": null,
+      "blurb": "This chapter, though beginning with the abstruse Mūlapariyāya Sutta, mostly contains foundational teachings and can, as a whole, serve as an introduction to the discourses.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 49
+    },
+    {
+      "uid": "mn-sihanadavagga",
+      "root_name": "Sīhanādavagga",
+      "translated_name": "The Chapter on the Lion’s Roar ",
+      "acronym": null,
+      "blurb": "Beginning with two discourses containing a “lion’s roar”, this chapter deals with suffering, community life, and practical meditation advice.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 47
+    },
+    {
+      "uid": "mn-opammavagga",
+      "root_name": "Opammavagga",
+      "translated_name": "The Chapter of Similes ",
+      "acronym": null,
+      "blurb": "A diverse chapter including biography, non-violence, not-self, and an influential teaching on the progress of meditation.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 21–30",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 41
+    },
+    {
+      "uid": "mn-mahayamakavagga",
+      "root_name": "Mahāyamakavagga",
+      "translated_name": "The Greater Chapter on Pairs ",
+      "acronym": null,
+      "blurb": "Discourses arranged as pairs of longer and shorter texts.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 31–40",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 40
+    },
+    {
+      "uid": "mn-culayamakavagga",
+      "root_name": "Cūḷayamakavagga",
+      "translated_name": "The Lesser Chapter on Pairs ",
+      "acronym": null,
+      "blurb": "A similar arrangement to the previous.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "MN 41–50",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 41
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "uid": "cnd-parayanavaggagatha",
+  "root_name": "Pārāyanavaggagāthā",
+  "translated_name": "The Way to the Beyond ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Cnd 1–4",
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "cnd1",
+      "root_name": "Vatthugāthā",
+      "translated_name": "Introductory Verses ",
+      "acronym": "Cnd 1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "cnd2",
+      "root_name": "Pucchā",
+      "translated_name": "The Questions ",
+      "acronym": "Cnd 2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "cnd3",
+      "root_name": "Pārāyanatthutigāthā",
+      "translated_name": "Homage to the Way to the Beyond ",
+      "acronym": "Cnd 3",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "cnd4",
+      "root_name": "Pārāyanānugītigāthā",
+      "translated_name": "Concluding Verses of the Way to the Beyond ",
+      "acronym": "Cnd 4",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

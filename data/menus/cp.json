@@ -1,0 +1,54 @@
+{
+  "uid": "cp",
+  "root_name": "Cariyāpiṭaka",
+  "translated_name": "Canon of Conduct ",
+  "node_type": "branch",
+  "blurb": "The “Basket of Conduct” represents an early systematization of the concept of the Bodhisattva and his path towards awakening. A selection of 34 past lives are told, each one illustrating a specific virtue developed by the Bodhisattva. It is a late text, without direct counterparts in the northern collections. Like the Buddhavaṁsa, it is part of an extensive pan-sectarian devotional literature composed in the second and first centuries BCE, presaging the birth of the Mahāyāna.",
+  "acronym": "Cp",
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 56,
+  "children": [
+    {
+      "uid": "cp-akittivagga",
+      "root_name": "Akittivagga",
+      "translated_name": "With Akitti ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cp 1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    },
+    {
+      "uid": "cp-hatthinagavagga",
+      "root_name": "Hatthināgavagga",
+      "translated_name": "The Elephant ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cp 11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 16
+    },
+    {
+      "uid": "cp-yudhanjayavagga",
+      "root_name": "Yudhañjayavagga",
+      "translated_name": "With Yudhañjaya ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cp 21–35",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 25
+    }
+  ]
+}

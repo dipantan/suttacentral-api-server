@@ -1,0 +1,41 @@
+{
+  "uid": "mil-anumanavagga",
+  "root_name": "Anumānavagga",
+  "translated_name": "Inference ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Mil 6.4",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "mil6.4.1",
+      "root_name": "Anumānapañha",
+      "translated_name": "Problems of Inference ",
+      "acronym": "Mil 6.4.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "mil6.4.2",
+      "root_name": "Dhutaṅgapañha",
+      "translated_name": "The Voluntary Austerities ",
+      "acronym": "Mil 6.4.2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "uid": "sn15",
+  "root_name": "Anamataggasaṁyutta",
+  "translated_name": "Linked Discourses on the Unknowable Beginning ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on the Unknowable Beginning” contains 20 discourses that speak of how the ultimate origin of the process of transmigration (<i lang='pi' translate='no'>saṁsāra</i>) is unknowable. This theme is a direct counter to the hubris of the creation myths found in most religions, which confidently recount events which are in fact permanently hidden from view. The Buddha emphasized that transmigration has been ongoing for a fathomless period of time, illustrating it with a series of powerful similes.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 15",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 31,
+  "children": [
+    {
+      "uid": "sn15-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 15.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 19
+    },
+    {
+      "uid": "sn15-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 15.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    }
+  ]
+}

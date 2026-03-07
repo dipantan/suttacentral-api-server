@@ -1,0 +1,67 @@
+{
+  "uid": "sn43-dutiyavagga",
+  "root_name": "Dutiyavagga",
+  "translated_name": "Chapter Two ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 43.12–44",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 12,
+  "children": [
+    {
+      "uid": "sn43.12",
+      "root_name": "Asaṅkhatasutta",
+      "translated_name": null,
+      "acronym": "SN 43.12",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "sn43.13",
+      "root_name": "Anatasutta",
+      "translated_name": null,
+      "acronym": "SN 43.13",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "sn43.14-43",
+      "root_name": "Anāsavādisutta",
+      "translated_name": null,
+      "acronym": "SN 43.14–43",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "sn43.44",
+      "root_name": "Parāyanasutta",
+      "translated_name": null,
+      "acronym": "SN 43.44",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    }
+  ]
+}

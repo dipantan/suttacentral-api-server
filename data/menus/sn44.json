@@ -1,0 +1,28 @@
+{
+  "uid": "sn44",
+  "root_name": "Abyākatasaṁyutta",
+  "translated_name": "Linked Discourses on the Undeclared ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on the Undeclared” contains 44 discourses on the theme of the ten “undeclared” questions. These are a stock series of metaphysical hypotheses, which the Buddha dismissed as being based on the implicit assumption of a self, and hence as being counterproductive to liberation. The first discourse here features a conversation between King Pasenadi and the nun Khemā on this topic.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 44",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 28,
+  "children": [
+    {
+      "uid": "sn44-abyakatavagga",
+      "root_name": "Abyākatavagga",
+      "translated_name": "The Chapter on the Undeclared Points ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 44.1–11",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 28
+    }
+  ]
+}

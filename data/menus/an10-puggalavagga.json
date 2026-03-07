@@ -1,0 +1,41 @@
+{
+  "uid": "an10-puggalavagga",
+  "root_name": "Puggalavagga",
+  "translated_name": "The Chapter on Individuals ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 10.155–166",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "an10.155",
+      "root_name": "Sevitabbasutta",
+      "translated_name": null,
+      "acronym": "AN 10.155",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an10.156-166",
+      "root_name": "Bhajitabbādisutta",
+      "translated_name": null,
+      "acronym": "AN 10.156–166",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

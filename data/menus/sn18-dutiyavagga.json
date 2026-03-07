@@ -1,0 +1,67 @@
+{
+  "uid": "sn18-dutiyavagga",
+  "root_name": "Dutiyavagga",
+  "translated_name": "Chapter Two ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 18.11–22",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 6,
+  "children": [
+    {
+      "uid": "sn18.11",
+      "root_name": "Cakkhusutta",
+      "translated_name": null,
+      "acronym": "SN 18.11",
+      "blurb": "The Buddha teaches Rāhula about the internal sense organs in light of the three characteristics.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn18.12-20",
+      "root_name": "Rūpādisuttanavaka",
+      "translated_name": null,
+      "acronym": "SN 18.12–20",
+      "blurb": "The Buddha teaches Rāhula about the senses, aggregates, and elements in light of the three characteristics.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn18.21",
+      "root_name": "Anusayasutta",
+      "translated_name": null,
+      "acronym": "SN 18.21",
+      "blurb": "Rāhula asks how to see so that conceit no longer occurs. The Buddha teaches him to investigate the five aggregates in terms of not-self.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn18.22",
+      "root_name": "Apagatasutta",
+      "translated_name": null,
+      "acronym": "SN 18.22",
+      "blurb": "Rāhula asks how to see so conceit no longer occurs and one is peaceful. The Buddha teaches him to investigate the five aggregates in terms of not-self",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "uid": "thi-ap",
+  "root_name": "Therīapadāna",
+  "translated_name": "Past Life Legends of the Senior Nuns ",
+  "node_type": "branch",
+  "blurb": "The “Legends of the Senior Nuns” contains 40 stories in verse telling the past life deeds of various senior nuns. It is a much later counterpart to the Therīgāthā, referring to many of the same nuns. But whereas the Therīgāthā verses relate the nuns’ practice of meditation and mindfulness in this life, the Legends typically relate how they became awakened in this life by making an offering a Buddha in the distant past, and making a dedication to be reborn so as to become awakened in the future. The “Legends of the Senior Nuns” has as companion the “Legends of the Senior Monks”. Both these are late texts, and lack counterparts in the northern canons.",
+  "acronym": "Thi Ap",
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 40,
+  "children": [
+    {
+      "uid": "thi-sumedhavagga",
+      "root_name": "Sumedhāvagga",
+      "translated_name": "Chapter Beginning With Sumedhā ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thi-ap 1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "thi-ekuposathikavagga",
+      "root_name": "Ekūposathikavagga",
+      "translated_name": "Chapter Beginning With Single Observance ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thi-ap 11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "thi-kundalakesivagga",
+      "root_name": "Kuṇḍalakesīvagga",
+      "translated_name": "Chapter Beginning With Kuṇḍalakesā ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thi-ap 21–30",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "thi-khattiyavagga",
+      "root_name": "Khattiyāvagga",
+      "translated_name": "Chapter Beginning With the Aristocrat Maidens",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Thi-ap 31–40",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    }
+  ]
+}

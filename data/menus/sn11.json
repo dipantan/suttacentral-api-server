@@ -1,0 +1,54 @@
+{
+  "uid": "sn11",
+  "root_name": "Sakkasaṁyutta",
+  "translated_name": "Linked Discourses with Sakka ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Sakka” contains 25 discourses with verses telling stories involving Sakka, the Lord of the Thirty-Three gods. Many of these discourses are relatively lengthy, featuring substantive prose and extended dialogues in verse. Sakka is shown devoted to the Buddha, defending Buddhist virtues of kindness and forgiveness, even in the waging of war with the demons.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 11",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 70,
+  "children": [
+    {
+      "uid": "sn11-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 11.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 30
+    },
+    {
+      "uid": "sn11-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 11.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 27
+    },
+    {
+      "uid": "sn11-tatiyavagga",
+      "root_name": "Tatiyavagga",
+      "translated_name": "Chapter Three ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 11.21–25",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    }
+  ]
+}

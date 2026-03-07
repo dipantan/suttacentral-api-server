@@ -1,0 +1,54 @@
+{
+  "uid": "sn36",
+  "root_name": "Vedanāsaṁyutta",
+  "translated_name": "Linked Discourses on Feelings ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Feelings” contains 31 discourses on the three kinds of feeling. In Sinhalese-script manuscripts, this is reckoned as the last portion of the section on six sense fields. The term “feelings” renders <i lang='pi' translate='no'>vedanā</i>, which is the simple affective or hedonic tone of experience as pleasant, painful, and neutral, rather than the complex states we call “emotions”. In the process of experience, feeling emerges from sense contact, and stimulates craving. One of the aims of mental development is to first loosen, then eliminate that second link, so that one still has feelings, but does not experience craving for them. The current collection includes a number of rich and significant discourses on this theme.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 36",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 81,
+  "children": [
+    {
+      "uid": "sn36-sagathavagga",
+      "root_name": "Sagāthāvagga",
+      "translated_name": "The Chapter with Verses ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 36.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 28
+    },
+    {
+      "uid": "sn36-rahogatavagga",
+      "root_name": "Rahogatavagga",
+      "translated_name": "The Chapter on In Private ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 36.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 24
+    },
+    {
+      "uid": "sn36-atthasatapariyayavagga",
+      "root_name": "Aṭṭhasatapariyāyavagga",
+      "translated_name": "The Chapter on the Explanation of the Hundred and Eight ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 36.21–31",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 29
+    }
+  ]
+}

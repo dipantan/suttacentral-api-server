@@ -1,0 +1,54 @@
+{
+  "uid": "iti-ekakanipata",
+  "root_name": "Ekakanipāta",
+  "translated_name": "The Book of the Ones ",
+  "node_type": "branch",
+  "blurb": "",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Iti 1–27",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 56,
+  "children": [
+    {
+      "uid": "iti-ekakanipata-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 21
+    },
+    {
+      "uid": "iti-ekakanipata-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "iti-ekakanipata-tatiyavagga",
+      "root_name": "Tatiyavagga",
+      "translated_name": "Chapter Three ",
+      "acronym": null,
+      "blurb": "",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Iti 21–27",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    }
+  ]
+}

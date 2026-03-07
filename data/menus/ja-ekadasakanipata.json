@@ -1,0 +1,28 @@
+{
+  "uid": "ja-ekadasakanipata",
+  "root_name": "Ekādasakanipāta",
+  "translated_name": "The Book of the Elevens ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 455–463",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 9,
+  "children": [
+    {
+      "uid": "ja-matuposakavagga",
+      "root_name": "Mātuposakavagga",
+      "translated_name": "The Elephant Who Cared for His Mother ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 455–463",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 9
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "uid": "sn6",
+  "root_name": "Brahmasaṁyutta",
+  "translated_name": "Linked Discourses With Divinities ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Brahmās” contains 15 discourses featuring high brahmanical deities. Most commonly we meet the “Great Brahmā”, regarded as the creator God, but he is merely one of a class of deities, and here we meet several others. Brahmā is depicted here and elsewhere in early Buddhist texts in a respectful way, regarded as a glorious deity reborn in his realm due to powerful good kamma. As here, he frequently acts as a champion for the Buddhist cause. However, like all the gods, he is still under the influence of delusion and has nor escaped rebirth.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 6",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 30,
+  "children": [
+    {
+      "uid": "sn6-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 6.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "sn6-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 6.11–15",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    }
+  ]
+}

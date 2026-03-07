@@ -1,0 +1,54 @@
+{
+  "uid": "sn4",
+  "root_name": "Mārasaṁyutta",
+  "translated_name": "Linked Discourses With Māra ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Māra” contains 25 discourses featuring Māra, the god of temptation, deceit, and death. In these discourses, Māra typically appears in some terrifying or beguiling form, hoping to disturb the Buddha, or else he challenges the Buddha with a critical verse. Like the previous section, the narrative prose here is substantive. The Buddha recognizes him at once and exposes his deceit in a verse. Māra also appears throughout the next collection, where the nuns take him on. ",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 4",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 72,
+  "children": [
+    {
+      "uid": "sn4-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 4.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 28
+    },
+    {
+      "uid": "sn4-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 4.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 29
+    },
+    {
+      "uid": "sn4-tatiyavagga",
+      "root_name": "Tatiyavagga",
+      "translated_name": "Chapter Three ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 4.21–25",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    }
+  ]
+}

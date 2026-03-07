@@ -1,0 +1,28 @@
+{
+  "uid": "sn39",
+  "root_name": "Sāmaṇḍakasaṁyutta",
+  "translated_name": "Linked Discourses with Sāmaṇḍaka ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Sāmaṇḍaka” contains 16 discourses recording the answers given by Sāriputta to the questions of a wanderer named Sāmaṇḍaka. The questions cover a wide range of themes, from the nature of extinguishment to the difficulty of practicing the Dhamma. This chapter is practically identical to the previous, differing only in the name of the wanderer, and the Pali editions abbreviate, instructing that it is to be expanded.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 39",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 3,
+  "children": [
+    {
+      "uid": "sn39-samandakavagga",
+      "root_name": "Sāmaṇḍakavagga",
+      "translated_name": "The Chapter with Sāmaṇḍaka ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 39.1–16",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    }
+  ]
+}

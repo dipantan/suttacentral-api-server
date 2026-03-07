@@ -1,0 +1,41 @@
+{
+  "uid": "sn23-ayacanavagga",
+  "root_name": "Āyācanavagga",
+  "translated_name": "The Chapter on Aspiration ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 23.23–34",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "sn23.23-33",
+      "root_name": "Mārādisuttaekādasaka",
+      "translated_name": null,
+      "acronym": "SN 23.23–33",
+      "blurb": "Rādha asks the Buddha for a teaching before going on retreat, and the Buddha says that he should abandon desire, explaining in terms of the various teachings in SN 23.11–21.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn23.34",
+      "root_name": "Nirodhadhammasutta",
+      "translated_name": null,
+      "acronym": "SN 23.34",
+      "blurb": "Rādha asks the Buddha for a teaching before going on retreat, and the Buddha says that he should abandon desire, explaining what is liable to cease in terms of the five aggregates.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

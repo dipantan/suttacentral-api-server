@@ -9,6 +9,22 @@ const PUBLIC_DIR = path.join(SERVER_DIR, "public");
 const VERSION_FILE = path.join(PUBLIC_DIR, "data.json");
 const LEGACY_DIR = path.join(BILARA_DATA_DIR, "legacy");
 const LEGACY_MAP_FILE = path.join(BILARA_DATA_DIR, "legacy_sutta_map.json");
+const MENUS_DIR = path.join(SERVER_DIR, "data/menus");
+const LEGACY_SEED_DIR = path.join(SERVER_DIR, "data/legacy-seed");
+const LEGACY_SEED_MAP = path.join(LEGACY_SEED_DIR, "legacy_sutta_map.json");
+
+function copyLegacySeed() {
+  if (!fs.existsSync(LEGACY_SEED_DIR)) return false;
+  if (!fs.existsSync(BILARA_DATA_DIR)) {
+    fs.mkdirSync(BILARA_DATA_DIR, { recursive: true });
+  }
+  console.log("Restoring legacy from seed directory...");
+  fs.cpSync(LEGACY_SEED_DIR, LEGACY_DIR, { recursive: true });
+  if (fs.existsSync(LEGACY_SEED_MAP)) {
+    fs.copyFileSync(LEGACY_SEED_MAP, LEGACY_MAP_FILE);
+  }
+  return true;
+}
 
 /**
  * Execute a command synchronously and stream output to console.
@@ -98,7 +114,12 @@ async function buildPipeline() {
 
   // --- Step 3: Fetch & Flatten Menus ---
   console.log("\n--- Step 3: Fetching and Flattening Menus ---");
-  runCommand(`node scripts/master_fetch.js`);
+  const menusExists = fs.existsSync(MENUS_DIR) && fs.readdirSync(MENUS_DIR).length > 0;
+  if (menusExists) {
+    console.log("Menus already present; skipping master_fetch.js");
+  } else {
+    runCommand(`node scripts/master_fetch.js`);
+  }
 
   // --- Step 4: Clean Bilara Target ---
   console.log("\n--- Step 4: Cleaning Bilara Data (Keeping Legacy Safe) ---");
@@ -115,6 +136,8 @@ async function buildPipeline() {
     console.log(
       "\n--- Step 6: Skipping legacy fetch (legacy content already present) ---",
     );
+  } else if (copyLegacySeed()) {
+    console.log("Legacy restored from seed. Skipping fetch.");
   } else {
     console.log("\n--- Step 6: Fetching legacy content for missing suttas ---");
     runCommand(`node scripts/fetch_legacy.js`);

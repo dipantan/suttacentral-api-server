@@ -1,0 +1,41 @@
+{
+  "uid": "sn39-samandakavagga",
+  "root_name": "Sāmaṇḍakavagga",
+  "translated_name": "The Chapter with Sāmaṇḍaka ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 39.1–16",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 3,
+  "children": [
+    {
+      "uid": "sn39.1-15",
+      "root_name": "Sāmaṇḍakasutta",
+      "translated_name": null,
+      "acronym": "SN 39.1–15",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn39.16",
+      "root_name": "Dukkarasutta",
+      "translated_name": null,
+      "acronym": "SN 39.16",
+      "blurb": "The wanderer Sāmaṇḍaka asks Sāriputta what is difficult to do in this teaching and training.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

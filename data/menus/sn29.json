@@ -1,0 +1,28 @@
+{
+  "uid": "sn29",
+  "root_name": "Nāgasaṁyutta",
+  "translated_name": "Linked Discourses on Dragons ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Dragons” is the first of four similar sections dealing with the modes in which various semi-celestial beings may be reborn. The current chapter is on the “dragons” or <i lang='pi' translate='no'>nāgas</i>, a powerful but morally ambiguous serpentine creature of the waterways.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 29",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 15,
+  "children": [
+    {
+      "uid": "sn29-nagavagga",
+      "root_name": "Nāgavagga",
+      "translated_name": "The Chapter on Dragons ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 29.1–50",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    }
+  ]
+}

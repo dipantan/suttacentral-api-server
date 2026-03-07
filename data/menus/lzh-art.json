@@ -1,0 +1,28 @@
+{
+  "uid": "lzh-art",
+  "root_name": "Arthavargīya",
+  "translated_name": "Handbook of Meaning ",
+  "node_type": "branch",
+  "blurb": "The Yizu jing (Arthavargīya) in two fascicles at T 198 was translated into Chinese by Zhi Qian 支謙 between the 2nd year of Huang Wu 黃武 and 2nd year of Jianxing 建興, Wu dynasty 呉 (223–253 CE). This corresponds to the Aṭṭhakavagga, the fourth of the five chapters of the Sutta Nipāta (Sn 766–975) of the Pāli Tipitaka, though this Chinese version has additional passages. Since the Pāli version is cited by other Pāli and Sanskrit canonical texts, traditionally the Aṭṭhaka vagga was taken to be an important encapsulation of key teachings, while scholars consider it one of the earliest compositions included in the Tipitaka. Its continuing influence amongst Buddhists is illustrated by the fact that noteworthy later citations of the text include Asaṅga in the Bodhisattvabhūmi and Vasubandhu in the Abhidharmakośa-bhāṣya.",
+  "acronym": "Art",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "t198",
+      "root_name": "佛說義足經",
+      "translated_name": null,
+      "acronym": "T 198",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

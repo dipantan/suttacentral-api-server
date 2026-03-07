@@ -1,0 +1,28 @@
+{
+  "uid": "pgd-pm-bf13",
+  "root_name": "Bhikkhu Pātimokkha",
+  "translated_name": "Monks’ Rules ",
+  "node_type": "branch",
+  "blurb": "The Bhikkhu-pātimokkha, “the monastic code for monks,” contains the core rules of monastic life in the form of a long list without any explanatory material. There are about 250 such rules for the monks, grouped according to the type of offense incurred for breaking the rule, with the exception of the <i lang='pi' translate='no'>aniyatas</i> (“the undetermined”), and the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”), which are principles to be applied rather than rules in the strict sense.",
+  "acronym": "Pgd Pm Bf13",
+  "root_lang_iso": "pgd",
+  "root_lang_name": "Gāndhārī",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "pgd-pm-bf13-np",
+      "root_name": "Nissaggiya Pācittiya",
+      "translated_name": "Relinquishment With Confession ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pgd",
+      "root_lang_name": "Gāndhārī",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

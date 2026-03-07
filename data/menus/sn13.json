@@ -1,0 +1,28 @@
+{
+  "uid": "sn13",
+  "root_name": "Abhisamayasaṁyutta",
+  "translated_name": "Linked Discourses on Comprehension ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on the Breakthrough” contains 11 discourses on the value of realizing the Dhamma. Each discourse features a memorable simile illustrating the truly momentous implications of seeing the four noble truths.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 13",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 22,
+  "children": [
+    {
+      "uid": "sn13-abhisamayavagga",
+      "root_name": "Abhisamayavagga",
+      "translated_name": "The Chapter on Comprehension ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 13.1–11",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 22
+    }
+  ]
+}

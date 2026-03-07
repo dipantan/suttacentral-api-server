@@ -1,0 +1,28 @@
+{
+  "uid": "an1-aparaaccharasanghatavagga",
+  "root_name": "Aparaaccharāsaṅghātavagga",
+  "translated_name": "Another Chapter on a Finger-Snap ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 1.394–574",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an1.394-574",
+      "root_name": "Aparaaccharāsaṅghātavagga",
+      "translated_name": "Another Chapter on a Finger-Snap ",
+      "acronym": "AN 1.394–574",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

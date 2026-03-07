@@ -1,0 +1,80 @@
+{
+  "uid": "thag-sattakanipata-pathamavagga",
+  "root_name": "Paṭhamavagga",
+  "translated_name": "Chapter One ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thag 7.1–5",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 6,
+  "children": [
+    {
+      "uid": "thag7.1",
+      "root_name": "Sundarasamuddattheragāthā",
+      "translated_name": null,
+      "acronym": "Thag 7.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "thag7.2",
+      "root_name": "Lakuṇḍakabhaddiyattheragāthā",
+      "translated_name": null,
+      "acronym": "Thag 7.2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "thag7.3",
+      "root_name": "Bhaddattheragāthā",
+      "translated_name": null,
+      "acronym": "Thag 7.3",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "thag7.4",
+      "root_name": "Sopākattheragāthā",
+      "translated_name": null,
+      "acronym": "Thag 7.4",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "thag7.5",
+      "root_name": "Sarabhaṅgattheragāthā",
+      "translated_name": null,
+      "acronym": "Thag 7.5",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

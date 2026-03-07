@@ -1,0 +1,67 @@
+{
+  "uid": "an5-sikkhapadapeyyala",
+  "root_name": "Sikkhāpadapeyyāla",
+  "translated_name": "Abbreviated Texts on Training Rules ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 5.286–302",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 4,
+  "children": [
+    {
+      "uid": "an5.286",
+      "root_name": "Bhikkhusutta",
+      "translated_name": null,
+      "acronym": "AN 5.286",
+      "blurb": "Why a monk is cast down to hell or raised up to heaven.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an5.287-292",
+      "root_name": "Bhikkhunīsuttādi",
+      "translated_name": null,
+      "acronym": "AN 5.287–292",
+      "blurb": "Why a nun, etc. is cast down to hell or raised up to heaven.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an5.293",
+      "root_name": "Ājīvakasutta",
+      "translated_name": null,
+      "acronym": "AN 5.293",
+      "blurb": "Why an ājīvaka ascetic is cast down to hell or raised up to heaven.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an5.294-302",
+      "root_name": "Nigaṇṭhasuttādi",
+      "translated_name": null,
+      "acronym": "AN 5.294–302",
+      "blurb": "Why various ascetics are cast down to hell or raised up to heaven.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

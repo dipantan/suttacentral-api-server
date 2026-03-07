@@ -1,0 +1,54 @@
+{
+  "uid": "an9-iddhipadavagga",
+  "root_name": "Iddhipādavagga",
+  "translated_name": "The Chapter on Bases of Psychic Power ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 9.83–92",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 3,
+  "children": [
+    {
+      "uid": "an9.83",
+      "root_name": "Sikkhasutta",
+      "translated_name": null,
+      "acronym": "AN 9.83",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an9.84-91",
+      "root_name": "Nīvaraṇasuttādi",
+      "translated_name": null,
+      "acronym": "AN 9.84–91",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an9.92",
+      "root_name": "Cetasovinibandhasutta",
+      "translated_name": null,
+      "acronym": "AN 9.92",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

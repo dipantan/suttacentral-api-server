@@ -1,0 +1,41 @@
+{
+  "uid": "san-sarv-bi-vb",
+  "root_name": "Bhikkhunī Vibhaṅga",
+  "translated_name": "Nuns’ Rules and Their Analysis ",
+  "node_type": "branch",
+  "blurb": "The Bhikkhunī-vibhaṅga (“the analysis of the nuns’ rules”) contains the monastic code for nuns, the Bhikkhunī-pātimokkha, embedded in explanatory material. The Bhikkhunī-vibhaṅga is divided into five chapters, each dealing with a separate class of rules, grouped according to the offense incurred in breaking them. Each rule together with its explanatory material forms an independent unit, a sub-chapter.",
+  "acronym": "San Sarv Bi Vb",
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-sarv-bi-vb-ss",
+      "root_name": "Saṅghādisesa",
+      "translated_name": "Suspension ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bi-vb-pc",
+      "root_name": "Pācittiya",
+      "translated_name": "Confession ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid": "san-mu-vi",
+  "root_name": "Mūlasarvāstivāda Vinaya",
+  "translated_name": "Monastic Law of the Mūlasarvāstivāda School ",
+  "node_type": "branch",
+  "blurb": "The Monastic Law for the Mūlasarvāstivāda school in Sanskrit. The debate about the origins of this school is still ongoing but it is clear that it had a large influence on Central Asia. Monastics of the Tibetan tradition follow this Vinaya. The Sanskrit version of this Vinaya is only partially preserved. Full texts survive in Chinese and Tibetan translation.",
+  "acronym": "San Mu Vi",
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-mu-kd",
+      "root_name": "Khandhaka",
+      "translated_name": "Chapters on Legal Topics ",
+      "acronym": "San Mu Kd",
+      "blurb": "The Khandhakas (“the Chapters”) comprise the rules and regulations of both Sanghas that fall outside of the monastic code, the pātimokkha. There are about 20 individual Khandhakas, most of which discuss a more or less unified topic. The Khandhakas include a variety of material, such as assorted biographical material of a number of eminent disciples and some notorious ones. They also incorporate a few Jātakas and other tales. The whole collection is structured around the life of the Buddha after his awakening.",
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-mu-bu-pm-gbm3",
+      "root_name": "Bhikkhu Pātimokkha (Gilgit 3)",
+      "translated_name": "Monks’ Rules (Gilgit 3 edition) ",
+      "acronym": "San Mu Bu Pm GBM 3",
+      "blurb": "The Bhikkhu-pātimokkha, “the monastic code for monks,” contains the core rules of monastic life in the form of a long list without any explanatory material. There are 258 such rules for the monks, grouped according to the type of offense incurred for breaking the rule, with the exception of the <i lang='pi' translate='no'>aniyatas</i> (“the undetermined”), and the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”), which are principles to be applied rather than rules in the strict sense.",
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-mu-bu-pm-gbm2",
+      "root_name": "Bhikkhu Pātimokkha (Gilgit 2)",
+      "translated_name": "Monks’ Rules (Gilgit 2 edition) ",
+      "acronym": "San Mu Bu Pm GBM 2",
+      "blurb": "The Bhikkhu-pātimokkha, “the monastic code for monks,” contains the core rules of monastic life in the form of a long list without any explanatory material. There are about 250 such rules for the monks, grouped according to the type of offense incurred for breaking the rule, with the exception of the <i lang='pi' translate='no'>aniyatas</i> (“the undetermined”), and the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”), which are principles to be applied rather than rules in the strict sense.",
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-mu-bu-kam",
+      "root_name": "Bhikkhu Kammavācā",
+      "translated_name": "Monks’ Legal Proceedings ",
+      "acronym": "San Mu Bu Kam",
+      "blurb": "The Bhikkhu-kammavācā (“the monks’ legal proceedings”) are compilations of the formulas that are recited by monks to carry out the legal proceedings of the Sangha. They were excerpted from the Vibhaṅga.",
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-mu-mpt-bu-pm",
+      "root_name": "Mahāvyutpatti",
+      "translated_name": "Great Dictionary ",
+      "acronym": "Mpt",
+      "blurb": "The Bhikkhu-pātimokkha, “the monastic code for monks,” contains the core rules of monastic life in the form of a long list without any explanatory material. There are 255 such rules for the monks, grouped according to the type of offense incurred for breaking the rule, with the exception of the <i lang='pi' translate='no'>aniyatas</i> (“the undetermined”), and the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”), which are principles to be applied rather than rules in the strict sense.",
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

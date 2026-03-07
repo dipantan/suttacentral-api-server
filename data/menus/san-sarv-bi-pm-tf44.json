@@ -1,0 +1,93 @@
+{
+  "uid": "san-sarv-bi-pm-tf44",
+  "root_name": "Bhikkhunī Pātimokka (Turfan 44)",
+  "translated_name": "Nuns’ Rules (Turfan 44 edition) ",
+  "node_type": "branch",
+  "blurb": "The Bhikkhunī-pātimokkha, “the monastic code for nuns,” contains the core rules of monastic life in the form of a long list without any explanatory material. There are 355 such rules for the nuns, grouped according to the type of offense incurred for breaking the rule, with the exception of the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”), which are principles to be applied rather than rules in the strict sense.",
+  "acronym": "San Sarv Bi Pm Tf 44",
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-sarv-bi-pm-tf44-pj",
+      "root_name": "Pārājika",
+      "translated_name": "Expulsion ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bi-pm-tf44-ss",
+      "root_name": "Saṅghādisesa",
+      "translated_name": "Suspension ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bi-pm-tf44-np",
+      "root_name": "Nissaggiya Pācittiya",
+      "translated_name": "Relinquishment With Confession ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bi-pm-tf44-pc",
+      "root_name": "Pācittiya",
+      "translated_name": "Confession ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bi-pm-tf44-pd",
+      "root_name": "Pāṭidesanīyā",
+      "translated_name": "Confession ",
+      "acronym": "San Sarv Bi Pm Tf 44 Pd",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bi-pm-tf44-sk",
+      "root_name": "Sekhiya",
+      "translated_name": "Rules for Training ",
+      "acronym": "San Sarv Bi Pm Tf 44 Sk",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

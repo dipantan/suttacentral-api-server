@@ -1,0 +1,28 @@
+{
+  "uid": "ea1",
+  "root_name": "Ekottarikāgama 1",
+  "translated_name": null,
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "ea1.1",
+      "root_name": "序",
+      "translated_name": null,
+      "acronym": "EA 1.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

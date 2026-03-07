@@ -1,0 +1,28 @@
+{
+  "uid": "an1-ekapuggalavagga",
+  "root_name": "Ekapuggalavagga",
+  "translated_name": "The Chapter on One Individual ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 1.170–187",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an1.170-187",
+      "root_name": "Ekapuggalavagga",
+      "translated_name": "One Individual ",
+      "acronym": "AN 1.170–187",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "an2-balavagga2",
+  "root_name": "Bālavagga",
+  "translated_name": "The Chapter on Fools ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.98–117",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "an2.98-117",
+      "root_name": "Bālavagga",
+      "translated_name": "Fools ",
+      "acronym": "AN 2.98–117",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

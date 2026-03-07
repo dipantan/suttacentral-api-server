@@ -1,4 +1,7 @@
 node_modules
-data
 public
+# Track data/*, but exclude the bilara-data-published repo
+!data/
+data/bilara-data-published/
+
 example

@@ -1,0 +1,80 @@
+{
+  "uid": "an7-ragapeyyala",
+  "root_name": "Rāgapeyyāla",
+  "translated_name": "Abbreviated Texts Beginning With Greed ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 7.615–1124",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 5,
+  "children": [
+    {
+      "uid": "an7.615",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 7.615",
+      "blurb": "Develop insight into greed through the awakening factors.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an7.616",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 7.616",
+      "blurb": "Develop insight into greed through seven perceptions starting with impermanence.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an7.617",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 7.617",
+      "blurb": "Develop insight into greed through seven perceptions starting with ugliness.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an7.618-644",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 7.618–644",
+      "blurb": "Develop complete understanding, etc., of greed.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an7.645-1124",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 7.645–1124",
+      "blurb": "Develop complete understanding, etc., of hate, etc.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

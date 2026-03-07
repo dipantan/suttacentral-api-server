@@ -1,0 +1,93 @@
+{
+  "uid": "an5",
+  "root_name": "Pañcakanipāta",
+  "translated_name": "The Book of the Fives ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 5",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 383,
+  "children": [
+    {
+      "uid": "an5-pathamapannasaka",
+      "root_name": "Paṭhamapaṇṇāsaka",
+      "translated_name": "The First Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.1–50",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 100
+    },
+    {
+      "uid": "an5-dutiyapannasaka",
+      "root_name": "Dutiyapaṇṇāsaka",
+      "translated_name": "The Second Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.51–100",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 76
+    },
+    {
+      "uid": "an5-tatiyapannasaka",
+      "root_name": "Tatiyapaṇṇāsaka",
+      "translated_name": "The Third Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.101–150",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 59
+    },
+    {
+      "uid": "an5-catutthapannasaka",
+      "root_name": "Catutthapaṇṇāsaka",
+      "translated_name": "The Fourth Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.151–200",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 64
+    },
+    {
+      "uid": "an5-pancamapannasaka",
+      "root_name": "Pañcamapaṇṇāsaka",
+      "translated_name": "The Fifth Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.201–250",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 51
+    },
+    {
+      "uid": "an5-chatthapannasaka",
+      "root_name": "Chaṭṭhapaṇṇāsaka",
+      "translated_name": "The Sixth Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.251–1152",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 33
+    }
+  ]
+}

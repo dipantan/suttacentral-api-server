@@ -1,0 +1,69 @@
+[
+  {
+    "uid": "abhidhamma",
+    "root_name": "Abhidhammapiṭaka",
+    "translated_name": "Basket of Systematic Treatises ",
+    "node_type": "root",
+    "blurb": "Abhidhamma texts are systematic summaries and analyses of the teachings drawn from the earlier discourses. The Abhidhamma (spelled abhidharma in Sanskrit) is intended for advanced students who have mastered the teachings of the discourses.",
+    "acronym": "Ab",
+    "root_lang_iso": null,
+    "root_lang_name": null,
+    "child_range": null,
+    "yellow_brick_road": true,
+    "yellow_brick_road_count": 401,
+    "children": [
+      {
+        "uid": "pli-tv-ab",
+        "root_name": "Theravāda Abhidhamma",
+        "translated_name": "Systematic Treatises of the Theravāda School ",
+        "acronym": "Tv Ab",
+        "blurb": "The seven books of the canonical Theravāda Abhidhamma.",
+        "node_type": "branch",
+        "root_lang_iso": "pli",
+        "root_lang_name": "Pāli",
+        "child_range": null,
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 401
+      },
+      {
+        "uid": "lzh-dg-ab",
+        "root_name": "Dharmaguptaka Abhidharma",
+        "translated_name": "Systematic Treatises of the Dharmaguptaka School ",
+        "acronym": "Dg Ab",
+        "blurb": "Abhidharma of the Dharmaguptaka school in Chinese translation.",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": null,
+        "yellow_brick_road": false,
+        "yellow_brick_road_count": 0
+      },
+      {
+        "uid": "lzh-sarv-ab",
+        "root_name": "Sarvāstivāda Abhidharma",
+        "translated_name": "Systematic Treatises of the Sarvāstivāda School ",
+        "acronym": "Lzh Sarv Ab",
+        "blurb": "All seven of the canonical texts of Sarvāstivāda Abhidharma are available in Chinese translation. This complex and sophisticated set of treatises was highly influential in later forms of Buddhism especially from Northern India.",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": null,
+        "yellow_brick_road": false,
+        "yellow_brick_road_count": 0
+      },
+      {
+        "uid": "san-sarv-ab",
+        "root_name": "Sarvāstivāda Abhidharma",
+        "translated_name": "Systematic Treatises of the Sarvāstivāda School ",
+        "acronym": "San Sarv Ab",
+        "blurb": "Texts of the Sarvāstivāda Abhidharma that are available in Sanskrit.",
+        "node_type": "branch",
+        "root_lang_iso": "san",
+        "root_lang_name": "Sanskrit",
+        "child_range": null,
+        "yellow_brick_road": false,
+        "yellow_brick_road_count": 0
+      }
+    ]
+  }
+]

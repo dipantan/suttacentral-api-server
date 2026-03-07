@@ -1,0 +1,28 @@
+{
+  "uid": "sn26",
+  "root_name": "Uppādasaṁyutta",
+  "translated_name": "Linked Discourses on Arising ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Arising” is the second of three similar sections, each of which takes a set of ten doctrinal items and presents it according to a set pattern. The current chapter focuses on the fact that anyone who has these things will suffer.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 26",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 13,
+  "children": [
+    {
+      "uid": "sn26-uppadavagga",
+      "root_name": "Uppādavagga",
+      "translated_name": "The Chapter on Arising ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 26.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    }
+  ]
+}

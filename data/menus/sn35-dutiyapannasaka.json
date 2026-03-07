@@ -1,0 +1,80 @@
+{
+  "uid": "sn35-dutiyapannasaka",
+  "root_name": "Dutiyapaṇṇāsaka",
+  "translated_name": "The Second Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 135,
+  "children": [
+    {
+      "uid": "sn35-avijjavagga",
+      "root_name": "Avijjāvagga",
+      "translated_name": "The Chapter on Ignorance ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.53–62",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 23
+    },
+    {
+      "uid": "sn35-migajalavagga",
+      "root_name": "Migajālavagga",
+      "translated_name": "The Chapter with Migajāla ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.63–73",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 29
+    },
+    {
+      "uid": "sn35-gilanavagga",
+      "root_name": "Gilānavagga",
+      "translated_name": "The Chapter on Sick ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.74–83",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 28
+    },
+    {
+      "uid": "sn35-channavagga",
+      "root_name": "Channavagga",
+      "translated_name": "The Chapter with Channa ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.84–93",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 28
+    },
+    {
+      "uid": "sn35-salavagga",
+      "root_name": "Saḷavagga",
+      "translated_name": "The Chapter on the Sixes ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 35.94–103",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 27
+    }
+  ]
+}

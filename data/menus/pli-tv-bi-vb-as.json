@@ -1,0 +1,28 @@
+{
+  "uid": "pli-tv-bi-vb-as",
+  "root_name": "Adhikaraṇasamatha",
+  "translated_name": "The Settling of Legal Issues ",
+  "node_type": "branch",
+  "blurb": "There are seven <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i>, “principles for the settling of legal issues”, which are the same for the nuns and the monks. These are not rules in the ordinary sense and as such fall outside of the classification into serious and light offenses. Instead, they set out the proper methods for dealing with legal issues. The detailed explanation for these is found in the <i lang='pi' translate='no'>Samathakkhandhaka</i>. The legal issues to be settled through these principles fall into four categories: disputes, accusations, offenses, and proceedings. “Proceedings” includes monastic procedures such as ordination and the keeping of the observance day (<i lang='pi' translate='no'>uposatha</i>).",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "pli-tv-bi-vb-as1-7",
+      "root_name": "Adhikaraṇasamatha",
+      "translated_name": "The settling of legal issues ",
+      "acronym": " Bi As 1–7",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

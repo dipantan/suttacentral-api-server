@@ -1,0 +1,54 @@
+{
+  "uid": "sn2",
+  "root_name": "Devaputtasaṁyutta",
+  "translated_name": "Linked Discourses on Godlings ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Gods” contains 30 discourses, each one of which depicts the Buddha in conversation with a god. Here the term <i lang='pi' translate='no'>devaputta</i> is used, rather than <i lang='pi' translate='no'>devatā</i> in the previous <i lang='pi' translate='no'>saṁyutta</i>. The difference is purely nominal and there is no difference in the meaning. The style of discourses is similar to the “Linked Discourses on Deities”, although here there is a greater emphasis on the theme of renunciation. A number of these discourses are regularly recited in modern Theravāda; the Tāyana verses on diligent striving at SN 2.8 are often recited by monastics, while the discourses on the sun and the moon (SN 2.9 and SN 2.10) are popular protection chants, which are also found in Tibetan.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 2",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 61,
+  "children": [
+    {
+      "uid": "sn2-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 2.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 21
+    },
+    {
+      "uid": "sn2-anathapindikavagga",
+      "root_name": "Anāthapiṇḍikavagga",
+      "translated_name": "The Chapter with Anāthapiṇḍika ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 2.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "sn2-nanatitthiyavagga",
+      "root_name": "Nānātitthiyavagga",
+      "translated_name": "The Chapter on Various Sectarians ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 2.21–30",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    }
+  ]
+}

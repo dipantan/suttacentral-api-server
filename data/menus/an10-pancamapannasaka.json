@@ -1,0 +1,54 @@
+{
+  "uid": "an10-pancamapannasaka",
+  "root_name": "Pañcamapaṇṇāsaka",
+  "translated_name": "The Fifth Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 10.211–746",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 36,
+  "children": [
+    {
+      "uid": "an10-karajakayavagga",
+      "root_name": "Karajakāyavagga",
+      "translated_name": "The Chapter on the Body Born of Deeds ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.211–220",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 19
+    },
+    {
+      "uid": "an10-samannavagga",
+      "root_name": "Sāmaññavagga",
+      "translated_name": "The Chapter on Similarity ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.221–236",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 7
+    },
+    {
+      "uid": "an10-ragapeyyala",
+      "root_name": "Rāgapeyyāla",
+      "translated_name": "Abbreviated Texts Beginning With Greed ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.237–746",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    }
+  ]
+}

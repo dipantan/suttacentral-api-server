@@ -1,0 +1,80 @@
+{
+  "uid": "sn3-tatiyavagga",
+  "root_name": "Tatiyavagga",
+  "translated_name": "Chapter Three ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 3.21–25",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 9,
+  "children": [
+    {
+      "uid": "sn3.21",
+      "root_name": "Puggalasutta",
+      "translated_name": null,
+      "acronym": "SN 3.21",
+      "blurb": "The Buddha teaches Pasenadi of four kinds of person, going from dark to dark, dark to light, light to dark, and light to light.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn3.22",
+      "root_name": "Ayyikāsutta",
+      "translated_name": null,
+      "acronym": "SN 3.22",
+      "blurb": "Pasenadi laments the death of his aged grandmother.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn3.23",
+      "root_name": "Lokasutta",
+      "translated_name": null,
+      "acronym": "SN 3.23",
+      "blurb": "How many things give rise to suffering in oneself?",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn3.24",
+      "root_name": "Issattasutta",
+      "translated_name": null,
+      "acronym": "SN 3.24",
+      "blurb": "“Where should I give” and “Where is a gift is most fruitful” are two different questions.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn3.25",
+      "root_name": "Pabbatūpamasutta",
+      "translated_name": null,
+      "acronym": "SN 3.25",
+      "blurb": "Old age and death roll in upon all like mountains approaching from the four directions, crushing all in their path",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

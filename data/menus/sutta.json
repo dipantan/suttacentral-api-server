@@ -1,0 +1,95 @@
+[
+  {
+    "uid": "sutta",
+    "root_name": "Suttapiṭaka",
+    "translated_name": "Basket of Discourses ",
+    "node_type": "root",
+    "blurb": "The Buddha’s teachings on meditation, morality, the nature of the world, and the path to freedom. These scriptures are our primary sources for the historical Buddha’s life and practice. They depict the Buddha and his students in lively conversation with a diverse range of people.",
+    "acronym": "Sutta",
+    "root_lang_iso": null,
+    "root_lang_name": null,
+    "child_range": null,
+    "yellow_brick_road": true,
+    "yellow_brick_road_count": 10188,
+    "children": [
+      {
+        "uid": "long",
+        "root_name": "Dīgha",
+        "translated_name": "Collections of Long Discourses ",
+        "acronym": "Long",
+        "blurb": "Collections of “long” discourses and other related texts.",
+        "node_type": "branch",
+        "root_lang_iso": null,
+        "root_lang_name": null,
+        "child_range": null,
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 133
+      },
+      {
+        "uid": "middle",
+        "root_name": "Majjhima",
+        "translated_name": "Collections of Middle Discourses ",
+        "acronym": "Middle",
+        "blurb": "Collections of “middle-length” discourses and other related texts.",
+        "node_type": "branch",
+        "root_lang_iso": null,
+        "root_lang_name": null,
+        "child_range": null,
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 609
+      },
+      {
+        "uid": "linked",
+        "root_name": "Saṁyutta",
+        "translated_name": "Collections of Linked Discourses ",
+        "acronym": "Linked",
+        "blurb": "Collections of “linked” or “connected” discourses and other related texts.",
+        "node_type": "branch",
+        "root_lang_iso": null,
+        "root_lang_name": null,
+        "child_range": null,
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 3804
+      },
+      {
+        "uid": "numbered",
+        "root_name": "Aṅguttara",
+        "translated_name": "Collections of Numbered Discourses ",
+        "acronym": "Numbered",
+        "blurb": "Collections of “numbered” or “numerical” discourses and other related texts.",
+        "node_type": "branch",
+        "root_lang_iso": null,
+        "root_lang_name": null,
+        "child_range": null,
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 2113
+      },
+      {
+        "uid": "minor",
+        "root_name": "Khuddaka",
+        "translated_name": "Collections of Minor Discourses ",
+        "acronym": "Minor",
+        "blurb": "Collections of sutta texts outside the four main collections.",
+        "node_type": "branch",
+        "root_lang_iso": null,
+        "root_lang_name": null,
+        "child_range": null,
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 3487
+      },
+      {
+        "uid": "other-group",
+        "root_name": "Other Suttas",
+        "translated_name": "Other Discourses ",
+        "acronym": "Other",
+        "blurb": "Texts that are similar to those in the previous five collections, but which are difficult to classify.",
+        "node_type": "branch",
+        "root_lang_iso": null,
+        "root_lang_name": null,
+        "child_range": null,
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 42
+      }
+    ]
+  }
+]

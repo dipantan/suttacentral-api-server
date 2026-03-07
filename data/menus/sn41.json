@@ -1,0 +1,28 @@
+{
+  "uid": "sn41",
+  "root_name": "Cittasaṁyutta",
+  "translated_name": "Linked Discourses with Citta the Householder ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Citta” contains 10 discourses featuring the householder Citta, who was praised by the Buddha as the foremost lay disciple in speaking on the Dhamma. Here he engages in a series of insightful and sharp-witted dialogues with various monks. Citta emerges as a distinctive personality, knowledgeable and witty, curious and incisive, with no lack of humor. But he is more than just a clever speaker, for he also lays claim to exalted meditation and spiritual attainments.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 41",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 20,
+  "children": [
+    {
+      "uid": "sn41-cittavagga",
+      "root_name": "Cittavagga",
+      "translated_name": "The Chapter with Citta ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 41.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    }
+  ]
+}

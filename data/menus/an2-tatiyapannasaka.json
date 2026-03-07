@@ -1,0 +1,80 @@
+{
+  "uid": "an2-tatiyapannasaka",
+  "root_name": "Tatiyapaṇṇāsaka",
+  "translated_name": "The Third Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.118–179",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 6,
+  "children": [
+    {
+      "uid": "an2-asaduppajahavagga",
+      "root_name": "Āsāduppajahavagga",
+      "translated_name": "The Chapter on Hopes That Are Hard to Give Up ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.118–129",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an2-ayacanavagga",
+      "root_name": "Āyācanavagga",
+      "translated_name": "The Chapter on Aspiration ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.130–140",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an2-danavagga",
+      "root_name": "Dānavagga",
+      "translated_name": "The Chapter on Giving ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.141–150",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an2-santharavagga",
+      "root_name": "Santhāravagga",
+      "translated_name": "The Chapter on Welcome ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.151–162",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an2-samapattivagga",
+      "root_name": "Samāpattivagga",
+      "translated_name": "The Chapter on Attainment ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.163–179",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

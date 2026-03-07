@@ -1,0 +1,54 @@
+{
+  "uid": "sn45-annatitthiyapeyyalavagga",
+  "root_name": "Aññatitthiyapeyyālavagga",
+  "translated_name": "The Chapter of Abbreviated Texts on Followers of Other Paths ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 45.41–48",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 6,
+  "children": [
+    {
+      "uid": "sn45.41",
+      "root_name": "Rāgavirāgasutta",
+      "translated_name": null,
+      "acronym": "SN 45.41",
+      "blurb": "If others ask why you follow the spiritual path, say it’s for the fading away of lust.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn45.42-47",
+      "root_name": "Saṁyojanappahānādisuttachakka",
+      "translated_name": null,
+      "acronym": "SN 45.42–47",
+      "blurb": "If others ask why you follow the spiritual path, say it’s for giving up fetters, etc.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn45.48",
+      "root_name": "Anupādāparinibbānasutta",
+      "translated_name": null,
+      "acronym": "SN 45.48",
+      "blurb": "If others ask why you follow the spiritual path, say it’s for final extinguishment without anything left over.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "uid": "ja-tesakunavagga",
+  "root_name": "Tesakuṇavagga",
+  "translated_name": "Three Birds ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 521–525",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 5,
+  "children": [
+    {
+      "uid": "ja521",
+      "root_name": "Tesakuṇajātaka",
+      "translated_name": "Three Birds ",
+      "acronym": "Ja 521",
+      "blurb": "“’Tis this I ask”—This story the Master, while dwelling at Jetavana, told by way of admonition to the king of Kosala. Now this king came to hear the preaching of the law and the Master addressed him in the following terms: “A king, Sire, ought to rule his kingdom righteously, for whenever kings are unrighteous, then also are his officers unrighteous.” And admonishing him in the right way as related in the Catukkanipata (4th Book) he pointed out the suffering and the blessing involved in following or abstaining from evil courses, and expounded in detail the misery resulting from sensual pleasures, comparing them to dreams and the like, saying, “In the case of these men,",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja522",
+      "root_name": "Sarabhaṅgajātaka",
+      "translated_name": "The Archer Sarabhaṅga ",
+      "acronym": "Ja 522",
+      "blurb": "“Beringed and gallantly”—This was a story the Master, while dwelling in the Bamboo Grove, told concerning the death of the Elder, the Great Moggallana. The Elder Sariputta, after gaining the consent of the Tathagata when he was living at Jetavana, went and died in the village of Nala, in the very room where he was born.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja523",
+      "root_name": "Alambusājātaka",
+      "translated_name": "The Nymph Alambusā ",
+      "acronym": "Ja 523",
+      "blurb": "“Then mighty Indra”—This story the Master, while residing at Jetavana, told about the temptation of a Brother by the wife of his unregenerate days. The subject-matter of the tale is related in full in the Indriya Birth. Now the Master asked the Brother, “Is it true, Brother, that you were rendered discontented?” “It is true, Reverend Sir.” “By whom?” “By my wife of former days.” “Brother,” he said, “this woman wrought mischief for you: it was owing to her that you fell away from mystic meditation, and lay for three years in a lost and distracted condition, and on the recovery of your senses you uttered a great lamentation,” and so saying he told him a story of the past.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja524",
+      "root_name": "Saṅkhapālajātaka",
+      "translated_name": "The Dragon of Lake Saṅkhapāla ",
+      "acronym": "Ja 524",
+      "blurb": "“Of comely presence”—This was a story told by the Master, while dwelling at Jetavana, with regard to the duties of holy days. Now on this occasion the Master, expressing approval of certain lay folk who kept holy days, said: “Wise men of old, giving up the great glory of the Naga world, observed holy days,” and at their request he related a story of the past.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja525",
+      "root_name": "Cūḷasutasomajātaka",
+      "translated_name": "The Shorter Tale of Prince Moonface the Scholar ",
+      "acronym": "Ja 525",
+      "blurb": "“Good friends”—This story the Master while residing at Jetavana told concerning the perfect exercise of self-abnegation. The introductory story corresponds with that of the Mahanaradakassapa Birth.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

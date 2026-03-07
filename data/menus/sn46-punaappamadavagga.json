@@ -1,0 +1,28 @@
+{
+  "uid": "sn46-punaappamadavagga",
+  "root_name": "Punaappamādavagga",
+  "translated_name": "Another Chapter on Diligence ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 46.143–152",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "sn46.143-152",
+      "root_name": "Punaappamādavagga",
+      "translated_name": "Another Chapter on Diligence ",
+      "acronym": "SN 46.143–152",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

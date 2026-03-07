@@ -1,0 +1,80 @@
+{
+  "uid": "an5-pathamapannasaka",
+  "root_name": "Paṭhamapaṇṇāsaka",
+  "translated_name": "The First Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 5.1–50",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 100,
+  "children": [
+    {
+      "uid": "an5-sekhabalavagga",
+      "root_name": "Sekhabalavagga",
+      "translated_name": "The Chapter on Powers of a Trainee ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an5-balavagga",
+      "root_name": "Balavagga",
+      "translated_name": "The Chapter on Powers ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an5-pancangikavagga",
+      "root_name": "Pañcaṅgikavagga",
+      "translated_name": "The Chapter on Five Factors ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.21–30",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an5-sumanavagga",
+      "root_name": "Sumanavagga",
+      "translated_name": "The Chapter with Sumanā ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.31–40",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an5-mundarajavagga",
+      "root_name": "Muṇḍarājavagga",
+      "translated_name": "The Chapter with King Muṇḍa ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.41–50",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    }
+  ]
+}

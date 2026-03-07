@@ -1,0 +1,80 @@
+{
+  "uid": "an4-dutiyapannasaka",
+  "root_name": "Dutiyapaṇṇāsaka",
+  "translated_name": "The Second Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 4.51–100",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 71,
+  "children": [
+    {
+      "uid": "an4-punnabhisandavagga",
+      "root_name": "Puññābhisandavagga",
+      "translated_name": "The Chapter on Overflowing Merit ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 4.51–60",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an4-pattakammavagga",
+      "root_name": "Pattakammavagga",
+      "translated_name": "The Chapter on Deeds of Substance ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 4.61–70",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    },
+    {
+      "uid": "an4-apannakavagga",
+      "root_name": "Apaṇṇakavagga",
+      "translated_name": "The Chapter on Unfailing ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 4.71–80",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    },
+    {
+      "uid": "an4-macalavagga",
+      "root_name": "Macalavagga",
+      "translated_name": "The Chapter on Confirmed ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 4.81–90",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    },
+    {
+      "uid": "an4-asuravagga",
+      "root_name": "Asuravagga",
+      "translated_name": "The Chapter on Demons ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 4.91–100",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 14
+    }
+  ]
+}

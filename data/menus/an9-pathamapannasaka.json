@@ -1,0 +1,80 @@
+{
+  "uid": "an9-pathamapannasaka",
+  "root_name": "Paṭhamapaṇṇāsaka",
+  "translated_name": "The First Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 9.1–51",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 74,
+  "children": [
+    {
+      "uid": "an9-sambodhivagga",
+      "root_name": "Sambodhivagga",
+      "translated_name": "The Chapter on Awakening ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    },
+    {
+      "uid": "an9-sihanadavagga",
+      "root_name": "Sīhanādavagga",
+      "translated_name": "The Chapter on the Lion’s Roar ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    },
+    {
+      "uid": "an9-sattavasavagga",
+      "root_name": "Sattāvāsavagga",
+      "translated_name": "The Chapter on Abodes of Sentient Beings ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.21–31",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    },
+    {
+      "uid": "an9-mahavagga",
+      "root_name": "Mahāvagga",
+      "translated_name": "The Great Chapter ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.32–41",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an9-samannavagga",
+      "root_name": "Sāmaññavagga",
+      "translated_name": "The Chapter on Similarity ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.42–51",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 14
+    }
+  ]
+}

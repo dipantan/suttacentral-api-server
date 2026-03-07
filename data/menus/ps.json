@@ -1,0 +1,54 @@
+{
+  "uid": "ps",
+  "root_name": "Paṭisambhidāmagga",
+  "translated_name": "The Path of Discrimination ",
+  "node_type": "branch",
+  "blurb": "The Paṭisambhidāmagga or “Path of Analytical Discernment” is an advanced critical treatise in thirty chapters on Buddhist practice, which the Pali commentaries attribute to the Buddha’s disciple Sāriputta. Departing from the popular or folksy style of most Khuddaka texts, it is more reminiscent of the Abhidhamma, and indeed, while not included in the Abhidhammapiṭaka, it deserves to be considered part of the Theravādin Abhidhamma system. However, it does not make use of the main Abhidhamma <i lang='pi' translate='no'>mātikās</i>. This text introduces a number of terms and ideas of great importance in later Buddhist philosophy. It does not have any counterparts in the northern canons, but articulates a dictinctly Theravādin perspective on the path.",
+  "acronym": "Ps",
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 31,
+  "children": [
+    {
+      "uid": "ps-mahavagga",
+      "root_name": "Mahāvagga",
+      "translated_name": "The Great Chapter ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ps 1",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    },
+    {
+      "uid": "ps-yuganaddhavagga",
+      "root_name": "Yuganaddhavagga",
+      "translated_name": "Chapter Beginning With Coupling ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ps 2",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ps-pannavagga",
+      "root_name": "Paññāvagga",
+      "translated_name": "Discussion of Wisdom ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ps 3",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    }
+  ]
+}

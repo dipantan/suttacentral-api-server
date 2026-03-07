@@ -1,0 +1,93 @@
+{
+  "uid": "pli-tv-vi",
+  "root_name": "Theravāda Vinayapiṭaka",
+  "translated_name": "Monastic Law of the Theravāda School ",
+  "node_type": "branch",
+  "blurb": "The Monastic Law for the Theravāda school in Pali. This collection is followed by mendicants of the Theravāda school. It is the only Vinaya for which we have a complete collection in the original Indic.",
+  "acronym": "Tv Vi",
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 943,
+  "children": [
+    {
+      "uid": "pli-tv-bu-vb",
+      "root_name": "Bhikkhu Vibhaṅga",
+      "translated_name": "The Monks’ Rules and Their Analysis ",
+      "acronym": "Bu",
+      "blurb": "The Bhikkhu-vibhaṅga or Mahā-vibhaṅga (“the analysis of the monks’ rules” or “the great analysis”), or simply the Vibhaṅga for short, contains the Monastic Code for monks, the Bhikkhu-pātimokkha, embedded in explanatory material. The Vibhaṅga is divided into eight chapters, each dealing with a separate class of rules, grouped according to the offense incurred in breaking them, with the exception of the <i lang='pi' translate='no'>aniyatas</i> (“the undetermined”) and the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”), which are principles to be applied rather than rules in the strict sense. Each rule together with its explanatory material forms an independent unit, a sub-chapter. These units begin with one or more origin stories, which tell the circumstances that led the Buddha to lay down a particular rule. The rule is then stated, followed by a word commentary that analyzes every significant word contained in the rule. After the word commentary follows a permutation series in which a variety of different scenarios are evaluated and offenses assigned as appropriate. At the end comes a non-offense clause, stating important exceptions to the rule, sometimes followed by individual case studies, in which the Buddha decides the offense incurred in ambiguous cases.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 411
+    },
+    {
+      "uid": "pli-tv-bi-vb",
+      "root_name": "Bhikkhunī Vibhaṅga",
+      "translated_name": "The Nuns’ Rules and Their Analysis ",
+      "acronym": "Bi",
+      "blurb": "The Bhikkhunī-vibhaṅga (“the analysis of the nuns’ rules”) contains the Monastic Code for nuns, the Bhikkhunī-pātimokkha, embedded in explanatory material. The Bhikkhunī-vibhaṅga is divided into seven chapters, each dealing with a separate class of rules, grouped according to the offense incurred in breaking them, with the exception of the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”), which are principles to be applied rather than rules in the strict sense. Each rule together with its explanatory material forms an independent unit, a sub-chapter. These units begin with one or more origin stories, which tell the circumstances that led the Buddha to lay down a particular rule. The rule is then stated, followed by a word commentary that analyzes every significant word contained in the rule. After the word commentary follows a permutation series in which a variety of different scenarios are evaluated and offenses assigned as appropriate. At the end comes a non-offense clause, stating important exceptions to the rule, sometimes followed by individual case studies, in which the Buddha decides the offense incurred in ambiguous cases.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 339
+    },
+    {
+      "uid": "pli-tv-kd",
+      "root_name": "Khandhaka",
+      "translated_name": "The Chapters ",
+      "acronym": "Kd",
+      "blurb": "The Khandhakas (“the Chapters”) comprise the rules and regulations of both Sanghas that fall outside of the Monastic Code, the Pātimokkha. There are 22 individual Khandhakas, most of which discuss a more or less unified topic. The Khandhakas include a variety of material, such as assorted biographical material of a number of eminent disciples and some notorious ones. They also incorporate a few Jātakas and other tales, as well as the stories of the first communal recitation after the Buddha’s passing away and the famous Vesālī affair, sometimes known as “the second council”. The whole collection is structured around the life of the Buddha after his awakening.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 66
+    },
+    {
+      "uid": "pli-tv-pvr",
+      "root_name": "Parivāra",
+      "translated_name": "The Compendium ",
+      "acronym": "Pvr",
+      "blurb": "The Parivāra, “the Compendium”, is a technical analysis of the content of the Suttavibhaṅga and the Khandhakas. It summarizes and distils the essence of the Vinaya, leaving out all narratives and stories. The Parivāra is unique to the Theravada school and it is probable that it was compiled in the sectarian period. Its manner of analysis shares certain characteristics with the Abhidhamma, such as expanding and filling in schemes of classification not given in full detail in the other canonical texts.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 127
+    },
+    {
+      "uid": "pli-tv-bu-pm",
+      "root_name": "Bhikkhu Pātimokkha",
+      "translated_name": "The Monks’ Rules ",
+      "acronym": "Bu",
+      "blurb": "The Bhikkhu-pātimokkha, “the Monastic Code for monks”, contains the core rules of monastic life in the form of a long list without any explanatory material. There are 227 such rules for the monks, grouped according to the type of offense incurred for breaking the rule, with the exception of the <i lang='pi' translate='no'>aniyatas</i> (“the undetermined”) and the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”), which are principles to be applied rather than rules in the strict sense. At present the Pātimokkha is only found embedded in the Suttavibhaṅga (“the Analysis of the Pātimokkha rules”), in which each rule is surrounded by explanatory material. Originally, however, the Pātimokkha probably existed as an independent text, known as the Pātimokkha-sutta. This can be seen from the fact that rules sometimes refer to other rules that immediately precede them, a connection that is now severed since the Suttavibhaṅga material separates the rules from each other.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "pli-tv-bi-pm",
+      "root_name": "Bhikkhunī Pātimokkha",
+      "translated_name": "The Nuns’ Rules ",
+      "acronym": "Bi",
+      "blurb": "The Bhikkhunī-pātimokkha, “the Monastic Code for nuns”, contains the core rules of the monastic life in the form of a long list without any explanatory material. There are 311 such rules for the nuns, grouped according to the type of offense incurred for breaking the rule, with the exception of the last group, the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”), which are principles to be applied rather than rules in the strict sense. At present the Pātimokkha is only found embedded in the Suttavibhaṅga (“the Analysis of the Pātimokkha rules”), in which each rule is surrounded by explanatory material. Originally, however, the Pātimokkha probably existed as an independent text, known as the Pātimokkha-sutta. This can be seen from the fact that rules sometimes refer to other rules that immediately precede them, a connection that is now severed since the Suttavibhaṅga material separates the rules from each other.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "om",
+  "root_name": "Mātikā",
+  "translated_name": "Matrix ",
+  "node_type": "branch",
+  "blurb": "The Mātikā (“the matrix”) is an outline of Vinaya topics.",
+  "acronym": "Other Mt",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "other-matika",
+      "root_name": "Mātikā",
+      "translated_name": "Mātikā",
+      "acronym": "other-matika",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

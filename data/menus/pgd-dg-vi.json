@@ -1,0 +1,28 @@
+{
+  "uid": "pgd-dg-vi",
+  "root_name": "Dharmaguptaka Vinaya",
+  "translated_name": "Monastic Law of the Dharmaguptaka School ",
+  "node_type": "branch",
+  "blurb": "The Monastic Law for the Dharmaguptaka school in Gandhari. This school originally flourished in North-western India and had a large influence on Central Asia and China. Monastics in East Asia follow this Vinaya.",
+  "acronym": "Dg Vi",
+  "root_lang_iso": "pgd",
+  "root_lang_name": "Gāndhārī",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "pgd-dg-bu-pm",
+      "root_name": "Bhikkhu Pātimokkha",
+      "translated_name": "Monks’ Rules ",
+      "acronym": "Pgd Dg Bu Pm",
+      "blurb": "The Bhikkhu-pātimokkha, “the monastic code for monks,” contains the core rules of monastic life in the form of a long list without any explanatory material. There are 250 such rules for the monks, grouped according to the type of offense incurred for breaking the rule, with the exception of the <i lang='pi' translate='no'>aniyatas</i> (“the undetermined”), and the <i lang='pi' translate='no'>adhikaraṇasamathadhamma</i> (“the principles for resolving legal issues”), which are principles to be applied rather than rules in the strict sense.",
+      "node_type": "branch",
+      "root_lang_iso": "pgd",
+      "root_lang_name": "Gāndhārī",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

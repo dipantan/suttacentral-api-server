@@ -1,0 +1,28 @@
+{
+  "uid": "cp-hatthinagavagga",
+  "root_name": "Hatthināgavagga",
+  "translated_name": "The Elephant ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Cp 11–20",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 16,
+  "children": [
+    {
+      "uid": "cp-silaparami",
+      "root_name": "Sīlapāramī",
+      "translated_name": "The Perfection of Morality ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cp 11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 16
+    }
+  ]
+}

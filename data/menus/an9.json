@@ -1,0 +1,41 @@
+{
+  "uid": "an9",
+  "root_name": "Navakanipāta",
+  "translated_name": "The Book of the Nines ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 9",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 108,
+  "children": [
+    {
+      "uid": "an9-pathamapannasaka",
+      "root_name": "Paṭhamapaṇṇāsaka",
+      "translated_name": "The First Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.1–51",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 74
+    },
+    {
+      "uid": "an9-dutiyapannasaka",
+      "root_name": "Dutiyapaṇṇāsaka",
+      "translated_name": "The Second Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 9.52–432",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 34
+    }
+  ]
+}

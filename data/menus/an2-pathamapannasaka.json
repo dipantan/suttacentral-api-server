@@ -1,0 +1,80 @@
+{
+  "uid": "an2-pathamapannasaka",
+  "root_name": "Paṭhamapaṇṇāsaka",
+  "translated_name": "The First Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.1–51",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 10,
+  "children": [
+    {
+      "uid": "an2-kammakaranavagga",
+      "root_name": "Kammakaraṇavagga",
+      "translated_name": "The Chapter on Punishments ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an2-adhikaranavagga",
+      "root_name": "Adhikaraṇavagga",
+      "translated_name": "The Chapter on Disciplinary Issues ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an2-balavagga",
+      "root_name": "Bālavagga",
+      "translated_name": "The Chapter on Fools ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.21–31",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an2-samacittavagga",
+      "root_name": "Samacittavagga",
+      "translated_name": "The Chapter on the Peaceful Mind ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.32–41",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an2-parisavagga",
+      "root_name": "Parisavagga",
+      "translated_name": "The Chapter on Assemblies ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.42–51",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

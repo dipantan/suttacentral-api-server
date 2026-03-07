@@ -1,0 +1,41 @@
+{
+  "uid": "lzh-mi-bu-vb-ay",
+  "root_name": "Aniyata",
+  "translated_name": "Undetermined ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "lzh-mi-bu-vb-ay1",
+      "root_name": "Paṭhamaaniyata",
+      "translated_name": "First Undetermined Offence ",
+      "acronym": "Lzh Mi Bu Vb Ay 1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "lzh-mi-bu-vb-ay2",
+      "root_name": "Dutiyaaniyata",
+      "translated_name": "Second Undetermined Offence ",
+      "acronym": "Lzh Mi Bu Vb Ay 2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

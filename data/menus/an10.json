@@ -1,0 +1,80 @@
+{
+  "uid": "an10",
+  "root_name": "Dasakanipāta",
+  "translated_name": "The Book of the Tens ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 10",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 295,
+  "children": [
+    {
+      "uid": "an10-pathamapannasaka",
+      "root_name": "Paṭhamapaṇṇāsaka",
+      "translated_name": "The First Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.1–50",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 90
+    },
+    {
+      "uid": "an10-dutiyapannasaka",
+      "root_name": "Dutiyapaṇṇāsaka",
+      "translated_name": "The Second Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.51–100",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 74
+    },
+    {
+      "uid": "an10-tatiyapannasaka",
+      "root_name": "Tatiyapaṇṇāsaka",
+      "translated_name": "The Third Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.101–154",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 58
+    },
+    {
+      "uid": "an10-catutthapannasaka",
+      "root_name": "Catutthapaṇṇāsaka",
+      "translated_name": "The Fourth Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.155–210",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 37
+    },
+    {
+      "uid": "an10-pancamapannasaka",
+      "root_name": "Pañcamapaṇṇāsaka",
+      "translated_name": "The Fifth Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.211–746",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 36
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "uid": "an11-ragapeyyala",
+  "root_name": "Rāgapeyyāla",
+  "translated_name": "Abbreviated Texts Beginning With Greed ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 11.982–1151",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 3,
+  "children": [
+    {
+      "uid": "an11.982",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 11.982",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an11.983-991",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 11.983–991",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an11.992-1151",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 11.992–1151",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

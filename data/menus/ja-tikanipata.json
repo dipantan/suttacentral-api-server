@@ -1,0 +1,80 @@
+{
+  "uid": "ja-tikanipata",
+  "root_name": "Tikanipāta",
+  "translated_name": "The Book of the Threes ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 251–300",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 50,
+  "children": [
+    {
+      "uid": "ja-sankappavagga",
+      "root_name": "Saṅkappavagga",
+      "translated_name": "Thoughts of Lust ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 251–260",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ja-padumavagga",
+      "root_name": "Padumavagga",
+      "translated_name": "The Lotus ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 261–270",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ja-udapanavagga",
+      "root_name": "Udapānavagga",
+      "translated_name": "The Fouled Well ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 271–280",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ja-abbhantaravagga",
+      "root_name": "Abbhantaravagga",
+      "translated_name": "The Midmost Mango ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 281–290",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "ja-kumbhavagga",
+      "root_name": "Kumbhavagga",
+      "translated_name": "The Cup ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ja 291–300",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    }
+  ]
+}

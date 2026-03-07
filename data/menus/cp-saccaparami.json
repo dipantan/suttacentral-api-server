@@ -1,0 +1,93 @@
+{
+  "uid": "cp-saccaparami",
+  "root_name": "Saccapāramī",
+  "translated_name": "The Perfection of Truth ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Cp 27–32",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 10,
+  "children": [
+    {
+      "uid": "cp27",
+      "root_name": "Kapirājacariya",
+      "translated_name": "The Conduct of the Monkey-king ",
+      "acronym": "Cp 27",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "cp28",
+      "root_name": "Saccatāpasacariya",
+      "translated_name": "The Conduct of the Ascetic Sacca ",
+      "acronym": "Cp 28",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "cp29",
+      "root_name": "Vaṭṭapotakacariya",
+      "translated_name": "The Conduct of the Young Quail ",
+      "acronym": "Cp 29",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "cp30",
+      "root_name": "Maccharājacariya",
+      "translated_name": "The Conduct of the Fish-king ",
+      "acronym": "Cp 30",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "cp31",
+      "root_name": "Kaṇhadīpāyanacariya",
+      "translated_name": "The Conduct of Kaṇhadīpāyana ",
+      "acronym": "Cp 31",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "cp32",
+      "root_name": "Sutasomacariya",
+      "translated_name": "The Conduct of Sutasoma ",
+      "acronym": "Cp 32",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

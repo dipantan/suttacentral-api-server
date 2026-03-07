@@ -1,0 +1,28 @@
+{
+  "uid": "sn34",
+  "root_name": "Jhānasaṁyutta",
+  "translated_name": "Linked Discourses on Absorption ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on Absorption” (Jhānasaṁyutta) is also known as the “Linked Discourses on Immersion” (Samādhisaṁyutta). It contains 55 discourses dealing with the meditative skills required to perfect absorption. Each discourse describes a meditator who is skilled in some aspects, but not in others, and holds the one skilled in all aspects to be the best.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 34",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 38,
+  "children": [
+    {
+      "uid": "sn34-jhanavagga",
+      "root_name": "Jhānavagga",
+      "translated_name": "The Chapter on Absorption ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 34.1–55",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 38
+    }
+  ]
+}

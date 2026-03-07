@@ -1,0 +1,54 @@
+{
+  "uid": "an3",
+  "root_name": "Tikanipāta",
+  "translated_name": "The Book of the Threes ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 3",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 258,
+  "children": [
+    {
+      "uid": "an3-pathamapannasaka",
+      "root_name": "Paṭhamapaṇṇāsaka",
+      "translated_name": "The First Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 3.1–50",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 103
+    },
+    {
+      "uid": "an3-dutiyapannasaka",
+      "root_name": "Dutiyapaṇṇāsaka",
+      "translated_name": "The Second Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 3.51–102",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 91
+    },
+    {
+      "uid": "an3-tatiyapannasaka",
+      "root_name": "Tatiyapaṇṇāsaka",
+      "translated_name": "The Third Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 3.103–352",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 64
+    }
+  ]
+}

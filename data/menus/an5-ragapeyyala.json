@@ -1,0 +1,93 @@
+{
+  "uid": "an5-ragapeyyala",
+  "root_name": "Rāgapeyyāla",
+  "translated_name": "Abbreviated Texts Beginning With Greed ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 5.303–1152",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 12,
+  "children": [
+    {
+      "uid": "an5.303",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 5.303",
+      "blurb": "Develop insight into greed starting with ugliness.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an5.304",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 5.304",
+      "blurb": "Develop insight into greed starting with impermanence.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an5.305",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 5.305",
+      "blurb": "Develop insight into greed starting with impermanence.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an5.306",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 5.306",
+      "blurb": "Develop insight into greed through the faculties.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an5.307",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 5.307",
+      "blurb": "Develop insight into greed through the powers.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an5.308-1152",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 5.308–1152",
+      "blurb": "Develop complete undestanding, etc., of greed.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

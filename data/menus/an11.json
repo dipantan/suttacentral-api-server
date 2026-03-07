@@ -1,0 +1,28 @@
+{
+  "uid": "an11",
+  "root_name": "Ekādasakanipāta",
+  "translated_name": "The Book of the Elevens ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 11",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 44,
+  "children": [
+    {
+      "uid": "an11-pathamapannasaka",
+      "root_name": "Paṭhamapaṇṇāsaka",
+      "translated_name": "The First Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 11.1–1151",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 44
+    }
+  ]
+}

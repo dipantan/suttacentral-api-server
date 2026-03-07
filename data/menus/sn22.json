@@ -1,0 +1,54 @@
+{
+  "uid": "sn22",
+  "root_name": "Khandhasaṁyutta",
+  "translated_name": "Linked Discourses on the Aggregates ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on the Aggregates” contains 159 discourses on the core doctrinal topic of the five aggregates. This term was introduced in the first sermon as the summary of the noble truth of suffering, and became a foundational teaching in all forms of Buddhism. The basic idea of an “aggregate” is a set or class of phenomena. The five are form (<i lang='pi' translate='no'>rūpa</i>, i.e. “physical phenomena”, or sometimes simply “body”; note that in Buddhism, <i lang='pi' translate='no'>rūpa</i> includes all things with material properties such as shape and color, including visions perceived only in the mind), feeling (<i lang='pi' translate='no'>vedanā</i>, i.e. the pleasant, painful, or neutral tone of experience), perception (<i lang='pi' translate='no'>saññā</i>, i.e. the recognition or interpretation of experience, <em>not</em> sense awareness), choices (<i lang='pi' translate='no'>saṅkhārā</i>, i.e. intention, will, or volition; the choice to perform an act, especially one with an ethical dimension), and consciousness (<i lang='pi' translate='no'>viññāṇa</i>, i.e. the subjective process of awareness itself). The “aggregates” are the various different phenomena so classified. Almost always, they are referred to as the “aggregates connected with grasping” (<i lang='pi' translate='no'>upādānakkhandha</i>). The relation between “grasping” and “aggregate” encompasses a number of aspects. The aggregates are the <em>subject</em> of grasping, in that they are the things that are normally attached to and taken to be the permanent “self”. But they are not merely passive spectators: they are also the <em>functional support</em> of grasping, the things that make grasping work. As active participants in the process of grasping, they <em>stimulate</em> grasping to themselves (<i lang='pi' translate='no'>upādāniya</i>). And finally, they are the <em>product</em> of grasping in the sense that attachments in past lives have given rise to the aggregates in this life (<i lang='pi' translate='no'>upādinna</i>). One of the key functions of the aggregates is to categorize theories of the self. From the discourses, non-Buddhists seem to be familiar with this, yet we cannot identify the aggregates in any pre-Buddhist texts. Regardless of whether the set of categories was pre-Buddhist, the Buddha treated them in his own distinctive way, emphasizing that nothing in the aggregates was a permanent self or soul. In this collection we find a large number of striking and lively narratives, showing how the aggregates could be a solace at the time of death, a guide to the knotty theoretical debates on identity, or a framework for insight meditation. Many of the short abbreviated texts are built from the same templates employed in the “Linked Discourses on the Six Sense Fields”.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 22",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 351,
+  "children": [
+    {
+      "uid": "sn22-mulapannasaka",
+      "root_name": "Mūlapaṇṇāsaka",
+      "translated_name": "The First Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 133
+    },
+    {
+      "uid": "sn22-majjhimapannasaka",
+      "root_name": "Majjhimapaṇṇāsaka",
+      "translated_name": "The Middle Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 140
+    },
+    {
+      "uid": "sn22-uparipannasaka",
+      "root_name": "Uparipaṇṇāsaka",
+      "translated_name": "The Final Fifty ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 78
+    }
+  ]
+}

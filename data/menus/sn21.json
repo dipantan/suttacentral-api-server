@@ -1,0 +1,28 @@
+{
+  "uid": "sn21",
+  "root_name": "Bhikkhusaṁyutta",
+  "translated_name": "Linked Discourses with Monks ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Monks” contains 12 discourses featuring different monks. Unlike the chapter on nuns, this does not use a consistent template, but depicts a diverse range of scenarios. Each case shows a personal challenge or spiritual triumph, shedding a light on the life of the monks.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 21",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 34,
+  "children": [
+    {
+      "uid": "sn21-bhikkhuvagga",
+      "root_name": "Bhikkhuvagga",
+      "translated_name": "The Chapter on Monks ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 21.1–12",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 34
+    }
+  ]
+}

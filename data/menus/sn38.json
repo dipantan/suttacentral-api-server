@@ -1,0 +1,28 @@
+{
+  "uid": "sn38",
+  "root_name": "Jambukhādakasaṁyutta",
+  "translated_name": "Linked Discourses with Jambukhādaka ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Jambukhādaka” contains 16 discourses recording the answers given by Sāriputta to the questions of a wanderer named Jambukhādaka. The questions cover a wide range of themes, from the nature of extinguishment to the difficulty of practicing the Dhamma. This chapter is practically identical to the next, differing only in the name of the wanderer.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 38",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 27,
+  "children": [
+    {
+      "uid": "sn38-jambukhadakavagga",
+      "root_name": "Jambukhādakavagga",
+      "translated_name": "The Chapter with Jambukhādaka ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 38.1–16",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 27
+    }
+  ]
+}

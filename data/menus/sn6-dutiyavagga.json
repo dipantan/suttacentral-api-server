@@ -1,0 +1,80 @@
+{
+  "uid": "sn6-dutiyavagga",
+  "root_name": "Dutiyavagga",
+  "translated_name": "Chapter Two ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 6.11–15",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 10,
+  "children": [
+    {
+      "uid": "sn6.11",
+      "root_name": "Sanaṅkumārasutta",
+      "translated_name": null,
+      "acronym": "SN 6.11",
+      "blurb": "Brahmā Sanaṅkumāra appears to the Buddha and asserts that the aristocrat or khattiya is the best caste, but the Buddha is the best of people.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn6.12",
+      "root_name": "Devadattasutta",
+      "translated_name": null,
+      "acronym": "SN 6.12",
+      "blurb": "Brahmā Sahampati, referring to Devadatta, points out that honors destroy a scoundrel.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn6.13",
+      "root_name": "Andhakavindasutta",
+      "translated_name": null,
+      "acronym": "SN 6.13",
+      "blurb": "Brahmā Sahampati appears to the Buddha and speaks in praise of the renunciates staying fearless in the deep forest, and celebrates the many who have found freedom.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn6.14",
+      "root_name": "Aruṇavatīsutta",
+      "translated_name": null,
+      "acronym": "SN 6.14",
+      "blurb": "The Buddha tells a story of the past Buddha Sikhī and his disciple Abhibhū. They visit a brahmā realm where they perform many astounding feats and give teachings.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn6.15",
+      "root_name": "Parinibbānasutta",
+      "translated_name": null,
+      "acronym": "SN 6.15",
+      "blurb": "After the Buddha became finally extinguished, Brahmā Sahampati led a series of distinguished beings who uttered verses in commemoration",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

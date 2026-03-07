@@ -1,0 +1,41 @@
+{
+  "uid": "an7-ahuneyyavagga",
+  "root_name": "Āhuneyyavagga",
+  "translated_name": "The Chapter on Worthy of Offerings ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 7.95–614",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "an7.95",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 7.95",
+      "blurb": "Seven people worthy of offerings due to observing impermanence in the eye.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an7.96-614",
+      "root_name": "",
+      "translated_name": null,
+      "acronym": "AN 7.96–614",
+      "blurb": "Seven people worthy of offerings due to observing suffering, etc., in the eye, etc.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

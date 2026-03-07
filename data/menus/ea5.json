@@ -1,0 +1,80 @@
+{
+  "uid": "ea5",
+  "root_name": "Ekottarikāgama 5",
+  "translated_name": null,
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "ea5.1",
+      "root_name": "比丘尼品一",
+      "translated_name": null,
+      "acronym": "EA 5.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "ea5.2",
+      "root_name": "比丘尼品二",
+      "translated_name": null,
+      "acronym": "EA 5.2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "ea5.3",
+      "root_name": "比丘尼品三",
+      "translated_name": null,
+      "acronym": "EA 5.3",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "ea5.4",
+      "root_name": "比丘尼品四",
+      "translated_name": null,
+      "acronym": "EA 5.4",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "ea5.5",
+      "root_name": "比丘尼品五",
+      "translated_name": null,
+      "acronym": "EA 5.5",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

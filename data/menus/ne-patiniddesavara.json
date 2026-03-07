@@ -1,0 +1,41 @@
+{
+  "uid": "ne-patiniddesavara",
+  "root_name": "Paṭiniddesavāra",
+  "translated_name": "Counter-demonstrative Subsection ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ne 4–35",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 32,
+  "children": [
+    {
+      "uid": "ne-vibhanga",
+      "root_name": "Vibhaṅga",
+      "translated_name": "Analyses ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ne 4–19",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 16
+    },
+    {
+      "uid": "ne-sampata",
+      "root_name": "Sampāta",
+      "translated_name": "Combined Treatment ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Ne 20–35",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 16
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "uid": "sn30-supannavagga",
+  "root_name": "Supaṇṇavagga",
+  "translated_name": "The Chapter on Phoenixes ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 30.1–46",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 8,
+  "children": [
+    {
+      "uid": "sn30.1",
+      "root_name": "Suddhikasutta",
+      "translated_name": null,
+      "acronym": "SN 30.1",
+      "blurb": "Phoenixes may be born from eggs, the womb, moisture, or spontaneously.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn30.2",
+      "root_name": "Harantisutta",
+      "translated_name": null,
+      "acronym": "SN 30.2",
+      "blurb": "Phoenixes may be born from eggs, the womb, moisture, or spontaneously. Each of them may carry off a dragon of lower birth.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn30.3",
+      "root_name": "Dvayakārīsutta",
+      "translated_name": null,
+      "acronym": "SN 30.3",
+      "blurb": "One becomes an egg born phoenix due to ambivalent deeds in a past life and the appropriate aspiration.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn30.4-6",
+      "root_name": "Dutiyādidvayakārīsuttattika",
+      "translated_name": null,
+      "acronym": "SN 30.4–6",
+      "blurb": "One becomes a womb born, moisture born, or spontaneously born phoenix due to ambivalent deeds in a past life and the appropriate aspiration.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn30.7-16",
+      "root_name": "Aṇḍajadānūpakārasuttadasaka",
+      "translated_name": null,
+      "acronym": "SN 30.7–16",
+      "blurb": "One becomes an egg born phoenix due to ambivalent deeds in a past life, the appropriate aspiration, and giving various gifts.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn30.17-46",
+      "root_name": "Jalābujadānūpakārasutta",
+      "translated_name": null,
+      "acronym": "SN 30.17–46",
+      "blurb": "One becomes a womb born, moisture born, or spontaneously born phoenix due to ambivalent deeds in a past life, the appropriate aspiration, and giving various gifts",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

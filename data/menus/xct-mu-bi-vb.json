@@ -1,0 +1,93 @@
+{
+  "uid": "xct-mu-bi-vb",
+  "root_name": "Bhikkhunī Vibhaṅga",
+  "translated_name": "Nuns’ Rules and Their Analysis ",
+  "node_type": "branch",
+  "blurb": "The Bhikkhunī-vibhaṅga (“the analysis of the nuns’ rules”) contains the monastic code for nuns, the Bhikkhunī-pātimokkha, embedded in explanatory material. The Bhikkhunī-vibhaṅga is divided into six chapters, each dealing with a separate class of rules, grouped according to the offense incurred in breaking them. Each rule together with its explanatory material forms an independent unit, a sub-chapter.",
+  "acronym": "Xct Mu Bi",
+  "root_lang_iso": "xct",
+  "root_lang_name": "Tibetan",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "xct-mu-bi-vb-pj",
+      "root_name": "Pārājika",
+      "translated_name": "Expulsion ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "xct",
+      "root_lang_name": "Tibetan",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "xct-mu-bi-vb-ss",
+      "root_name": "Saṅghādisesa",
+      "translated_name": "Suspension ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "xct",
+      "root_lang_name": "Tibetan",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "xct-mu-bi-vb-np",
+      "root_name": "Nissaggiya Pācittiya",
+      "translated_name": "Relinquishment With Confession ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "xct",
+      "root_lang_name": "Tibetan",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "xct-mu-bi-vb-pc",
+      "root_name": "Pācittiya",
+      "translated_name": "Confession ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "xct",
+      "root_lang_name": "Tibetan",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "xct-mu-bi-vb-pd",
+      "root_name": "Pāṭidesanīya",
+      "translated_name": "Acknowledgment ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "xct",
+      "root_lang_name": "Tibetan",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "xct-mu-bi-vb-sk",
+      "root_name": "Sekhiya",
+      "translated_name": "Rules for Training ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "xct",
+      "root_lang_name": "Tibetan",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

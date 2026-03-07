@@ -1,0 +1,82 @@
+[
+  {
+    "uid": "linked",
+    "root_name": "Saṁyutta",
+    "translated_name": "Collections of Linked Discourses ",
+    "node_type": "branch",
+    "blurb": "Collections of “linked” or “connected” discourses and other related texts.",
+    "acronym": "Linked",
+    "root_lang_iso": null,
+    "root_lang_name": null,
+    "child_range": null,
+    "yellow_brick_road": true,
+    "yellow_brick_road_count": 3863,
+    "children": [
+      {
+        "uid": "sn",
+        "root_name": "Saṁyuttanikāya",
+        "translated_name": "Linked Discourses Collection ",
+        "acronym": "SN",
+        "blurb": "The “Linked” or “Connected” Discourses (Saṁyutta Nikāya, abbreviated SN) is a collection of over a thousand short discourses in the Pali canon. The word “linked” refers to the fact that the texts are collected and organized by topic. In most cases the organizing principle is a particular theme of Dhamma, for example, the five aggregates, dependent origination, the noble eightfold path, mindfulness meditation, or the four noble truths. This collection contains the most extensive range of texts on these core themes. In other cases chapters are organized according to the person or kind of person who speaks. This collection has a full parallel in the Saṁyuktāgama (SA) of the Sarvāstivāda school in Chinese translation. In addition, there are two partial collections in Chinese (SA-2 and SA-3) as well as a number of miscellaneous or fragmentary texts in Chinese, Sanskrit, and Tibetan. Much of the organizational structure of SN is shared with SA, suggesting that this structure preceded the split between these two collections.",
+        "node_type": "branch",
+        "root_lang_iso": "pli",
+        "root_lang_name": "Pāli",
+        "child_range": "SN",
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 3398
+      },
+      {
+        "uid": "sa",
+        "root_name": "Saṁyuktāgama (1st)",
+        "translated_name": "Linked Discourses Compilation (1st) ",
+        "acronym": "SA",
+        "blurb": "The main version of the Linked Discourses found in the Chinese canon is known as the Saṁyuktāgama (Za ahan jing, 雜阿含經), and is believed to stem from a branch of the Sarvāstivādin school. It was translated by Guṇabhadra (求那跋陀) and Baoyun (寶雲) in CE 435–436 at Waguan Monastery (瓦官寺,) Yangdu (楊都). Like the Pali Saṁyutta Nikāya, it contains over a thousand short suttas organized by topic. The texts, however, became disordered during the transmission in China, and an extraneous passage from a later life of Ashoka was mistakenly included. In the 20th century a series of scholars reconstructed the original sequence. The text as originally found is found in the Taishō edition of the Chinese canon as sutra number 99 at T vol. 2, 1a.",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": "SA",
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 403
+      },
+      {
+        "uid": "sa-2",
+        "root_name": "Saṁyuktāgama (2nd)",
+        "translated_name": "Linked Discourses Compilation (2nd) ",
+        "acronym": "SA 2",
+        "blurb": "A partial translation of the Saṁyuktāgama (SA-2) was made between 385 and 431 by an anonymous translator. Known as the Shorter Saṁyuktāgama (Bieyi za ahan jing, 別譯雜阿含經), it may stem from the Mūlasarvāstivādin school. It consists of 364 sutras in 16 fascicles. Most of the texts have parallels in Chinese and/or Pali, primarily in the Sagāthāvagga of the Saṁyutta. In the Taishō edition of the Chinese canon, it is text number 100, located at T vol. 2, 374a.",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": "SA-2",
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 62
+      },
+      {
+        "uid": "sa-3",
+        "root_name": "Saṁyuktāgama (3rd)",
+        "translated_name": "Linked Discourses Compilation (3rd) ",
+        "acronym": "SA 3",
+        "blurb": "A second partial translation of the Saṁyuktāgama (SA-3) (雜阿含經) was made approximately CE 222–280 by an anonymous translator and consists of 27 sutras in one fascicle. In the Taishō edition of the Chinese canon, it is text number 101, located at T vol. 2, 493a.",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": "SA-3",
+        "yellow_brick_road": false,
+        "yellow_brick_road_count": 0
+      },
+      {
+        "uid": "sa-ot",
+        "root_name": "Other Saṁyukta Sūtras",
+        "translated_name": "Other Linked Discourses ",
+        "acronym": "Other SA",
+        "blurb": "22 shorter discourses that in the Taishō edition of the Chinese canon have been gathered in the second volume, at sūtra numbers 102–124, following the three Saṁyuktāgama collections. These are miscellaneous translations of various discourses from the Saṁyutta, made at various times by various translators.",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": "SA ot",
+        "yellow_brick_road": false,
+        "yellow_brick_road_count": 0
+      }
+    ]
+  }
+]

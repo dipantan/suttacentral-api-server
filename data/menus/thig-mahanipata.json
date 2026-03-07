@@ -1,0 +1,28 @@
+{
+  "uid": "thig-mahanipata",
+  "root_name": "Mahānipāta",
+  "translated_name": "The Great Book",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Thig 16",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 3,
+  "children": [
+    {
+      "uid": "thig16.1",
+      "root_name": "Sumedhātherīgāthā",
+      "translated_name": null,
+      "acronym": "Thig 16.1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    }
+  ]
+}

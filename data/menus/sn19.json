@@ -1,0 +1,41 @@
+{
+  "uid": "sn19",
+  "root_name": "Lakkhaṇasaṁyutta",
+  "translated_name": "Linked Discourses with Lakkhaṇa ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Lakkhaṇa” contains 21 discourses with the Buddha featuring the monk Lakkhaṇa (“Mark”). Through his psychic powers he sees beings in various states of torment and distress, and describes them to the Buddha.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 19",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 35,
+  "children": [
+    {
+      "uid": "sn19-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 19.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 17
+    },
+    {
+      "uid": "sn19-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 19.11–21",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 18
+    }
+  ]
+}

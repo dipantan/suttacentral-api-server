@@ -1,0 +1,28 @@
+{
+  "uid": "sn20",
+  "root_name": "Opammasaṁyutta",
+  "translated_name": "Linked Discourses with Similes ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Similes” contains 12 discourses with parables or similes illustrating diverse points of the teaching. This chapter highlights the Buddha’s skill in choosing vivid and suitable similes for any occasion.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 20",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 24,
+  "children": [
+    {
+      "uid": "sn20-opammavagga",
+      "root_name": "Opammavagga",
+      "translated_name": "The Chapter on the Similes ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 20.1–12",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 24
+    }
+  ]
+}

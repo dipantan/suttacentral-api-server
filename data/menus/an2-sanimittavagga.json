@@ -1,0 +1,28 @@
+{
+  "uid": "an2-sanimittavagga",
+  "root_name": "Sanimittavagga",
+  "translated_name": "The Chapter with a Foundation ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.77–86",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an2.77-86",
+      "root_name": "Sanimittavagga",
+      "translated_name": "With a Foundation ",
+      "acronym": "AN 2.77–86",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

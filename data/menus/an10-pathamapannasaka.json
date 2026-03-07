@@ -1,0 +1,80 @@
+{
+  "uid": "an10-pathamapannasaka",
+  "root_name": "Paṭhamapaṇṇāsaka",
+  "translated_name": "The First Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 10.1–50",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 90,
+  "children": [
+    {
+      "uid": "an10-anisamsavagga",
+      "root_name": "Ānisaṁsavagga",
+      "translated_name": "The Chapter on Benefits ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an10-nathavagga",
+      "root_name": "Nāthavagga",
+      "translated_name": "The Chapter on a Protector ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.11–20",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an10-mahavagga",
+      "root_name": "Mahāvagga",
+      "translated_name": "The Great Chapter ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.21–30",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 18
+    },
+    {
+      "uid": "an10-pathamapannasaka-upalivagga",
+      "root_name": "Upālivagga",
+      "translated_name": "The Chapter with Upāli ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.31–40",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 20
+    },
+    {
+      "uid": "an10-akkosavagga",
+      "root_name": "Akkosavagga",
+      "translated_name": "The Chapter on Abuse ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 10.41–50",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    }
+  ]
+}

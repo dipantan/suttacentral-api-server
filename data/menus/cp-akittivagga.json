@@ -1,0 +1,28 @@
+{
+  "uid": "cp-akittivagga",
+  "root_name": "Akittivagga",
+  "translated_name": "With Akitti ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Cp 1–10",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 15,
+  "children": [
+    {
+      "uid": "cp-danaparami",
+      "root_name": "Dānapāramī",
+      "translated_name": "The Perfection of Generosity ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cp 1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    }
+  ]
+}

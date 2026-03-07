@@ -1,0 +1,54 @@
+{
+  "uid": "sn17-dutiyavagga",
+  "root_name": "Dutiyavagga",
+  "translated_name": "Chapter Two ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 17.11–20",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 4,
+  "children": [
+    {
+      "uid": "sn17.11",
+      "root_name": "Suvaṇṇapātisutta",
+      "translated_name": null,
+      "acronym": "SN 17.11",
+      "blurb": "Material possessions, honor, and praise are terrible things, which can corrupt the mind even of a pure mendicant.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn17.12",
+      "root_name": "Rūpiyapātisutta",
+      "translated_name": null,
+      "acronym": "SN 17.12",
+      "blurb": "Material possessions, honor, and praise are terrible things, which can corrupt the mind even of a pure mendicant.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn17.13-20",
+      "root_name": "Suvaṇṇanikkhasuttādiaṭṭhaka",
+      "translated_name": null,
+      "acronym": "SN 17.13–20",
+      "blurb": "Material possessions, honor, and praise are terrible things, which can corrupt the mind even of a pure mendicant.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

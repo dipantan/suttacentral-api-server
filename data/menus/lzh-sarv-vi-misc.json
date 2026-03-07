@@ -1,0 +1,41 @@
+{
+  "uid": "lzh-sarv-vi-misc",
+  "root_name": "Miscellaneous",
+  "translated_name": "Miscellaneous Section of Sarvāstivāda Vinaya ",
+  "node_type": "branch",
+  "blurb": "The miscellaneous section of the Sarvāstivāda Vinaya contains two texts, one on monks’ Vinaya and the other on nuns’ Vinaya.",
+  "acronym": "Misc Sarv Vi",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "lzh-sarv-bi-vb-gd",
+      "root_name": "比丘尼八敬法 (8 Garudhamma)",
+      "translated_name": "8 Important Principles ",
+      "acronym": "Lzh Sarv Bi Vb Gd",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "lzh-sarv-bu-vb-29cases",
+      "root_name": "二十九事 (29 Cases)",
+      "translated_name": "29 Cases",
+      "acronym": "Lzh Sarv Bu Vb: 29 Cases",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

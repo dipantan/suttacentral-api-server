@@ -1,0 +1,80 @@
+{
+  "uid": "ja-culahamsavagga",
+  "root_name": "Cūḷahaṁsavagga",
+  "translated_name": "The Golden Goose ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 533–537",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 5,
+  "children": [
+    {
+      "uid": "ja533",
+      "root_name": "Cūḷahaṁsajātaka",
+      "translated_name": "The Shorter Tale of the Golden Goose ",
+      "acronym": "Ja 533",
+      "blurb": "“All other birds, etc.” This was a story told by the Master, while dwelling in the Bamboo Grove, as to how the venerable Ananda renounced his life.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja534",
+      "root_name": "Mahāhaṁsajātaka",
+      "translated_name": "The Longer Tale of the Golden Goose ",
+      "acronym": "Ja 534",
+      "blurb": "“There go the birds”—This story the Master, while residing in the Bamboo Grove, told concerning the elder Ananda’s renunciation of life. The introductory story is exactly like one already given, but on this occasion the Master in telling a story of the past related the following tale.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja535",
+      "root_name": "Sudhābhojanajātaka",
+      "translated_name": "An Offering of Ambrosia ",
+      "acronym": "Ja 535",
+      "blurb": "“No huckster I”—This was a story told by the Master, while dwelling at Jetavana, concerning a liberally minded Brother.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja536",
+      "root_name": "Kuṇālajātaka",
+      "translated_name": "The Cuckoo ",
+      "acronym": "Ja 536",
+      "blurb": "“This is the report and the fame thereof” This was a story told by the Master, while dwelling beside lake Kunala, concerning five hundred Brethren who were overwhelmed with discontent.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja537",
+      "root_name": "Mahāsutasomajātaka",
+      "translated_name": "The Longer Tale of Prince Moonface the Scholar ",
+      "acronym": "Ja 537",
+      "blurb": "“Master of dainty flavours”—This story the Master while dwelling at Jetavana told concerning the Elder, Angulimala.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

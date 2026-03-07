@@ -1,0 +1,28 @@
+{
+  "uid": "sn47-balakaraniyavagga",
+  "root_name": "Balakaraṇīyavagga",
+  "translated_name": "The Chapter on Hard Work ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 47.73–84",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "sn47.73-84",
+      "root_name": "Balakaraṇīyavagga",
+      "translated_name": "Hard Work ",
+      "acronym": "SN 47.73–84",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

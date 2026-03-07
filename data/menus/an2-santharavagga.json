@@ -1,0 +1,28 @@
+{
+  "uid": "an2-santharavagga",
+  "root_name": "Santhāravagga",
+  "translated_name": "The Chapter on Welcome ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.151–162",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an2.151-162",
+      "root_name": "Santhāravagga",
+      "translated_name": "Welcome ",
+      "acronym": "AN 2.151–162",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

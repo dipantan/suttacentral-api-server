@@ -1,0 +1,80 @@
+{
+  "uid": "sn22-uparipannasaka",
+  "root_name": "Uparipaṇṇāsaka",
+  "translated_name": "The Final Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 78,
+  "children": [
+    {
+      "uid": "sn22-antavagga",
+      "root_name": "Antavagga",
+      "translated_name": "The Chapter on Sides ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 22.103–112",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    },
+    {
+      "uid": "sn22-dhammakathikavagga",
+      "root_name": "Dhammakathikavagga",
+      "translated_name": "The Chapter on a Dhamma Speaker ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 22.113–125",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 19
+    },
+    {
+      "uid": "sn22-avijjavagga",
+      "root_name": "Avijjāvagga",
+      "translated_name": "The Chapter on Ignorance ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 22.126–135",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "sn22-kukkulavagga",
+      "root_name": "Kukkuḷavagga",
+      "translated_name": "The Chapter on Burning Chaff ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 22.136–149",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 18
+    },
+    {
+      "uid": "sn22-ditthivagga",
+      "root_name": "Diṭṭhivagga",
+      "translated_name": "The Chapter on Views ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 22.150–159",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 16
+    }
+  ]
+}

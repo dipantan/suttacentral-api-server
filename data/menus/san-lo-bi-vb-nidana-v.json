@@ -1,0 +1,28 @@
+{
+  "uid": "san-lo-bi-vb-nidana-v",
+  "root_name": "Nidāna",
+  "translated_name": "Origin Story ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-lo-bi-vb-nidana",
+      "root_name": "Mahāprajāpati Gautamī and the garudhammas",
+      "translated_name": "Mahāprajāpati Gautamī and the garudhammas ",
+      "acronym": "San Lo Bi Vb Nidana",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

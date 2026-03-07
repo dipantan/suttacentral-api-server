@@ -1,0 +1,41 @@
+{
+  "uid": "an5-sammutipeyyala",
+  "root_name": "Sammutipeyyāla",
+  "translated_name": "Abbreviated Texts on Appointments ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 5.272–285",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "an5.272",
+      "root_name": "Bhattuddesakasutta",
+      "translated_name": null,
+      "acronym": "AN 5.272",
+      "blurb": "Qualities of one who is appointed to assign meals.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an5.273-285",
+      "root_name": "Senāsanapaññāpakasuttādi",
+      "translated_name": null,
+      "acronym": "AN 5.273–285",
+      "blurb": "Qualities of one who is appointed to assign lodgings, and other monastery responsibilities.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

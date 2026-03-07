@@ -1,0 +1,56 @@
+[
+  {
+    "uid": "minor",
+    "root_name": "Khuddaka",
+    "translated_name": "Collections of Minor Discourses ",
+    "node_type": "branch",
+    "blurb": "Collections of sutta texts outside the four main collections.",
+    "acronym": "Minor",
+    "root_lang_iso": null,
+    "root_lang_name": null,
+    "child_range": null,
+    "yellow_brick_road": true,
+    "yellow_brick_road_count": 3516,
+    "children": [
+      {
+        "uid": "kn",
+        "root_name": "Khuddakanikāya",
+        "translated_name": "Minor Collection ",
+        "acronym": "KN",
+        "blurb": "The word <i lang='pi' translate='no'>khuddaka</i> means “lesser” or “minor”, and it seems that this category originally served to collect certain short collections, mostly verse, that were not conveniently assigned to one of the main <i lang='pi' translate='no'>nikāyas</i>. Over time, however, the collection grew, so that the Khuddaka in the Pali canon today is the largest of the <i lang='pi' translate='no'>nikāyas</i>. It includes some of the most popular texts in Theravāda Buddhism, such as the Dhammapada, the Sutta Nipāta, and the Jātakas. There is no closely parallel collection in the other canons, but many of the early texts have parallels in various places.",
+        "node_type": "branch",
+        "root_lang_iso": "pli",
+        "root_lang_name": "Pāli",
+        "child_range": "KN",
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 3176
+      },
+      {
+        "uid": "dharmapadas",
+        "root_name": "Dharmapadas",
+        "translated_name": "Various Dharmapada Texts ",
+        "acronym": "Dhp",
+        "blurb": "Verse collections that are similar to the Dhammapada of the Pali Khuddhaka Nikāya.",
+        "node_type": "branch",
+        "root_lang_iso": null,
+        "root_lang_name": null,
+        "child_range": null,
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 262
+      },
+      {
+        "uid": "minor-lzh",
+        "root_name": "Minor Chinese",
+        "translated_name": "Minor Chinese Texts ",
+        "acronym": "Minor Lzh",
+        "blurb": "Miscellanous texts relating to the early scriptures. These are mostly Chinese translations of texts similar to those found in the Pali canon",
+        "node_type": "branch",
+        "root_lang_iso": "lzh",
+        "root_lang_name": "Chinese",
+        "child_range": null,
+        "yellow_brick_road": true,
+        "yellow_brick_road_count": 78
+      }
+    ]
+  }
+]

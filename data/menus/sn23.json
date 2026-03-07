@@ -1,0 +1,67 @@
+{
+  "uid": "sn23",
+  "root_name": "Rādhasaṁyutta",
+  "translated_name": "Linked Discourses with Rādha ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Rādha” contains 46 discourses with a monk named Rādha on the topic of the five aggregates, and may be considered as an appendix to the previous <i lang='pi' translate='no'>saṁyutta</i>. ",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 23",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 31,
+  "children": [
+    {
+      "uid": "sn23-pathamamaravagga",
+      "root_name": "Paṭhamamāravagga",
+      "translated_name": "First Chapter About Māra ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 23.1–10",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 14
+    },
+    {
+      "uid": "sn23-dutiyamaravagga",
+      "root_name": "Dutiyamāravagga",
+      "translated_name": "Second Chapter About Māra ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 23.11–22",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    },
+    {
+      "uid": "sn23-ayacanavagga",
+      "root_name": "Āyācanavagga",
+      "translated_name": "The Chapter on Aspiration ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 23.23–34",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "sn23-upanisinnavagga",
+      "root_name": "Upanisinnavagga",
+      "translated_name": "The Chapter on Sitting Close ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 23.35–46",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

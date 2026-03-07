@@ -1,0 +1,80 @@
+{
+  "uid": "an5-catutthapannasaka",
+  "root_name": "Catutthapaṇṇāsaka",
+  "translated_name": "The Fourth Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 5.151–200",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 64,
+  "children": [
+    {
+      "uid": "an5-saddhammavagga",
+      "root_name": "Saddhammavagga",
+      "translated_name": "The Chapter on the True Teaching ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.151–160",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 11
+    },
+    {
+      "uid": "an5-aghatavagga",
+      "root_name": "Āghātavagga",
+      "translated_name": "The Chapter on Resentment ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.161–170",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 14
+    },
+    {
+      "uid": "an5-upasakavagga",
+      "root_name": "Upāsakavagga",
+      "translated_name": "The Chapter on a Lay Follower ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.171–180",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    },
+    {
+      "uid": "an5-arannavagga",
+      "root_name": "Araññavagga",
+      "translated_name": "The Chapter on Wilderness Dwellers ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.181–190",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "an5-brahmanavagga",
+      "root_name": "Brāhmaṇavagga",
+      "translated_name": "The Chapter on Brahmins ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.191–200",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 14
+    }
+  ]
+}

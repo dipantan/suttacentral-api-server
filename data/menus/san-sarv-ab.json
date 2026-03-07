@@ -1,0 +1,28 @@
+{
+  "uid": "san-sarv-ab",
+  "root_name": "Sarvāstivāda Abhidharma",
+  "translated_name": "Systematic Treatises of the Sarvāstivāda School ",
+  "node_type": "branch",
+  "blurb": "Texts of the Sarvāstivāda Abhidharma that are available in Sanskrit.",
+  "acronym": "San Sarv Ab",
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "dk",
+      "root_name": "Dharmaskandha",
+      "translated_name": "Chapters on Phenomena",
+      "acronym": "Dk",
+      "blurb": "This text appears to share a common origin with the Vibhaṅga of the Pali tradition. It is maintained today in a complete Chinese and partial Sanskrit version. The Sanskrit text was among the finds at Gilgit. The digital text is based on the editions by Dietz and Matsuda, and was inputted by Klaus Wille for GRETIL. Compared to the Vibhaṅga, the method appears to be less formalized and more discursive, quoting a range of sutta passages. It was written by Śāriputra (according to the Sanskrit and Tibetan sources) or Maudgalyāyana (according to Chinese sources). The Chinese edition was translated by Xuanzang and may be found at T 1537.",
+      "node_type": "branch",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": "Dk",
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

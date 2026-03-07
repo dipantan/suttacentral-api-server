@@ -1,0 +1,80 @@
+{
+  "uid": "cp-yudhanjayavagga",
+  "root_name": "Yudhañjayavagga",
+  "translated_name": "With Yudhañjaya ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Cp 21–35",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 25,
+  "children": [
+    {
+      "uid": "cp-nekkhammaparami",
+      "root_name": "Nekkhammapāramī",
+      "translated_name": "The Perfection of Renunciation ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cp 21–25",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 9
+    },
+    {
+      "uid": "cp-aditthanaparami",
+      "root_name": "Adiṭṭhānapāramī",
+      "translated_name": "The Perfection of Determination ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cp 26",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "cp-saccaparami",
+      "root_name": "Saccapāramī",
+      "translated_name": "The Perfection of Truth ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cp 27–32",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "cp-mettaparami",
+      "root_name": "Mettāpāramī",
+      "translated_name": "The Perfection of Love ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cp 33–34",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 3
+    },
+    {
+      "uid": "cp-upekkhaparami",
+      "root_name": "Upekkhāpāramī",
+      "translated_name": "The Perfection of Equanimity ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Cp 35",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

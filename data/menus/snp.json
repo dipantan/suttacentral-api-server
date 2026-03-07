@@ -1,0 +1,80 @@
+{
+  "uid": "snp",
+  "root_name": "Suttanipāta",
+  "translated_name": "Anthology of Discourses ",
+  "node_type": "branch",
+  "blurb": "The “Group of Discourses” contains 74 mostly short texts in verse or mixed prose and verse, arranged in five chapters. This contains some of the most beloved texts in popular Buddhism, such as the Ratana, Maṅgala, and Mettā Suttas, which are known to all Theravada Buddhists and recited as uplifting and protective chants at auspicious ceremonies. The collection as a whole is somewhat late; it is not found in northern scriptures, and some portions, such as the opening verses of the Nālaka Sutta, belong to the latest strata of the early texts. Nevertheless, certain sections—the “Rhinoceros Horn”, the “Chapter of the Eights”, and the “Way to the Beyond”—appear to have existed before being gathered into the collection, and are regarded as early. While the collection as a whole has no counterpart elsewhere, several portions have parallels in Chinese or Sanskrit.",
+  "acronym": "Snp",
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 230,
+  "children": [
+    {
+      "uid": "snp-uragavagga",
+      "root_name": "Uragavagga",
+      "translated_name": "The Serpent Chapter ",
+      "acronym": null,
+      "blurb": "Twelve poems beginning with a set of similes comparing a liberated one with a serpent who sheds its skin. The poems are diverse in style and content, and appear to have been collected from different sources. This chapter includes many perennial favorites such as the Mettā Sutta on Love and the warnings of the Parābhava Sutta on downfalls.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Snp 1",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 38
+    },
+    {
+      "uid": "snp-culavagga",
+      "root_name": "Cūḷavagga",
+      "translated_name": "The Lesser Chapter ",
+      "acronym": null,
+      "blurb": "Thirteen diverse poems similar to the previous chapter.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Snp 2",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 41
+    },
+    {
+      "uid": "snp-mahavagga",
+      "root_name": "Mahāvagga",
+      "translated_name": "The Great Chapter ",
+      "acronym": null,
+      "blurb": "Twelve longer poems that expand into sometimes legendary narrative. The first two discourses and the Nalaka Sutta offer early glimpses at crucial episodes in the Buddha’s life. While some of these poems are found elsewhere in the canon, the Dvayatānupassanā offers a unique perspective on dependent origination and other topics typically found in prose texts.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Snp 3",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 34
+    },
+    {
+      "uid": "snp-atthakavagga",
+      "root_name": "Aṭṭhakavagga",
+      "translated_name": "The Chapter of Eights ",
+      "acronym": null,
+      "blurb": "This chapter, which has parallels in Chinese, and received an early commentary in the Niddesa, is often regarded as one of the earliest texts in the canon. Shorn of literary embellishments, it is direct and  powerful. A distinctive aspect is the critique of meaningless debates and attachments to views. The Attadaṇḍa Sutta gives an alternative account of the reasons for the Buddha’s going forth.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Snp 4",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 48
+    },
+    {
+      "uid": "snp-parayanavagga",
+      "root_name": "Pārāyanavagga",
+      "translated_name": "The Chapter on the Way to the Beyond ",
+      "acronym": null,
+      "blurb": "This is perhaps the most sophisticated and moving poetic composition in early Buddhism. It begins with a brahmin, suffering an unwanted curse, who sends his students to seek the Buddha. At the end of a long journey they ask questions, the nature of which indicate their subtle philosophy and deep meditation. It concludes with an emotional declaration of faith and determination.",
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "Snp 5",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 69
+    }
+  ]
+}

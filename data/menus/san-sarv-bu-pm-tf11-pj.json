@@ -1,0 +1,67 @@
+{
+  "uid": "san-sarv-bu-pm-tf11-pj",
+  "root_name": "Pārājika",
+  "translated_name": "Expulsion ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "san",
+  "root_lang_name": "Sanskrit",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "san-sarv-bu-pm-tf11-pj1",
+      "root_name": "Methunadhamma",
+      "translated_name": "Sexual Intercourse ",
+      "acronym": "San Sarv Bu Pm Tf 11 Pj 1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bu-pm-tf11-pj2",
+      "root_name": "Adinnādāna",
+      "translated_name": "Theft ",
+      "acronym": "San Sarv Bu Pm Tf 11 Pj 2",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bu-pm-tf11-pj3",
+      "root_name": "Manussaviggaha",
+      "translated_name": "Murder ",
+      "acronym": "San Sarv Bu Pm Tf 11 Pj 3",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "san-sarv-bu-pm-tf11-pj4",
+      "root_name": "Uttarimanussadhamma",
+      "translated_name": "Laying False Claim to Superhuman Attainments ",
+      "acronym": "San Sarv Bu Pm Tf 11 Pj 4",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "san",
+      "root_lang_name": "Sanskrit",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

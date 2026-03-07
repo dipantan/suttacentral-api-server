@@ -1,0 +1,41 @@
+{
+  "uid": "ja-kusavagga",
+  "root_name": "Kusavagga",
+  "translated_name": "King Grass ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "Ja 531–532",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "ja531",
+      "root_name": "Kusajātaka",
+      "translated_name": "King Grass ",
+      "acronym": "Ja 531",
+      "blurb": "“This realm”—This was a tale the Master, while dwelling at Jetavana, told about a backsliding Brother. ",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "ja532",
+      "root_name": "Soṇanandajātaka",
+      "translated_name": "The Brothers Soṇa and Nanda ",
+      "acronym": "Ja 532",
+      "blurb": "“Angel or minstrel-god”—This was a story told by the Master, while living at Jetavana, about a Brother who supported his mother. The circumstance which led up to it was the same as that related in the Sama Birth. But on this occasion the Master said, “Brethren, do not take offence at this Brother. Sages of old, though they were offered rule over all India, refused to accept it and supported their parents”: and so saying he told a story of the past.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

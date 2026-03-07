@@ -1,0 +1,28 @@
+{
+  "uid": "an2-samapattivagga",
+  "root_name": "Samāpattivagga",
+  "translated_name": "The Chapter on Attainment ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.163–179",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an2.163-179",
+      "root_name": "Samāpattivagga",
+      "translated_name": "Attainment ",
+      "acronym": "AN 2.163–179",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

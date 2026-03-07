@@ -1,0 +1,54 @@
+{
+  "uid": "lzh-dk",
+  "root_name": "Dharmaskandha",
+  "translated_name": "Chapters on Phenomena ",
+  "node_type": "branch",
+  "blurb": "The full title is Abhidharmadharmaskandhapādaśāstra (Apidamo Fa Yun Zu Lun, 阿毘達磨法薀足論). This text appears to share a common origin with the Vibhaṅga of the Pali tradition. It is maintained today in a complete Chinese and partial Sanskrit version. Compared to the Vibhaṅga, the method appears to be less formalized and more discursive, quoting a range of sutta passages. It was written by Śāriputra (according to the Sanskrit and Tibetan sources) or Maudgalyāyana (according to Chinese sources). The Chinese edition was translated in 12 fascicles by Xuanzang in August 20th–October 5th, CE 659 at Ta-tzu-en Monastery. In the Taishō edition of the Chinese canon, it is text number 1537, located at T vol. 26, 453c.",
+  "acronym": "Lzh Dk",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": "Lzh Dk",
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "t1537.8",
+      "root_name": "阿毘達磨法蘊足論",
+      "translated_name": null,
+      "acronym": "T 1537.8",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": null,
+      "root_name": null,
+      "translated_name": null,
+      "acronym": null,
+      "blurb": null,
+      "node_type": null,
+      "root_lang_iso": null,
+      "root_lang_name": null,
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "t1537.10",
+      "root_name": "阿毘達磨法蘊足論",
+      "translated_name": null,
+      "acronym": "T 1537.10",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "an1-pamadadivagga",
+  "root_name": "Pamādādivagga",
+  "translated_name": "The Chapter on Negligence ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 1.82–97",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an1.82-97",
+      "root_name": "Pamādādivagga",
+      "translated_name": "Negligence ",
+      "acronym": "AN 1.82–97",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

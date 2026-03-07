@@ -1,0 +1,41 @@
+{
+  "uid": "pli-tv-bi-vb-pd",
+  "root_name": "Pāṭidesanīya",
+  "translated_name": "Acknowledgment ",
+  "node_type": "branch",
+  "blurb": "The rules in this category are known in Pali as <i lang='pi' translate='no'>pāṭidesanīya</i>, “entailing acknowledgement”. There are eight such rules for the nuns. These eight rules for the nuns are equivalent to a single rule for the monks (<i lang='pi' translate='no'>bhikkhu-pācittiya</i> 39). In summary, they say that a nun who asks for special food must acknowledge the offense.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": null,
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 4,
+  "children": [
+    {
+      "uid": "pli-tv-bi-vb-pd1",
+      "root_name": "Sappiviññāpana",
+      "translated_name": "1. The training rule on asking for ghee ",
+      "acronym": "Bi Pd 1",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "pli-tv-bi-vb-pd2-8",
+      "root_name": "Telādi",
+      "translated_name": "2–8. Asking for oil … for honey … for syrup … for fish … for meat … for milk … for curd ",
+      "acronym": " Bi Pd 2–8",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}

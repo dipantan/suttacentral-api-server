@@ -1,0 +1,67 @@
+{
+  "uid": "an5-chatthapannasaka",
+  "root_name": "Chaṭṭhapaṇṇāsaka",
+  "translated_name": "The Sixth Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 5.251–1152",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 33,
+  "children": [
+    {
+      "uid": "an5-upasampadavagga",
+      "root_name": "Upasampadāvagga",
+      "translated_name": "The Chapter on Ordination ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.251–271",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 15
+    },
+    {
+      "uid": "an5-sammutipeyyala",
+      "root_name": "Sammutipeyyāla",
+      "translated_name": "Abbreviated Texts on Appointments ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.272–285",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    },
+    {
+      "uid": "an5-sikkhapadapeyyala",
+      "root_name": "Sikkhāpadapeyyāla",
+      "translated_name": "Abbreviated Texts on Training Rules ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.286–302",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 4
+    },
+    {
+      "uid": "an5-ragapeyyala",
+      "root_name": "Rāgapeyyāla",
+      "translated_name": "Abbreviated Texts Beginning With Greed ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.303–1152",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    }
+  ]
+}

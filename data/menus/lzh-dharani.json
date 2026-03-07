@@ -1,0 +1,41 @@
+{
+  "uid": "lzh-dharani",
+  "root_name": "Dhāraṇī",
+  "translated_name": "Incantations ",
+  "node_type": "branch",
+  "blurb": "This section includes texts recited as protection mantras, similar to the <i lang='pi' translate='no'>parittas</i> of the Pali canon. Of the many texts classified in this way in the Chinese canon, two have been identified as parallel to the Pali Bhaddekaratta and Āṭānāṭiya suttas.",
+  "acronym": "Dhar",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "t1245",
+      "root_name": "毘沙門天王",
+      "translated_name": "Great King Vaiśravaṇa ",
+      "acronym": "T 1245",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "t1362",
+      "root_name": "善夜",
+      "translated_name": "One Fine Night",
+      "acronym": "T 1362",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

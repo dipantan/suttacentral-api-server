@@ -1,0 +1,67 @@
+{
+  "uid": "an2-peyyala",
+  "root_name": "Peyyāla",
+  "translated_name": "Abbreviated Texts ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.180–479",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 4,
+  "children": [
+    {
+      "uid": "an2-kodhapeyyalavagga",
+      "root_name": "Kodhapeyyālavagga",
+      "translated_name": "The Chapter of Abbreviated Texts Beginning With Anger",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.180–229",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an2-akusalapeyyalavagga",
+      "root_name": "Akusalapeyyālavagga",
+      "translated_name": "The Chapter of Abbreviated Texts Beginning With the Unskillful",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.230–279",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an2-vinayapeyyalavagga",
+      "root_name": "Vinayapeyyālavagga",
+      "translated_name": "The Chapter of Abbreviated Texts on Monastic Law ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.280–309",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "an2-ragapeyyalavagga",
+      "root_name": "Rāgapeyyālavagga",
+      "translated_name": "The Chapter of Abbreviated Texts Beginning with Greed ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 2.310–479",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

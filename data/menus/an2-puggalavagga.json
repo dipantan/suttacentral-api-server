@@ -1,0 +1,28 @@
+{
+  "uid": "an2-puggalavagga",
+  "root_name": "Puggalavagga",
+  "translated_name": "The Chapter on Individuals ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 2.52–63",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an2.52-63",
+      "root_name": "Puggalavagga",
+      "translated_name": "Individuals ",
+      "acronym": "AN 2.52–63",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

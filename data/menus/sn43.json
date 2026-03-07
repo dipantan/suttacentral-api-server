@@ -1,0 +1,41 @@
+{
+  "uid": "sn43",
+  "root_name": "Asaṅkhatasaṁyutta",
+  "translated_name": "Linked Discourses on the Unconditioned ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses on the Unconditioned” contains 44 discourses on the theme of the unconditioned, i.e. <i lang='pi' translate='no'>nibbāna</i> or “extinguishment”. They focus on the various practices that lead to the unconditioned. This chapter includes an extensive range of terms and idioms describing the final goal of Buddhist practice.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 43",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 45,
+  "children": [
+    {
+      "uid": "sn43-pathamavagga",
+      "root_name": "Paṭhamavagga",
+      "translated_name": "Chapter One ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 43.1–11",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 33
+    },
+    {
+      "uid": "sn43-dutiyavagga",
+      "root_name": "Dutiyavagga",
+      "translated_name": "Chapter Two ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 43.12–44",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    }
+  ]
+}

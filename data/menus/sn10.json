@@ -1,0 +1,28 @@
+{
+  "uid": "sn10",
+  "root_name": "Yakkhasaṁyutta",
+  "translated_name": "Linked Discourses with Spirits ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses with Spirits” contains 12 discourses with verses telling the encounters between the Buddha—or in one case the monk Anuruddha—and various spirits (<i lang='pi' translate='no'>yakkha</i>). The spirits were local deities worshiped in ancient India, of a lower order than the gods and Brahmās. While in later forms of Buddhism, such spirits were typically depicted as malevolent or dangerous, in the early texts they are more ambivalent, and many of them are friendly, merely asking Dhamma questions, or extolling Dhamma virtues like mindfulness. That’s not to say they couldn’t be scary, and several discourses reveal a more ferocious aspect. Particularly interesting is the emphasis on the love that the female spirits feel for their children.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 10",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 24,
+  "children": [
+    {
+      "uid": "sn10-indakavagga",
+      "root_name": "Indakavagga",
+      "translated_name": "The Chapter with Indaka ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 10.1–12",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 24
+    }
+  ]
+}

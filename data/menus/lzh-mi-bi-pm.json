@@ -1,0 +1,93 @@
+{
+  "uid": "lzh-mi-bi-pm",
+  "root_name": "Bhikkhunī Pātimokkha",
+  "translated_name": "Nuns’ Rules ",
+  "node_type": "branch",
+  "blurb": "The Bhikkhunī-pātimokkha, “the monastic code for nuns,” contains the core rules of monastic life in the form of a long list without any explanatory material. There are 373 such rules for the nuns, grouped according to the type of offense incurred for breaking the rule.",
+  "acronym": "Lzh Mi Bi Pm",
+  "root_lang_iso": "lzh",
+  "root_lang_name": "Chinese",
+  "child_range": null,
+  "yellow_brick_road": false,
+  "yellow_brick_road_count": 0,
+  "children": [
+    {
+      "uid": "lzh-mi-bi-pm-pj",
+      "root_name": "Pārājika",
+      "translated_name": "Expulsion ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "lzh-mi-bi-pm-ss",
+      "root_name": "Saṅghādisesa",
+      "translated_name": "Suspension ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "lzh-mi-bi-pm-np",
+      "root_name": "Nissaggiya Pācittiya",
+      "translated_name": "Relinquishment With Confession ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "lzh-mi-bi-pm-pc",
+      "root_name": "Pācittiya",
+      "translated_name": "Confession ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "lzh-mi-bi-pm-pd",
+      "root_name": "Pāṭidesanīya",
+      "translated_name": "Acknowledgment ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    },
+    {
+      "uid": "lzh-mi-bi-pm-sk",
+      "root_name": "Sekhiya",
+      "translated_name": "Rules for Training ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "lzh",
+      "root_lang_name": "Chinese",
+      "child_range": null,
+      "yellow_brick_road": false,
+      "yellow_brick_road_count": 0
+    }
+  ]
+}

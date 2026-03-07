@@ -1,0 +1,28 @@
+{
+  "uid": "sn9",
+  "root_name": "Vanasaṁyutta",
+  "translated_name": "Linked Discourses in the Woods ",
+  "node_type": "branch",
+  "blurb": "The “Linked Discourses in the Woods” contains 14 discourses with verses telling the experiences of certain monks living the woods. Typically the monk is slack or negligent in some way, and a deity appears to call them out and encourage them to greater diligence.",
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 9",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 28,
+  "children": [
+    {
+      "uid": "sn9-vanavagga",
+      "root_name": "Vanavagga",
+      "translated_name": "The Chapter on In the Woods ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "SN 9.1–14",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 28
+    }
+  ]
+}

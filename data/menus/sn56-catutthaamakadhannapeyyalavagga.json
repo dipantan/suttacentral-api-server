@@ -1,0 +1,93 @@
+{
+  "uid": "sn56-catutthaamakadhannapeyyalavagga",
+  "root_name": "Catutthaāmakadhaññapeyyālavagga",
+  "translated_name": "The Fourth Chapter of Abbreviated Texts on Raw Grain ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 56.91–101",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 6,
+  "children": [
+    {
+      "uid": "sn56.91",
+      "root_name": "Khettavatthusutta",
+      "translated_name": null,
+      "acronym": "SN 56.91",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn56.92",
+      "root_name": "Kayavikkayasutta",
+      "translated_name": null,
+      "acronym": "SN 56.92",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn56.93",
+      "root_name": "Dūteyyasutta",
+      "translated_name": null,
+      "acronym": "SN 56.93",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn56.94",
+      "root_name": "Tulākūṭasutta",
+      "translated_name": null,
+      "acronym": "SN 56.94",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn56.95",
+      "root_name": "Ukkoṭanasutta",
+      "translated_name": null,
+      "acronym": "SN 56.95",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    },
+    {
+      "uid": "sn56.96-101",
+      "root_name": "Chedanādisutta",
+      "translated_name": null,
+      "acronym": "SN 56.96–101",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "uid": "an8-samannavagga",
+  "root_name": "Sāmaññavagga",
+  "translated_name": "The Chapter on Similarity ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 8.91–117",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 1,
+  "children": [
+    {
+      "uid": "an8.91-117",
+      "root_name": "Sāmaññavagga",
+      "translated_name": "Similarity ",
+      "acronym": "AN 8.91–117",
+      "blurb": null,
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 1
+    }
+  ]
+}

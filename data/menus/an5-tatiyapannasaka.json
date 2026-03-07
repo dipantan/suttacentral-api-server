@@ -1,0 +1,80 @@
+{
+  "uid": "an5-tatiyapannasaka",
+  "root_name": "Tatiyapaṇṇāsaka",
+  "translated_name": "The Third Fifty ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "AN 5.101–150",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 59,
+  "children": [
+    {
+      "uid": "an5-phasuviharavagga",
+      "root_name": "Phāsuvihāravagga",
+      "translated_name": "The Chapter on Living Comfortably ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.101–110",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 10
+    },
+    {
+      "uid": "an5-andhakavindavagga",
+      "root_name": "Andhakavindavagga",
+      "translated_name": "The Chapter at Andhakavinda ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.111–120",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    },
+    {
+      "uid": "an5-gilanavagga",
+      "root_name": "Gilānavagga",
+      "translated_name": "The Chapter on Sick ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.121–130",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 13
+    },
+    {
+      "uid": "an5-rajavagga",
+      "root_name": "Rājavagga",
+      "translated_name": "The Chapter on Kings ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.131–140",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    },
+    {
+      "uid": "an5-tikandakivagga",
+      "root_name": "Tikaṇḍakīvagga",
+      "translated_name": "The Chapter at Tikaṇḍakī ",
+      "acronym": null,
+      "blurb": null,
+      "node_type": "branch",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": "AN 5.141–150",
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 12
+    }
+  ]
+}

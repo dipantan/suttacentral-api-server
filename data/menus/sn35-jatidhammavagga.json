@@ -1,0 +1,28 @@
+{
+  "uid": "sn35-jatidhammavagga",
+  "root_name": "Jātidhammavagga",
+  "translated_name": "The Chapter on Liable to Be Reborn ",
+  "node_type": "branch",
+  "blurb": null,
+  "acronym": null,
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pāli",
+  "child_range": "SN 35.33–42",
+  "yellow_brick_road": true,
+  "yellow_brick_road_count": 2,
+  "children": [
+    {
+      "uid": "sn35.33-42",
+      "root_name": "Jātidhammāsutta",
+      "translated_name": null,
+      "acronym": "SN 35.33–42",
+      "blurb": "The “all” consisting of the six interior and exterior sense fields is liable to be reborn, to age, etc.",
+      "node_type": "leaf",
+      "root_lang_iso": "pli",
+      "root_lang_name": "Pāli",
+      "child_range": null,
+      "yellow_brick_road": true,
+      "yellow_brick_road_count": 2
+    }
+  ]
+}
