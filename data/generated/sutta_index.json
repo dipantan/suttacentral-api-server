@@ -39091,10 +39091,22 @@
       "patton": "sutta\\sa\\sa801-900\\sa810_translation-en-patton.json"
     }
   },
+  "dk-name": {
+    "root": null,
+    "translations": {
+      "sujato": "name\\abhidhamma\\dk-name_translation-en-sujato.json"
+    }
+  },
   "mvs-name": {
     "root": null,
     "translations": {
       "sujato": "name\\abhidhamma\\mvs-name_translation-en-sujato.json"
+    }
+  },
+  "sab-name": {
+    "root": null,
+    "translations": {
+      "sujato": "name\\abhidhamma\\sab-name_translation-en-sujato.json"
     }
   },
   "super-name": {
