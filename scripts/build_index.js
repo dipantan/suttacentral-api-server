@@ -86,6 +86,23 @@ function buildIndex() {
     console.warn(`Translation directory not found: ${TRANSLATION_DIR}`);
   }
 
+  // 3. Index Legacy Translations
+  const LEGACY_MAP_FILE = path.join(BASE_DIR, "legacy_sutta_map.json");
+  console.log("Scanning Legacy Translations...");
+  if (fs.existsSync(LEGACY_MAP_FILE)) {
+    const legacyMap = JSON.parse(fs.readFileSync(LEGACY_MAP_FILE, "utf8"));
+    Object.entries(legacyMap).forEach(([uid, info]) => {
+      if (!index[uid]) {
+        index[uid] = { root: null, translations: {} };
+      }
+      // Store the legacy path. We'll use a special author prefix "legacy-" 
+      // or just the author_uid if unique.
+      // fetch_legacy.js stores it as legacy/en/{author}/{uid}.html
+      index[uid].translations[info.author_uid] = info.path;
+    });
+    console.log(`  - Added ${Object.keys(legacyMap).length} legacy translations.`);
+  }
+
   const outputCount = Object.keys(index).length;
   console.log(`Indexed ${outputCount} suttas.`);
 
@@ -93,9 +110,9 @@ function buildIndex() {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }
 
-  // Sanity check: log dn1
-  if (index["dn1"]) {
-    console.log("Sample (dn1):", JSON.stringify(index["dn1"], null, 2));
+  // Sanity check: log ds1.1 if it has a legacy translation now
+  if (index["ds1.1"]) {
+    console.log("Sample (ds1.1):", JSON.stringify(index["ds1.1"], null, 2));
   }
 
   fs.writeFileSync(OUTPUT_FILE, JSON.stringify(index, null, 2));
