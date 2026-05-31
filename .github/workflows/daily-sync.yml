@@ -47,18 +47,31 @@ jobs:
           mkdir -p data
           if curl -fsL "https://github.com/${{ github.repository }}/releases/latest/download/data.zip" -o /tmp/prev.zip; then
             mkdir -p /tmp/prev
-            # Extract legacy and map from previous bundle if present
+            # Extract legacy and map from previous bundle if present (handling both old flat and new wrapped structure)
+            bsdtar -xf /tmp/prev.zip -C /tmp/prev data/bilara-data-published/legacy data/bilara-data-published/legacy_sutta_map.json || \
             bsdtar -xf /tmp/prev.zip -C /tmp/prev bilara-data-published/legacy bilara-data-published/legacy_sutta_map.json || true
-            if [ -d /tmp/prev/bilara-data-published/legacy ]; then
+            
+            # Check for wrapped structure first
+            if [ -d /tmp/prev/data/bilara-data-published/legacy ]; then
+              rm -rf data/bilara-data-published/legacy
+              mkdir -p data/bilara-data-published
+              mv /tmp/prev/data/bilara-data-published/legacy data/bilara-data-published/
+              echo "Restored legacy directory from previous release (wrapped structure)"
+            elif [ -d /tmp/prev/bilara-data-published/legacy ]; then
               rm -rf data/bilara-data-published/legacy
               mkdir -p data/bilara-data-published
               mv /tmp/prev/bilara-data-published/legacy data/bilara-data-published/
-              echo "Restored legacy directory from previous release"
+              echo "Restored legacy directory from previous release (flat structure)"
             fi
-            if [ -f /tmp/prev/bilara-data-published/legacy_sutta_map.json ]; then
+
+            if [ -f /tmp/prev/data/bilara-data-published/legacy_sutta_map.json ]; then
+              mkdir -p data/bilara-data-published
+              mv /tmp/prev/data/bilara-data-published/legacy_sutta_map.json data/bilara-data-published/
+              echo "Restored legacy_sutta_map.json from previous release (wrapped structure)"
+            elif [ -f /tmp/prev/bilara-data-published/legacy_sutta_map.json ]; then
               mkdir -p data/bilara-data-published
               mv /tmp/prev/bilara-data-published/legacy_sutta_map.json data/bilara-data-published/
-              echo "Restored legacy_sutta_map.json from previous release"
+              echo "Restored legacy_sutta_map.json from previous release (flat structure)"
             fi
           else
             echo "No previous data.zip found; continuing without legacy restore"

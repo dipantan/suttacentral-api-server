@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const BILARA_BASE = path.join(__dirname, "../bilara-data-published");
+const BILARA_BASE = path.join(__dirname, "../data/bilara-data-published");
 
 const DIRS_TO_PROCESS = [
   { name: "root", keep: ["pli"] },
@@ -25,17 +25,7 @@ const DIRS_TO_DELETE = ["_publication"];
 
 function deleteFolderRecursive(directoryPath) {
   if (fs.existsSync(directoryPath)) {
-    fs.readdirSync(directoryPath).forEach((file, index) => {
-      const curPath = path.join(directoryPath, file);
-      if (fs.lstatSync(curPath).isDirectory()) {
-        // recurse
-        deleteFolderRecursive(curPath);
-      } else {
-        // delete file
-        fs.unlinkSync(curPath);
-      }
-    });
-    fs.rmdirSync(directoryPath);
+    fs.rmSync(directoryPath, { recursive: true, force: true });
   }
 }
 
