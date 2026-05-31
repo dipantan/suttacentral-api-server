@@ -143,14 +143,18 @@ async function buildPipeline() {
     runCommand(`node scripts/fetch_legacy.js`);
   }
 
-  // --- Step 7: Generate Zip Bundle ---
-  console.log("\n--- Step 7: Generating Zip Bundle ---");
+  // --- Step 7: Re-build Sutta Index to include Legacy paths ---
+  console.log("\n--- Step 7: Finalizing Sutta Index (with Legacy) ---");
+  runCommand(`node scripts/build_index.js`);
+
+  // --- Step 8: Generate Zip Bundle ---
+  console.log("\n--- Step 8: Generating Zip Bundle ---");
   try {
     const finalZipPath = await generateBundle();
     console.log(`✅ Zip successfully generated at: ${finalZipPath}`);
 
-    // --- Step 8: Write Version Tracker ---
-    console.log("\n--- Step 8: Writing Version History ---");
+    // --- Step 9: Write Version Tracker ---
+    console.log("\n--- Step 9: Writing Version History ---");
     fs.writeFileSync(VERSION_FILE, JSON.stringify(versionInfo, null, 2));
     console.log(`✅ Version tracking saved to ${VERSION_FILE}`);
   } catch (err) {

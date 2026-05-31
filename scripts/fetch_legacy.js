@@ -67,14 +67,20 @@ async function run() {
   const allLeaves = Array.from(leafNodes);
   console.log(`Found ${allLeaves.length} leaf nodes in menus.`);
 
-  const missingLeaves = allLeaves.filter((uid) => !suttaIndex[uid]);
+  const leavesWithNoEngTrans = allLeaves.filter((uid) => {
+    const entry = suttaIndex[uid];
+    // Include if missing entirely OR if it has no translations
+    // (Since we only care about English translations for now, check if 'translations' is empty or doesn't have English)
+    // Note: build_index only puts English translations in the index currently.
+    return !entry || !entry.translations || Object.keys(entry.translations).length === 0;
+  });
   console.log(
-    `Found ${missingLeaves.length} leaf nodes missing from Bilara data.`,
+    `Found ${leavesWithNoEngTrans.length} leaf nodes missing English translations in Bilara data.`,
   );
 
   // 2. Process missing ones
   let count = 0;
-  for (const uid of missingLeaves) {
+  for (const uid of leavesWithNoEngTrans) {
     // If we already have it in legacy Map, skip
     if (legacyMap[uid]) {
       continue;
