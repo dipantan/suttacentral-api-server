@@ -5,3 +5,6 @@ public
 data/bilara-data-published/
 
 example
+studio/node_modules
+studio/dist
+.env

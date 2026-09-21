@@ -1,19 +1,29 @@
+require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const fs = require("fs");
 const path = require("path");
 const { fork } = require("child_process");
+const multer = require("multer");
 const swaggerUi = require("swagger-ui-express");
 const swaggerJsdoc = require("swagger-jsdoc");
 
+const templateService = require("./services/template_service");
+const reviewService = require("./services/review_service");
+const alignmentService = require("./services/alignment_service");
+
+const upload = multer({ storage: multer.memoryStorage(), limits: { fileSize: 50 * 1024 * 1024 } });
+
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 const GITHUB_REPO = "dipantan/suttacentral-api-server";
 const DATA_REMOTE_BASE = `https://raw.githubusercontent.com/${GITHUB_REPO}/main/data`;
 const RELEASE_REMOTE_BASE = `https://github.com/${GITHUB_REPO}/releases/latest/download`;
 
 app.use(cors());
+app.use(express.json({ limit: "50mb" }));
+app.use(express.urlencoded({ extended: true, limit: "50mb" }));
 
 // Global state for build process tracking
 let buildLogs = [];
@@ -632,6 +642,189 @@ app.get("/api/public/data-version", async (req, res) => {
   }
 });
 
+// ==========================================
+// 🎨 SADDHAMMA LOCALIZATION STUDIO API ROUTES
+// ==========================================
+
+/**
+ * Route: List all available canonical suttas for search/autocomplete
+ */
+app.get("/api/studio/suttas", (req, res) => {
+  try {
+    const catalog = templateService.getAllSuttasCatalog();
+    res.json(catalog);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/**
+ * Route: Get template and breadcrumb hierarchy for a sutta
+ */
+app.get("/api/studio/template/:uid", (req, res) => {
+  try {
+    const template = templateService.getSuttaTemplate(req.params.uid);
+    res.json(template);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/**
+ * Route: Upload text/PDF and trigger alignment
+ */
+app.post("/api/studio/upload-align", upload.single("file"), async (req, res) => {
+  try {
+    const { uid, lang = "bn", lang_name = "Bengali", author_uid, author_name, model } = req.body;
+    let rawText = req.body.raw_text || "";
+    let filename = null;
+
+    if (!uid) {
+      return res.status(400).json({ error: "Sutta UID is required (e.g. 'mn1')." });
+    }
+
+    if (req.file) {
+      filename = req.file.originalname;
+      rawText = await alignmentService.extractTextFromFile(req.file.buffer, req.file.mimetype, filename);
+    }
+
+    if (!rawText || rawText.trim().length === 0) {
+      return res.status(400).json({ error: "No text content provided. Upload a valid text/PDF file or paste text." });
+    }
+
+    const job = alignmentService.startAlignmentJob({
+      uid: uid.toLowerCase().trim(),
+      lang,
+      langName: lang_name,
+      authorUid: author_uid || "community",
+      authorName: author_name || "Community Translator",
+      rawText,
+      sourceFilename: filename,
+      apiKey: process.env.GEMINI_API_KEY,
+      model: model || "gemini-2.0-flash",
+    });
+
+    res.status(202).json({
+      message: "Alignment job initiated",
+      job_id: job.id,
+      total_segments: job.totalSegments,
+    });
+  } catch (err) {
+    console.error("Error in /api/studio/upload-align:", err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/**
+ * Route: Check alignment job status
+ */
+app.get("/api/studio/jobs/:jobId", (req, res) => {
+  const job = alignmentService.getJobStatus(req.params.jobId);
+  if (!job) {
+    return res.status(404).json({ error: "Job not found" });
+  }
+  res.json(job);
+});
+
+/**
+ * Route: List all reviews
+ */
+app.get("/api/studio/reviews", (req, res) => {
+  try {
+    const reviews = reviewService.listReviews();
+    res.json(reviews);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/**
+ * Route: Get full review data by token (Side-by-side 3-column rows)
+ */
+app.get("/api/studio/reviews/:token", (req, res) => {
+  const review = reviewService.getReview(req.params.token);
+  if (!review) {
+    return res.status(404).json({ error: "Review not found or token invalid" });
+  }
+  res.json(review);
+});
+
+/**
+ * Route: Update single segment translation
+ */
+app.put("/api/studio/reviews/:token/segment", (req, res) => {
+  try {
+    const { segId, text, status } = req.body;
+    if (!segId) {
+      return res.status(400).json({ error: "Segment ID is required." });
+    }
+    const updated = reviewService.updateSegment(req.params.token, segId, text || "", status || "edited");
+    if (!updated) {
+      return res.status(404).json({ error: "Review session not found." });
+    }
+    res.json(updated);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/**
+ * Route: Update review metadata (title, notes, author)
+ */
+app.put("/api/studio/reviews/:token/meta", (req, res) => {
+  try {
+    const updated = reviewService.updateReviewMeta(req.params.token, req.body);
+    if (!updated) {
+      return res.status(404).json({ error: "Review session not found." });
+    }
+    res.json(updated);
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/**
+ * Route: Approve review
+ */
+app.post("/api/studio/reviews/:token/approve", (req, res) => {
+  try {
+    const approved = reviewService.approveReview(req.params.token);
+    if (!approved) {
+      return res.status(404).json({ error: "Review session not found." });
+    }
+    res.json({ message: "Review approved successfully", review: approved });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+/**
+ * Route: Publish approved translation to Bilara dataset
+ */
+app.post("/api/studio/reviews/:token/publish", (req, res) => {
+  try {
+    const result = reviewService.publishReview(req.params.token);
+    res.json(result);
+  } catch (err) {
+    console.error("Error publishing review:", err);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// Serve Studio frontend static files
+const STUDIO_DIST = path.join(__dirname, "public/studio");
+app.use("/studio", express.static(STUDIO_DIST));
+app.get(/^\/studio($|\/.*)/, (req, res) => {
+  const indexHtml = path.join(STUDIO_DIST, "index.html");
+  if (fs.existsSync(indexHtml)) {
+    res.sendFile(indexHtml);
+  } else {
+    res.status(404).send("Studio frontend is compiling. Please run 'npm run build' in the studio/ directory.");
+  }
+});
+
 app.listen(PORT, () => {
   console.log(`Server running at http://localhost:${PORT}`);
+  console.log(`Studio running at http://localhost:${PORT}/studio`);
 });
+

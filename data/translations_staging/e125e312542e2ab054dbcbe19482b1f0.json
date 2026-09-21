@@ -1,0 +1,45 @@
+{
+  "token": "e125e312542e2ab054dbcbe19482b1f0",
+  "uid": "mn1",
+  "acronym": "MN 1",
+  "root_name": "Mūlapariyāyasutta",
+  "translated_title": "The Root of All Things",
+  "breadcrumbs": [
+    {
+      "uid": "mn",
+      "root_name": "Majjhimanikāya",
+      "translated_name": "Middle Discourses Collection",
+      "acronym": "MN"
+    },
+    {
+      "uid": "mn-mulapannasa",
+      "root_name": "Mūlapaṇṇāsa",
+      "translated_name": "The First Fifty",
+      "acronym": null
+    },
+    {
+      "uid": "mn-mulapariyayavagga",
+      "root_name": "Mūlapariyāyavagga",
+      "translated_name": "The Chapter on the Root of All Things",
+      "acronym": null
+    }
+  ],
+  "full_breadcrumb": "Middle Discourses Collection > The First Fifty > The Chapter on the Root of All Things > The Root of All Things",
+  "lang": "bn",
+  "lang_name": "Bengali",
+  "author_uid": "shilalankar",
+  "author_name": "Ven. Shilalankar",
+  "status": "aligned",
+  "source_filename": null,
+  "raw_text_length": 0,
+  "segments": {
+    "mn1:1.1": "আমি এরূপ শুনিয়াছি।"
+  },
+  "segment_statuses": {
+    "mn1:1.1": "ai"
+  },
+  "notes": "",
+  "created_at": "2026-09-21T17:15:42.717Z",
+  "updated_at": "2026-09-21T17:15:42.717Z",
+  "published_at": null
+}

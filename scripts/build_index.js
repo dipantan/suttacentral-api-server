@@ -48,42 +48,52 @@ function buildIndex() {
     console.warn(`Root directory not found: ${ROOT_DIR}`);
   }
 
-  // 2. Index Translations
+  // 2. Index Translations across all languages (en, bn, hi, etc.)
+  const TRANSLATIONS_BASE = path.join(BASE_DIR, "translation");
   console.log("Scanning Translations...");
-  // We need to look into each author's directory
-  if (fs.existsSync(TRANSLATION_DIR)) {
-    const authors = fs.readdirSync(TRANSLATION_DIR);
-    authors.forEach((author) => {
-      const authorDir = path.join(TRANSLATION_DIR, author);
-      if (fs.existsSync(authorDir) && fs.statSync(authorDir).isDirectory()) {
-        console.log(`  - Indexing author: ${author}`);
+  if (fs.existsSync(TRANSLATIONS_BASE)) {
+    const langs = fs.readdirSync(TRANSLATIONS_BASE);
+    langs.forEach((lang) => {
+      const langDir = path.join(TRANSLATIONS_BASE, lang);
+      if (!fs.existsSync(langDir) || !fs.statSync(langDir).isDirectory()) return;
+
+      const authors = fs.readdirSync(langDir);
+      authors.forEach((author) => {
+        const authorDir = path.join(langDir, author);
+        if (!fs.existsSync(authorDir) || !fs.statSync(authorDir).isDirectory()) return;
+
+        console.log(`  - Indexing [${lang}] author: ${author}`);
         const transFiles = walkSync(authorDir);
         transFiles.forEach((fullPath) => {
-          // filename format: {uid}_translation-en-{author}.json
-          // e.g., dn1_translation-en-sujato.json
           const filename = path.basename(fullPath);
-          if (filename.includes("_translation-en-")) {
-            const uid = filename.split("_translation-en-")[0];
-
-            // If we have a root for this UID (we should), add the translation
-            // If not, we might be adding a translation for a sutta we don't have a root for?
-            // (Likely consistent, but safer to check or create entry)
+          const match = filename.match(/^(.+)_translation-([a-z]+)-(.+)\.json$/);
+          if (match) {
+            const uid = match[1];
             if (!index[uid]) {
-              // This is odd if root is missing, but let's allow it?
-              // Actually, let's create a partial entry
               index[uid] = { root: null, translations: {} };
             }
+            if (!index[uid].translations) {
+              index[uid].translations = {};
+            }
 
-            // We store the relative path from the *author's root*
-            // e.g. sutta/dn/dn1_translation-en-sujato.json
-            const relativePath = path.relative(authorDir, fullPath);
-            index[uid].translations[author] = relativePath;
+            const relativePath = path.relative(authorDir, fullPath).replace(/\\/g, "/");
+            const transKey = lang === "en" ? author : `${author}_${lang}`;
+            index[uid].translations[transKey] = relativePath;
+
+            if (!index[uid].translation_info) {
+              index[uid].translation_info = {};
+            }
+            index[uid].translation_info[transKey] = {
+              author,
+              lang,
+              path: `translation/${lang}/${author}/${relativePath}`,
+            };
           }
         });
-      }
+      });
     });
   } else {
-    console.warn(`Translation directory not found: ${TRANSLATION_DIR}`);
+    console.warn(`Translation directory not found: ${TRANSLATIONS_BASE}`);
   }
 
   // 3. Index Legacy Translations
