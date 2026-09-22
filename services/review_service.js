@@ -2,11 +2,14 @@ const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
 const { getSuttaTemplate, getRootSegments, getReferenceSegments } = require("./template_service");
+const r2 = require("./r2_storage");
 
 const STAGING_DIR = path.join(__dirname, "../data/translations_staging");
 const BILARA_BASE = path.join(__dirname, "../data/bilara-data-published");
+const GENERATED_DIR = path.join(__dirname, "../data/generated");
 const SUTTA_INDEX_PATH = path.join(__dirname, "../data/generated/sutta_index.json");
 const AUTHOR_META_PATH = path.join(BILARA_BASE, "_author.json");
+const R2_STAGING_PREFIX = "staging/";
 
 // Ensure staging directory exists
 if (!fs.existsSync(STAGING_DIR)) {
@@ -24,6 +27,46 @@ function isValidToken(token) {
 function getReviewFilePath(token) {
   if (!isValidToken(token)) return null;
   return path.join(STAGING_DIR, `${token}.json`);
+}
+
+// Fire-and-forget upload of a local file to R2 (no-op when unconfigured)
+function persistFileToR2(r2Key, localPath) {
+  r2.uploadFile(r2Key, localPath).catch((e) =>
+    console.error(`R2 upload failed for ${r2Key}:`, e.message)
+  );
+}
+
+function persistReviewToR2(token) {
+  const filePath = getReviewFilePath(token);
+  if (filePath) persistFileToR2(`${R2_STAGING_PREFIX}${token}.json`, filePath);
+}
+
+/**
+ * Downloads persisted studio state from R2 on startup.
+ * Covers staged reviews, published bilara translations, and generated index —
+ * needed on hosts with ephemeral filesystems (e.g. Render free tier).
+ */
+async function restoreFromR2() {
+  if (!r2.enabled) return;
+  try {
+    let count = 0;
+    for (const [prefix, baseDir] of [
+      [R2_STAGING_PREFIX, STAGING_DIR],
+      ["bilara/", BILARA_BASE],
+      ["generated/", GENERATED_DIR],
+    ]) {
+      for (const key of await r2.listKeys(prefix)) {
+        const rel = key.slice(prefix.length);
+        if (!rel || rel.includes("..")) continue;
+        if (prefix === R2_STAGING_PREFIX && !isValidToken(path.basename(rel, ".json"))) continue;
+        await r2.downloadFile(key, path.join(baseDir, rel));
+        count++;
+      }
+    }
+    console.log(`📦 R2 restore complete (${count} files).`);
+  } catch (e) {
+    console.error("R2 restore failed:", e.message);
+  }
 }
 
 /**
@@ -77,6 +120,7 @@ function createReview({
   };
 
   fs.writeFileSync(getReviewFilePath(token), JSON.stringify(reviewData, null, 2), "utf8");
+  persistReviewToR2(token);
   return reviewData;
 }
 
@@ -140,6 +184,7 @@ function updateSegment(token, segId, text, status = "edited") {
   }
 
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
+  persistReviewToR2(token);
   return { segId, text, status };
 }
 
@@ -158,6 +203,7 @@ function updateReviewMeta(token, updates = {}) {
   data.updated_at = new Date().toISOString();
 
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
+  persistReviewToR2(token);
   return data;
 }
 
@@ -218,6 +264,10 @@ function publishReview(token) {
 
   fs.writeFileSync(targetFullPath, JSON.stringify(cleanSegments, null, 2), "utf8");
   console.log(`✅ Published translation to: ${targetFullPath}`);
+  persistFileToR2(
+    `bilara/${path.relative(BILARA_BASE, targetFullPath).replace(/\\/g, "/")}`,
+    targetFullPath
+  );
 
   // Register author in _author.json if not present
   try {
@@ -231,6 +281,7 @@ function publishReview(token) {
         type: "translator",
       };
       fs.writeFileSync(AUTHOR_META_PATH, JSON.stringify(authorMeta, null, 2), "utf8");
+      persistFileToR2("bilara/_author.json", AUTHOR_META_PATH);
     }
   } catch (e) {
     console.error("Error updating author metadata:", e);
@@ -250,6 +301,7 @@ function publishReview(token) {
       const relFromAuthor = path.join(subPath, targetFilename).replace(/\\/g, "/");
       suttaIndex[data.uid].translations[data.author_uid] = relFromAuthor;
       fs.writeFileSync(SUTTA_INDEX_PATH, JSON.stringify(suttaIndex), "utf8");
+      persistFileToR2("generated/sutta_index.json", SUTTA_INDEX_PATH);
     }
   } catch (e) {
     console.error("Error updating sutta_index:", e);
@@ -259,6 +311,7 @@ function publishReview(token) {
   data.published_at = new Date().toISOString();
   data.updated_at = new Date().toISOString();
   fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf8");
+  persistReviewToR2(token);
 
   return {
     success: true,
@@ -314,4 +367,5 @@ module.exports = {
   approveReview,
   publishReview,
   listReviews,
+  restoreFromR2,
 };

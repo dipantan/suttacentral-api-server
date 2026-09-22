@@ -828,8 +828,25 @@ app.get(/^\/studio($|\/.*)/, (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
-  console.log(`Studio running at http://localhost:${PORT}/studio`);
-});
+// Restore persisted studio data from R2 (if configured), then start.
+(async () => {
+  try {
+    await reviewService.restoreFromR2();
+
+    // Reload in-memory state in case R2 restored newer versions
+    if (fs.existsSync(SUTTA_INDEX_PATH)) {
+      suttaIndex = JSON.parse(fs.readFileSync(SUTTA_INDEX_PATH, "utf8"));
+    }
+    if (fs.existsSync(AUTHOR_META_PATH)) {
+      authorMeta = JSON.parse(fs.readFileSync(AUTHOR_META_PATH, "utf8"));
+    }
+  } catch (e) {
+    console.error("Startup R2 restore error:", e.message);
+  }
+
+  app.listen(PORT, () => {
+    console.log(`Server running at http://localhost:${PORT}`);
+    console.log(`Studio running at http://localhost:${PORT}/studio`);
+  });
+})();
 
