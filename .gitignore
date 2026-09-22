@@ -1,5 +1,8 @@
 node_modules
 public
+# Studio source assets (favicon, CNAME) must be tracked for CI builds
+!studio/public/
+!studio/public/**
 # Track data/*, but exclude the bilara-data-published repo
 !data/
 data/bilara-data-published/
@@ -7,4 +10,4 @@ data/bilara-data-published/
 example
 studio/node_modules
 studio/dist
-.env
+.env
