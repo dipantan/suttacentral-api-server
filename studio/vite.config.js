@@ -3,9 +3,10 @@ import { defineConfig } from 'vite';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/studio/',
+  // Use relative base ('./') by default so assets load properly on GitHub Pages (e.g. /<repo>/)
+  base: process.env.VITE_BASE_PATH || './',
   build: {
-    outDir: '../public/studio',
+    outDir: process.env.BUILD_OUT_DIR || '../public/studio',
     emptyOutDir: true,
   },
   server: {
@@ -18,4 +19,5 @@ export default defineConfig({
     },
   },
 });
+
 
