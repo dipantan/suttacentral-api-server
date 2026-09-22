@@ -811,6 +811,11 @@ app.post("/api/studio/reviews/:token/publish", (req, res) => {
   }
 });
 
+// Root route: redirect to Studio dashboard
+app.get("/", (req, res) => {
+  res.redirect("/studio");
+});
+
 // Serve Studio frontend static files
 const STUDIO_DIST = path.join(__dirname, "public/studio");
 app.use("/studio", express.static(STUDIO_DIST));

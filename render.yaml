@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: saddhamma-api
+    runtime: node
+    plan: free
+    buildCommand: npm install && node scripts/ensure_bilara.js && cd studio && npm ci && npm run build
+    startCommand: node app.js
+    healthCheckPath: /api/menu
+    envVars:
+      - key: NODE_VERSION
+        value: "22"
+      - key: GEMINI_API_KEY
+        sync: false # set manually in Render dashboard (optional — enables real AI alignment)
