@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Upload, FileText, Sparkles, CheckCircle2, ArrowRight, Copy, Check, Loader2, BookOpen } from 'lucide-react';
+import { apiUrl } from '../config';
 
 export default function IngestHub({ onOpenReview, showToast }) {
   const [suttas, setSuttas] = useState([]);
@@ -26,7 +27,7 @@ export default function IngestHub({ onOpenReview, showToast }) {
 
   // Load catalog on mount
   useEffect(() => {
-    fetch('/api/studio/suttas')
+    fetch(apiUrl('/api/studio/suttas'))
       .then((res) => res.json())
       .then((data) => {
         if (Array.isArray(data)) setSuttas(data);
@@ -38,7 +39,7 @@ export default function IngestHub({ onOpenReview, showToast }) {
   useEffect(() => {
     if (!selectedUid) return;
     setLoadingTemplate(true);
-    fetch(`/api/studio/template/${selectedUid}`)
+    fetch(apiUrl(`/api/studio/template/${selectedUid}`))
       .then((res) => res.json())
       .then((data) => {
         setSuttaTemplate(data);
@@ -122,7 +123,7 @@ export default function IngestHub({ onOpenReview, showToast }) {
         formData.append('raw_text', rawText);
       }
 
-      const res = await fetch('/api/studio/upload-align', {
+      const res = await fetch(apiUrl('/api/studio/upload-align'), {
         method: 'POST',
         body: formData,
       });
@@ -137,7 +138,7 @@ export default function IngestHub({ onOpenReview, showToast }) {
       // Poll job status
       const interval = setInterval(async () => {
         try {
-          const pollRes = await fetch(`/api/studio/jobs/${job_id}`);
+          const pollRes = await fetch(apiUrl(`/api/studio/jobs/${job_id}`));
           const job = await pollRes.json();
 
           setJobProgress(job.progress || 0);

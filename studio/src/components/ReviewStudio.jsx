@@ -12,6 +12,7 @@ import {
   Share2,
   AlertCircle
 } from 'lucide-react';
+import { apiUrl } from '../config';
 
 export default function ReviewStudio({ token, onBack, showToast }) {
   const [review, setReview] = useState(null);
@@ -25,7 +26,7 @@ export default function ReviewStudio({ token, onBack, showToast }) {
   // Load review session
   const fetchReview = () => {
     setLoading(true);
-    fetch(`/api/studio/reviews/${token}`)
+    fetch(apiUrl(`/api/studio/reviews/${token}`))
       .then((res) => {
         if (!res.ok) throw new Error('Review session not found');
         return res.json();
@@ -65,7 +66,7 @@ export default function ReviewStudio({ token, onBack, showToast }) {
   const handleSegmentBlur = async (segId, text) => {
     setSavingSegmentId(segId);
     try {
-      await fetch(`/api/studio/reviews/${token}/segment`, {
+      await fetch(apiUrl(`/api/studio/reviews/${token}/segment`), {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ segId, text, status: 'edited' }),
@@ -87,7 +88,7 @@ export default function ReviewStudio({ token, onBack, showToast }) {
 
   const handleApprove = async () => {
     try {
-      const res = await fetch(`/api/studio/reviews/${token}/approve`, {
+      const res = await fetch(apiUrl(`/api/studio/reviews/${token}/approve`), {
         method: 'POST',
       });
       if (!res.ok) throw new Error('Failed to approve review');
@@ -105,7 +106,7 @@ export default function ReviewStudio({ token, onBack, showToast }) {
 
     setIsPublishing(true);
     try {
-      const res = await fetch(`/api/studio/reviews/${token}/publish`, {
+      const res = await fetch(apiUrl(`/api/studio/reviews/${token}/publish`), {
         method: 'POST',
       });
       const data = await res.json();

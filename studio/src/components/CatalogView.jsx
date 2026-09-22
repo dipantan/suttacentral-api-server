@@ -9,6 +9,7 @@ import {
   Clock,
   BookOpen
 } from 'lucide-react';
+import { apiUrl } from '../config';
 
 export default function CatalogView({ onOpenReview, showToast }) {
   const [reviews, setReviews] = useState([]);
@@ -17,7 +18,7 @@ export default function CatalogView({ onOpenReview, showToast }) {
 
   const fetchReviews = () => {
     setLoading(true);
-    fetch('/api/studio/reviews')
+    fetch(apiUrl('/api/studio/reviews'))
       .then((res) => res.json())
       .then((data) => {
         setReviews(Array.isArray(data) ? data : []);

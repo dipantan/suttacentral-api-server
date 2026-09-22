@@ -85,7 +85,27 @@ export default function App() {
         </nav>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-          <span className="status-pill published">API Online</span>
+          <button
+            className="btn btn-secondary"
+            style={{ padding: '0.35rem 0.75rem', fontSize: '0.78rem' }}
+            title="Configure Backend API Server URL"
+            onClick={() => {
+              const current = localStorage.getItem('saddhamma_api_base') || '';
+              const newUrl = prompt('Enter Backend API Server URL (e.g. http://localhost:3000 or your hosted server URL):', current);
+              if (newUrl !== null) {
+                if (newUrl.trim()) {
+                  localStorage.setItem('saddhamma_api_base', newUrl.trim());
+                } else {
+                  localStorage.removeItem('saddhamma_api_base');
+                }
+                showToast('API Server URL updated!');
+                window.location.reload();
+              }
+            }}
+          >
+            ⚙ API Config
+          </button>
+          <span className="status-pill published">Online</span>
         </div>
       </header>
 
