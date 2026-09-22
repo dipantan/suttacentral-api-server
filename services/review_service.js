@@ -13,7 +13,16 @@ if (!fs.existsSync(STAGING_DIR)) {
   fs.mkdirSync(STAGING_DIR, { recursive: true });
 }
 
+// Tokens are generated via crypto.randomBytes(16).toString("hex") — 32 hex chars.
+// Reject anything else to prevent path traversal outside STAGING_DIR.
+const TOKEN_REGEX = /^[a-f0-9]{32}$/;
+
+function isValidToken(token) {
+  return typeof token === "string" && TOKEN_REGEX.test(token);
+}
+
 function getReviewFilePath(token) {
+  if (!isValidToken(token)) return null;
   return path.join(STAGING_DIR, `${token}.json`);
 }
 
@@ -76,7 +85,7 @@ function createReview({
  */
 function getReview(token) {
   const filePath = getReviewFilePath(token);
-  if (!fs.existsSync(filePath)) return null;
+  if (!filePath || !fs.existsSync(filePath)) return null;
 
   try {
     const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
@@ -117,7 +126,7 @@ function getReview(token) {
  */
 function updateSegment(token, segId, text, status = "edited") {
   const filePath = getReviewFilePath(token);
-  if (!fs.existsSync(filePath)) return null;
+  if (!filePath || !fs.existsSync(filePath)) return null;
 
   const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
   if (!data.segments) data.segments = {};
@@ -139,7 +148,7 @@ function updateSegment(token, segId, text, status = "edited") {
  */
 function updateReviewMeta(token, updates = {}) {
   const filePath = getReviewFilePath(token);
-  if (!fs.existsSync(filePath)) return null;
+  if (!filePath || !fs.existsSync(filePath)) return null;
 
   const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
   if (updates.translated_title !== undefined) data.translated_title = updates.translated_title;
@@ -164,11 +173,17 @@ function approveReview(token) {
  */
 function publishReview(token) {
   const filePath = getReviewFilePath(token);
-  if (!fs.existsSync(filePath)) {
+  if (!filePath || !fs.existsSync(filePath)) {
     throw new Error("Review not found for token: " + token);
   }
 
   const data = JSON.parse(fs.readFileSync(filePath, "utf8"));
+
+  // Gate: only approved reviews may be published ("published" allows re-publishing edits)
+  if (data.status !== "approved" && data.status !== "published") {
+    throw new Error(`Review must be approved before publishing (current status: ${data.status}).`);
+  }
+
   const template = getSuttaTemplate(data.uid);
 
   if (!template.root_rel_path) {

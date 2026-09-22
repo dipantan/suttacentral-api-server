@@ -207,7 +207,7 @@ export default function ReviewStudio({ token, onBack, showToast }) {
               </button>
             )}
 
-            {review.status !== 'published' ? (
+            {review.status === 'approved' ? (
               <button
                 className="btn btn-primary"
                 onClick={handlePublish}
@@ -216,11 +216,11 @@ export default function ReviewStudio({ token, onBack, showToast }) {
                 <UploadCloud size={16} />
                 <span>{isPublishing ? 'Publishing...' : 'Publish to Saddhamma'}</span>
               </button>
-            ) : (
+            ) : review.status === 'published' ? (
               <span className="brand-badge" style={{ background: 'rgba(52, 211, 153, 0.2)', color: 'var(--emerald-400)', borderColor: 'var(--emerald-400)' }}>
                 ✓ Published in Bilara
               </span>
-            )}
+            ) : null}
           </div>
         </div>
       </div>
