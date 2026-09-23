@@ -16,7 +16,7 @@ export default function IngestHub({ onOpenReview, showToast }) {
   const [authorName, setAuthorName] = useState('Ven. Shilalankar Mahathero');
   const [rawText, setRawText] = useState('');
   const [selectedFile, setSelectedFile] = useState(null);
-  const [model, setModel] = useState('gemini-2.0-flash');
+  const [model, setModel] = useState('@cf/meta/llama-3.3-70b-instruct-fp8-fast');
 
   // Job State
   const [isAligning, setIsAligning] = useState(false);
@@ -286,15 +286,31 @@ export default function IngestHub({ onOpenReview, showToast }) {
             </div>
           </div>
 
-          <div className="form-group">
-            <label className="form-label">Translator Display Name</label>
-            <input
-              type="text"
-              className="form-input"
-              value={authorName}
-              onChange={(e) => setAuthorName(e.target.value)}
-              placeholder="e.g. Ven. Shilalankar Mahathero"
-            />
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
+            <div className="form-group">
+              <label className="form-label">Translator Display Name</label>
+              <input
+                type="text"
+                className="form-input"
+                value={authorName}
+                onChange={(e) => setAuthorName(e.target.value)}
+                placeholder="e.g. Ven. Shilalankar Mahathero"
+              />
+            </div>
+
+            <div className="form-group">
+              <label className="form-label">AI Model</label>
+              <select
+                className="form-select"
+                value={model}
+                onChange={(e) => setModel(e.target.value)}
+              >
+                <option value="@cf/meta/llama-3.3-70b-instruct-fp8-fast">Llama 3.3 70B (Cloudflare · free)</option>
+                <option value="@cf/meta/llama-3.1-8b-instruct">Llama 3.1 8B (Cloudflare · free)</option>
+                <option value="@cf/google/gemma-3-12b-it">Gemma 3 12B (Cloudflare · free)</option>
+                <option value="gemini-2.0-flash">Gemini 2.0 Flash (needs API key)</option>
+              </select>
+            </div>
           </div>
 
           {/* Document Upload / Text Area */}

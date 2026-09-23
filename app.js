@@ -700,8 +700,7 @@ app.post("/api/studio/upload-align", upload.single("file"), async (req, res) => 
       authorName: author_name || "Community Translator",
       rawText,
       sourceFilename: filename,
-      apiKey: process.env.GEMINI_API_KEY,
-      model: model || "gemini-2.0-flash",
+      model, // "@cf/..." → Cloudflare Workers AI, "gemini..." → Gemini, empty → auto
     });
 
     res.status(202).json({

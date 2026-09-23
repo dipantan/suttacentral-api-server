@@ -32,17 +32,7 @@ function cleanRawText(text) {
     .trim();
 }
 
-/**
- * Calls Gemini API to align a batch of canonical segments with a chunk of raw text.
- */
-async function alignBatchWithGemini({
-  apiKey,
-  model = "gemini-2.0-flash",
-  langName = "Bengali",
-  segmentsBatch,
-  rawTextChunk,
-}) {
-  const prompt = `You are a Buddhist canonical scholar and localization expert.
+const ALIGNMENT_PROMPT = (langName, segmentsBatch, rawTextChunk) => `You are a Buddhist canonical scholar and localization expert.
 Your mission is to align a vernacular translation in ${langName} with canonical Pāli Sutta segments.
 
 Below is a list of segment IDs with their authentic Pāli text and English reference translations:
@@ -63,6 +53,79 @@ Instructions:
     "<segment_id>": "<${langName} translation>"
   }
 }`;
+
+// Lenient JSON extractor — handles code fences and surrounding prose
+function parseAiJsonOutput(rawOutput) {
+  const cleaned = rawOutput.replace(/```(?:json)?/g, "").trim();
+  const start = cleaned.indexOf("{");
+  const end = cleaned.lastIndexOf("}");
+  if (start === -1 || end === -1) throw new Error("No JSON object in AI output");
+  const parsed = JSON.parse(cleaned.slice(start, end + 1));
+  return parsed.segments || parsed;
+}
+
+/**
+ * Calls Cloudflare Workers AI (free tier) to align a batch of segments.
+ */
+async function alignBatchWithCloudflare({
+  accountId,
+  apiToken,
+  model = "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  langName = "Bengali",
+  segmentsBatch,
+  rawTextChunk,
+}) {
+  const url = `https://api.cloudflare.com/client/v4/accounts/${accountId}/ai/run/${model}`;
+
+  const response = await fetch(url, {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json",
+      Authorization: `Bearer ${apiToken}`,
+    },
+    body: JSON.stringify({
+      messages: [
+        {
+          role: "system",
+          content:
+            "You are a Buddhist canonical scholar and localization expert. Always respond with valid JSON only.",
+        },
+        { role: "user", content: ALIGNMENT_PROMPT(langName, segmentsBatch, rawTextChunk) },
+      ],
+      temperature: 0.1,
+    }),
+  });
+
+  if (!response.ok) {
+    const errText = await response.text();
+    throw new Error(`Cloudflare AI error (${response.status}): ${errText}`);
+  }
+
+  const json = await response.json();
+  const rawOutput = json.result?.response;
+  if (!rawOutput) {
+    throw new Error("Empty response from Cloudflare Workers AI");
+  }
+
+  try {
+    return parseAiJsonOutput(rawOutput);
+  } catch (parseErr) {
+    console.error("Failed to parse Cloudflare AI JSON output:", rawOutput);
+    throw new Error("Invalid JSON returned by Cloudflare AI: " + parseErr.message);
+  }
+}
+
+/**
+ * Calls Gemini API to align a batch of canonical segments with a chunk of raw text.
+ */
+async function alignBatchWithGemini({
+  apiKey,
+  model = "gemini-2.0-flash",
+  langName = "Bengali",
+  segmentsBatch,
+  rawTextChunk,
+}) {
+  const prompt = ALIGNMENT_PROMPT(langName, segmentsBatch, rawTextChunk);
 
   const url = `https://generativelanguage.googleapis.com/v1beta/models/${model}:generateContent?key=${apiKey}`;
 
@@ -90,8 +153,7 @@ Instructions:
   }
 
   try {
-    const parsed = JSON.parse(rawOutput);
-    return parsed.segments || parsed;
+    return parseAiJsonOutput(rawOutput);
   } catch (parseErr) {
     console.error("Failed to parse Gemini JSON output:", rawOutput);
     throw new Error("Invalid JSON returned by Gemini: " + parseErr.message);
@@ -131,9 +193,42 @@ function startAlignmentJob({
   authorName = "Ven. Shilalankar Mahathero",
   rawText = "",
   sourceFilename = null,
-  apiKey = process.env.GEMINI_API_KEY,
-  model = "gemini-2.0-flash",
+  model,
 }) {
+  // Provider resolution: "@cf/..." models → Cloudflare Workers AI (free tier),
+  // "gemini..." → Google Gemini, otherwise pick whichever is configured.
+  const cfAccountId =
+    process.env.CF_ACCOUNT_ID ||
+    /([a-f0-9]{32})\.r2\.cloudflarestorage\.com/.exec(
+      process.env.S3_ENDPOINT || process.env.R2_ENDPOINT || ""
+    )?.[1];
+  const cfToken = process.env.CF_API_TOKEN;
+  const geminiKey = process.env.GEMINI_API_KEY;
+
+  const provider =
+    model && model.startsWith("@cf/")
+      ? "cloudflare"
+      : model && model.startsWith("gemini")
+        ? "gemini"
+        : cfToken && cfAccountId
+          ? "cloudflare"
+          : geminiKey
+            ? "gemini"
+            : null;
+
+  const resolvedModel =
+    model ||
+    (provider === "cloudflare"
+      ? "@cf/meta/llama-3.3-70b-instruct-fp8-fast"
+      : "gemini-2.0-flash");
+
+  const aiReady =
+    provider === "cloudflare"
+      ? !!(cfToken && cfAccountId)
+      : provider === "gemini"
+        ? !!geminiKey
+        : false;
+
   const jobId = crypto.randomUUID();
   const rootSegments = getRootSegments(uid);
   const refSegments = getReferenceSegments(uid);
@@ -150,6 +245,8 @@ function startAlignmentJob({
     langName,
     authorUid,
     authorName,
+    provider: provider || "mock",
+    model: resolvedModel,
     status: "running",
     progress: 0,
     totalSegments: allKeys.length,
@@ -190,17 +287,29 @@ function startAlignmentJob({
         job.progress = Math.round((bIndex / batches.length) * 100);
 
         let batchResult = {};
-        if (apiKey) {
+        let batchUsedAI = false;
+        if (aiReady) {
           try {
-            batchResult = await alignBatchWithGemini({
-              apiKey,
-              model,
-              langName,
-              segmentsBatch: currentBatch,
-              rawTextChunk: cleaned,
-            });
-          } catch (geminiErr) {
-            console.warn(`Gemini batch failed (${geminiErr.message}), falling back to heuristic alignment for batch ${bIndex}`);
+            batchResult =
+              provider === "cloudflare"
+                ? await alignBatchWithCloudflare({
+                    accountId: cfAccountId,
+                    apiToken: cfToken,
+                    model: resolvedModel,
+                    langName,
+                    segmentsBatch: currentBatch,
+                    rawTextChunk: cleaned,
+                  })
+                : await alignBatchWithGemini({
+                    apiKey: geminiKey,
+                    model: resolvedModel,
+                    langName,
+                    segmentsBatch: currentBatch,
+                    rawTextChunk: cleaned,
+                  });
+            batchUsedAI = true;
+          } catch (aiErr) {
+            console.warn(`${provider} batch failed (${aiErr.message}), falling back to heuristic alignment for batch ${bIndex}`);
             batchResult = mockAlignBatch(currentBatch, cleaned, langName);
           }
         } else {
@@ -213,7 +322,7 @@ function startAlignmentJob({
         for (const item of currentBatch) {
           const val = batchResult[item.id] || "";
           alignedSegments[item.id] = val;
-          segmentStatuses[item.id] = apiKey ? "ai" : "draft";
+          segmentStatuses[item.id] = batchUsedAI ? "ai" : "draft";
         }
 
         job.processedSegments = Object.keys(alignedSegments).length;
