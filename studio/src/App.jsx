@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Sparkles, BookOpen, FolderOpen, Check } from 'lucide-react';
+import { Sparkles, BookOpen, FolderOpen, Check, Settings } from 'lucide-react';
 import IngestHub from './components/IngestHub';
 import ReviewStudio from './components/ReviewStudio';
 import CatalogView from './components/CatalogView';
@@ -48,65 +48,56 @@ export default function App() {
       <header className="studio-navbar">
         <div className="studio-brand" onClick={() => setActiveTab('ingest')}>
           <span className="wheel-icon">☸</span>
-          <div>
-            <div className="brand-title">SADDHAMMA STUDIO</div>
-            <div style={{ fontSize: '0.72rem', color: 'var(--text-dim)', letterSpacing: '0.04em' }}>
-              Canonical AI Alignment & Localization
-            </div>
-          </div>
+          <span className="brand-title">Saddhamma Studio</span>
         </div>
 
         <nav className="nav-tabs">
           <button
-            className={`nav-tab-btn ${activeTab === 'ingest' ? 'active tab-saffron' : ''}`}
+            className={`nav-tab-btn ${activeTab === 'ingest' ? 'active' : ''}`}
             onClick={() => setActiveTab('ingest')}
           >
-            <Sparkles size={16} />
-            <span>Ingest & Align</span>
+            <Sparkles size={15} />
+            <span>New Translation</span>
           </button>
 
           {activeToken && (
             <button
-              className={`nav-tab-btn ${activeTab === 'review' ? 'active tab-saffron' : ''}`}
+              className={`nav-tab-btn ${activeTab === 'review' ? 'active' : ''}`}
               onClick={() => setActiveTab('review')}
             >
-              <BookOpen size={16} />
-              <span>Review Studio</span>
+              <BookOpen size={15} />
+              <span>Review</span>
             </button>
           )}
 
           <button
-            className={`nav-tab-btn ${activeTab === 'catalog' ? 'active tab-saffron' : ''}`}
+            className={`nav-tab-btn ${activeTab === 'catalog' ? 'active' : ''}`}
             onClick={() => setActiveTab('catalog')}
           >
-            <FolderOpen size={16} />
-            <span>Staging Catalog</span>
+            <FolderOpen size={15} />
+            <span>All Translations</span>
           </button>
         </nav>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-          <button
-            className="btn btn-secondary"
-            style={{ padding: '0.35rem 0.75rem', fontSize: '0.78rem' }}
-            title="Configure Backend API Server URL"
-            onClick={() => {
-              const current = localStorage.getItem('saddhamma_api_base') || '';
-              const newUrl = prompt('Enter Backend API Server URL (e.g. http://localhost:3000 or your hosted server URL):', current);
-              if (newUrl !== null) {
-                if (newUrl.trim()) {
-                  localStorage.setItem('saddhamma_api_base', newUrl.trim());
-                } else {
-                  localStorage.removeItem('saddhamma_api_base');
-                }
-                showToast('API Server URL updated!');
-                window.location.reload();
+        <button
+          className="nav-tab-btn"
+          title="API server URL"
+          onClick={() => {
+            const current = localStorage.getItem('saddhamma_api_base') || '';
+            const newUrl = prompt('Backend API URL (blank = same server):', current);
+            if (newUrl !== null) {
+              if (newUrl.trim()) {
+                localStorage.setItem('saddhamma_api_base', newUrl.trim());
+              } else {
+                localStorage.removeItem('saddhamma_api_base');
               }
-            }}
-          >
-            ⚙ API Config
-          </button>
-          <span className="status-pill published">Online</span>
-        </div>
+              showToast('API server updated');
+              window.location.reload();
+            }
+          }}
+        >
+          <Settings size={15} />
+        </button>
       </header>
 
       {/* Main Studio Views */}

@@ -268,65 +268,50 @@ export default function ReviewStudio({ token, onBack, showToast }) {
     <div
       style={{ display: 'flex', flexDirection: 'column', gap: '1rem', '--seg-font-scale': fontScale }}
     >
-      {/* Top Action Bar */}
-      <div className="studio-card" style={{ padding: '1.1rem 1.5rem' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-            <button className="btn btn-secondary" onClick={onBack} style={{ padding: '0.5rem 0.8rem' }}>
-              <ArrowLeft size={16} />
-              <span>Back</span>
-            </button>
+      {/* Unified sticky workspace header */}
+      <div className="review-toolbar">
+        <div className="review-toolbar-row">
+          <button className="chip icon-chip" onClick={onBack} title="Back">
+            <ArrowLeft size={15} />
+          </button>
 
-            <div>
-              <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-                <span className="brand-badge" style={{ background: 'var(--saffron-glow)' }}>
-                  {review.acronym}
-                </span>
-                <h2 style={{ fontFamily: 'var(--font-canonical)', fontSize: '1.35rem', color: 'var(--text-main)' }}>
-                  {review.root_name}
-                </h2>
-                <span className={`status-pill ${review.status}`}>{review.status}</span>
-              </div>
-              <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>
-                {review.full_breadcrumb} &bull; Translator: <strong>{review.author_name}</strong> ({review.lang_name})
-              </p>
-            </div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', minWidth: 0 }}>
+            <span className="brand-badge">{review.acronym}</span>
+            <span className="review-title">{review.root_name}</span>
+            <span className={`status-pill ${review.status}`}>{review.status}</span>
           </div>
 
-          {/* Actions */}
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <button className="btn btn-secondary" onClick={copyReviewLink}>
-              {copiedLink ? <Check size={16} color="var(--emerald-400)" /> : <Share2 size={16} />}
-              <span>{copiedLink ? 'Link Copied!' : 'Share Review Link'}</span>
+          <div style={{ flex: 1 }} />
+
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+            <button className="chip" onClick={copyReviewLink}>
+              {copiedLink ? <Check size={14} color="var(--emerald-400)" /> : <Share2 size={14} />}
+              <span>{copiedLink ? 'Copied' : 'Share'}</span>
             </button>
 
             {review.status !== 'approved' && review.status !== 'published' && (
-              <button className="btn btn-teal" onClick={handleApprove}>
-                <CheckCircle2 size={16} />
-                <span>Approve Sutta</span>
+              <button className="btn btn-teal" style={{ padding: '0.45rem 0.9rem', fontSize: '0.82rem' }} onClick={handleApprove}>
+                <CheckCircle2 size={15} />
+                <span>Approve</span>
               </button>
             )}
 
             {review.status === 'approved' ? (
               <button
                 className="btn btn-primary"
+                style={{ padding: '0.45rem 0.9rem', fontSize: '0.82rem' }}
                 onClick={handlePublish}
                 disabled={isPublishing}
               >
-                <UploadCloud size={16} />
-                <span>{isPublishing ? 'Publishing...' : 'Publish to Saddhamma'}</span>
+                <UploadCloud size={15} />
+                <span>{isPublishing ? 'Publishing…' : 'Publish'}</span>
               </button>
             ) : review.status === 'published' ? (
-              <span className="brand-badge" style={{ background: 'var(--emerald-glow)', color: 'var(--emerald-400)', borderColor: 'var(--emerald-400)' }}>
-                ✓ Published in Bilara
-              </span>
+              <span className="status-pill published">✓ Published</span>
             ) : null}
           </div>
         </div>
-      </div>
 
-      {/* Sticky Work Toolbar */}
-      <div className="review-toolbar">
         <div className="review-toolbar-row">
           <div className="review-search">
             <Search size={16} color="var(--text-dim)" />
