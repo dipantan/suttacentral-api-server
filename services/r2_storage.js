@@ -1,7 +1,8 @@
 /**
  * Cloudflare R2 (S3-compatible) storage layer.
- * Enabled when all four env vars are present:
- *   R2_ACCOUNT_ID, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET_NAME
+ * Accepts either naming convention:
+ *   R2_ACCOUNT_ID / R2_ENDPOINT, R2_ACCESS_KEY_ID, R2_SECRET_ACCESS_KEY, R2_BUCKET_NAME
+ *   or S3_ENDPOINT, S3_ACCESS_KEY, S3_SECRET_KEY, S3_BUCKET_NAME, S3_REGION
  * All operations are no-ops when not configured.
  */
 const {
@@ -13,31 +14,30 @@ const {
 const fs = require("fs");
 const path = require("path");
 
-const {
-  R2_ACCOUNT_ID,
-  R2_ACCESS_KEY_ID,
-  R2_SECRET_ACCESS_KEY,
-  R2_BUCKET_NAME,
-} = process.env;
+const endpoint =
+  process.env.R2_ENDPOINT ||
+  process.env.S3_ENDPOINT ||
+  (process.env.R2_ACCOUNT_ID
+    ? `https://${process.env.R2_ACCOUNT_ID}.r2.cloudflarestorage.com`
+    : undefined);
 
-const enabled = !!(
-  R2_ACCOUNT_ID &&
-  R2_ACCESS_KEY_ID &&
-  R2_SECRET_ACCESS_KEY &&
-  R2_BUCKET_NAME
-);
+const accessKeyId =
+  process.env.R2_ACCESS_KEY_ID || process.env.S3_ACCESS_KEY;
+const secretAccessKey =
+  process.env.R2_SECRET_ACCESS_KEY || process.env.S3_SECRET_KEY;
+const bucket = process.env.R2_BUCKET_NAME || process.env.S3_BUCKET_NAME;
+const region = process.env.S3_REGION || "auto";
+
+const enabled = !!(endpoint && accessKeyId && secretAccessKey && bucket);
 
 let client = null;
 if (enabled) {
   client = new S3Client({
-    region: "auto",
-    endpoint: `https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com`,
-    credentials: {
-      accessKeyId: R2_ACCESS_KEY_ID,
-      secretAccessKey: R2_SECRET_ACCESS_KEY,
-    },
+    region,
+    endpoint,
+    credentials: { accessKeyId, secretAccessKey },
   });
-  console.log(`📦 R2 storage enabled (bucket: ${R2_BUCKET_NAME})`);
+  console.log(`📦 R2 storage enabled (bucket: ${bucket})`);
 } else {
   console.log("📦 R2 storage not configured — using local disk only.");
 }
@@ -46,7 +46,7 @@ async function uploadFile(key, filePath) {
   if (!enabled) return false;
   await client.send(
     new PutObjectCommand({
-      Bucket: R2_BUCKET_NAME,
+      Bucket: bucket,
       Key: key,
       Body: fs.createReadStream(filePath),
       ContentType: "application/json",
@@ -59,7 +59,7 @@ async function downloadFile(key, filePath) {
   if (!enabled) return false;
   try {
     const res = await client.send(
-      new GetObjectCommand({ Bucket: R2_BUCKET_NAME, Key: key })
+      new GetObjectCommand({ Bucket: bucket, Key: key })
     );
     fs.mkdirSync(path.dirname(filePath), { recursive: true });
     const chunks = [];
@@ -79,7 +79,7 @@ async function listKeys(prefix) {
   do {
     const res = await client.send(
       new ListObjectsV2Command({
-        Bucket: R2_BUCKET_NAME,
+        Bucket: bucket,
         Prefix: prefix,
         ContinuationToken: continuationToken,
       })
