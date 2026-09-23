@@ -1,18 +1,60 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import {
-  Copy,
   Check,
-  Save,
   CheckCircle2,
   UploadCloud,
   Search,
   BookOpen,
-  Filter,
   ArrowLeft,
   Share2,
-  AlertCircle
+  AlertCircle,
+  Columns3,
+  Rows3,
+  Type,
+  ArrowDownToLine,
+  ClipboardPaste,
 } from 'lucide-react';
 import { apiUrl } from '../config';
+
+const STATUS_COLORS = {
+  edited: 'var(--amber-400)',
+  ai: 'var(--blue-400)',
+  draft: 'var(--text-dim)',
+  empty: 'transparent',
+};
+
+function AutoTextarea({ value, onChange, onBlur, onFocus, onKeyDown, placeholder, fontScale, inputRef, lang }) {
+  const ref = useRef(null);
+
+  const resize = useCallback(() => {
+    const el = ref.current;
+    if (!el) return;
+    el.style.height = 'auto';
+    el.style.height = Math.max(el.scrollHeight, 56) + 'px';
+  }, []);
+
+  useEffect(() => {
+    resize();
+  }, [value, fontScale, resize]);
+
+  return (
+    <textarea
+      ref={(el) => {
+        ref.current = el;
+        if (inputRef) inputRef(el);
+      }}
+      className="seg-editor"
+      value={value}
+      placeholder={placeholder}
+      onChange={(e) => onChange(e.target.value)}
+      onBlur={(e) => onBlur(e.target.value)}
+      onFocus={onFocus}
+      onKeyDown={onKeyDown}
+      spellCheck={false}
+      style={{ fontFamily: lang === 'bn' ? 'var(--font-bengali)' : 'var(--font-sans)' }}
+    />
+  );
+}
 
 export default function ReviewStudio({ token, onBack, showToast }) {
   const [review, setReview] = useState(null);
@@ -21,7 +63,12 @@ export default function ReviewStudio({ token, onBack, showToast }) {
   const [statusFilter, setStatusFilter] = useState('all'); // all, edited, ai, empty
   const [copiedLink, setCopiedLink] = useState(false);
   const [savingSegmentId, setSavingSegmentId] = useState(null);
+  const [savedSegmentId, setSavedSegmentId] = useState(null);
+  const [focusedSegId, setFocusedSegId] = useState(null);
   const [isPublishing, setIsPublishing] = useState(false);
+  const [layout, setLayout] = useState('columns'); // columns | stacked
+  const [fontScale, setFontScale] = useState(1);
+  const editorRefs = useRef({});
 
   // Load review session
   const fetchReview = () => {
@@ -72,9 +119,19 @@ export default function ReviewStudio({ token, onBack, showToast }) {
         body: JSON.stringify({ segId, text, status: 'edited' }),
       });
       setSavingSegmentId(null);
+      setSavedSegmentId(segId);
+      setTimeout(() => setSavedSegmentId((cur) => (cur === segId ? null : cur)), 2000);
     } catch (err) {
       console.error('Failed to autosave segment:', err);
       setSavingSegmentId(null);
+    }
+  };
+
+  const focusSegment = (segId) => {
+    const el = editorRefs.current[segId];
+    if (el) {
+      el.focus();
+      el.scrollIntoView({ block: 'center', behavior: 'smooth' });
     }
   };
 
@@ -165,11 +222,54 @@ export default function ReviewStudio({ token, onBack, showToast }) {
 
   const editedCount = review.rows.filter((r) => r.status === 'edited').length;
   const emptyCount = review.rows.filter((r) => !r.target || r.target.trim() === '').length;
+  const filledCount = review.rows.length - emptyCount;
+  const progressPct = review.rows.length ? Math.round((filledCount / review.rows.length) * 100) : 0;
+
+  const nextEmptySeg = () => {
+    const next = filteredRows.find((r) => !r.target || r.target.trim() === '');
+    if (next) focusSegment(next.segId);
+    else showToast('All segments have translations!');
+  };
+
+  const handleEditorKeyDown = (e, segId) => {
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+      e.preventDefault();
+      e.target.blur();
+      const idx = filteredRows.findIndex((r) => r.segId === segId);
+      const next = filteredRows[idx + 1];
+      if (next) focusSegment(next.segId);
+    } else if (e.key === 'ArrowDown' && (e.ctrlKey || e.metaKey)) {
+      e.preventDefault();
+      const idx = filteredRows.findIndex((r) => r.segId === segId);
+      const next = filteredRows[idx + 1];
+      if (next) focusSegment(next.segId);
+    } else if (e.key === 'ArrowUp' && (e.ctrlKey || e.metaKey)) {
+      e.preventDefault();
+      const idx = filteredRows.findIndex((r) => r.segId === segId);
+      const prev = filteredRows[idx - 1];
+      if (prev) focusSegment(prev.segId);
+    }
+  };
+
+  const insertIntoEditor = (segId, text) => {
+    const el = editorRefs.current[segId];
+    if (!el) return;
+    const start = el.selectionStart ?? el.value.length;
+    const end = el.selectionEnd ?? el.value.length;
+    const newVal = el.value.slice(0, start) + text + el.value.slice(end);
+    handleSegmentChange(segId, newVal);
+    requestAnimationFrame(() => {
+      el.focus();
+      el.selectionStart = el.selectionEnd = start + text.length;
+    });
+  };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
+    <div
+      style={{ display: 'flex', flexDirection: 'column', gap: '1rem', '--seg-font-scale': fontScale }}
+    >
       {/* Top Action Bar */}
-      <div className="studio-card" style={{ padding: '1.25rem 1.75rem' }}>
+      <div className="studio-card" style={{ padding: '1.1rem 1.5rem' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
             <button className="btn btn-secondary" onClick={onBack} style={{ padding: '0.5rem 0.8rem' }}>
@@ -225,105 +325,157 @@ export default function ReviewStudio({ token, onBack, showToast }) {
         </div>
       </div>
 
-      {/* Filter & Stats Toolbar */}
-      <div className="studio-card" style={{ padding: '1rem 1.75rem' }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem' }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem', flex: 1, maxWidth: '400px' }}>
-            <Search size={18} color="var(--text-dim)" />
+      {/* Sticky Work Toolbar */}
+      <div className="review-toolbar">
+        <div className="review-toolbar-row">
+          <div className="review-search">
+            <Search size={16} color="var(--text-dim)" />
             <input
               type="text"
-              className="form-input"
-              placeholder="Filter segments by Pāli, English, or Bengali..."
+              placeholder="Filter by Pāli, English, or translation..."
               value={filterQuery}
               onChange={(e) => setFilterQuery(e.target.value)}
-              style={{ padding: '0.5rem 0.8rem' }}
             />
           </div>
 
-          <div style={{ display: 'flex', gap: '0.4rem', alignItems: 'center' }}>
-            <Filter size={16} color="var(--text-dim)" style={{ marginRight: '0.4rem' }} />
-            <button
-              className={`nav-tab-btn ${statusFilter === 'all' ? 'active tab-saffron' : ''}`}
-              onClick={() => setStatusFilter('all')}
-              style={{ padding: '0.35rem 0.75rem', fontSize: '0.8rem' }}
-            >
+          <div className="review-toolbar-group">
+            <button className={`chip ${statusFilter === 'all' ? 'active' : ''}`} onClick={() => setStatusFilter('all')}>
               All ({review.rows.length})
             </button>
-            <button
-              className={`nav-tab-btn ${statusFilter === 'edited' ? 'active tab-saffron' : ''}`}
-              onClick={() => setStatusFilter('edited')}
-              style={{ padding: '0.35rem 0.75rem', fontSize: '0.8rem' }}
-            >
+            <button className={`chip ${statusFilter === 'edited' ? 'active' : ''}`} onClick={() => setStatusFilter('edited')}>
               Edited ({editedCount})
             </button>
-            <button
-              className={`nav-tab-btn ${statusFilter === 'empty' ? 'active tab-saffron' : ''}`}
-              onClick={() => setStatusFilter('empty')}
-              style={{ padding: '0.35rem 0.75rem', fontSize: '0.8rem' }}
-            >
+            <button className={`chip ${statusFilter === 'ai' ? 'active' : ''}`} onClick={() => setStatusFilter('ai')}>
+              AI ({review.rows.filter((r) => r.status === 'ai').length})
+            </button>
+            <button className={`chip ${statusFilter === 'empty' ? 'active' : ''}`} onClick={() => setStatusFilter('empty')}>
               Empty ({emptyCount})
             </button>
           </div>
+
+          <div className="review-toolbar-group">
+            <button className="chip icon-chip" title="Next empty segment" onClick={nextEmptySeg}>
+              <ArrowDownToLine size={15} />
+              <span>Next empty</span>
+            </button>
+            <button
+              className={`chip icon-chip ${layout === 'columns' ? 'active' : ''}`}
+              title="Side-by-side columns"
+              onClick={() => setLayout('columns')}
+            >
+              <Columns3 size={15} />
+            </button>
+            <button
+              className={`chip icon-chip ${layout === 'stacked' ? 'active' : ''}`}
+              title="Stacked layout (roomy editor)"
+              onClick={() => setLayout('stacked')}
+            >
+              <Rows3 size={15} />
+            </button>
+            <button
+              className="chip icon-chip"
+              title="Smaller text"
+              onClick={() => setFontScale((s) => Math.max(0.85, +(s - 0.15).toFixed(2)))}
+            >
+              <Type size={12} />
+            </button>
+            <button
+              className="chip icon-chip"
+              title="Larger text"
+              onClick={() => setFontScale((s) => Math.min(1.45, +(s + 0.15).toFixed(2)))}
+            >
+              <Type size={18} />
+            </button>
+          </div>
+        </div>
+
+        <div className="review-progress-row">
+          <div className="progress-bar-container" style={{ margin: 0, flex: 1 }}>
+            <div className="progress-bar-fill" style={{ width: `${progressPct}%` }} />
+          </div>
+          <span className="review-progress-text">
+            {filledCount}/{review.rows.length} translated · {progressPct}%
+          </span>
+          <span className="review-hint">Ctrl+Enter save &amp; next · Ctrl+↑/↓ navigate</span>
         </div>
       </div>
 
-      {/* 3-Column Side-by-Side Review Grid */}
-      <div className="studio-card" style={{ padding: '1rem', overflowX: 'auto' }}>
-        <div className="review-grid-header">
-          <div>Segment</div>
-          <div>Pāli Root Text</div>
-          <div>English Reference (Sujato)</div>
-          <div>{review.lang_name} Translation (Editable)</div>
-        </div>
-
-        <div style={{ display: 'flex', flexDirection: 'column' }}>
-          {filteredRows.map((row) => (
-            <div key={row.segId} className="review-row" id={`seg-${row.segId}`}>
-              {/* Segment ID */}
-              <div>
+      {/* Segment List */}
+      <div className="seg-list">
+        {filteredRows.map((row) => {
+          const isEmpty = !row.target || row.target.trim() === '';
+          const status = isEmpty ? 'empty' : row.status;
+          return (
+            <div
+              key={row.segId}
+              id={`seg-${row.segId}`}
+              className={`seg-row ${layout} ${focusedSegId === row.segId ? 'focused' : ''}`}
+            >
+              <div className="seg-meta">
                 <span className="seg-id-badge">{row.segId}</span>
-                <div style={{ marginTop: '0.35rem' }}>
-                  <span
-                    className={`status-pill ${
-                      row.status === 'edited' ? 'in_review' : row.status === 'ai' ? 'aligned' : 'draft'
-                    }`}
-                    style={{ fontSize: '0.65rem', padding: '0.1rem 0.4rem' }}
-                  >
-                    {row.status}
-                  </span>
+                <span className="status-dot" style={{ background: STATUS_COLORS[status] }} title={status} />
+                {savingSegmentId === row.segId && <span className="seg-saving">saving…</span>}
+                {savedSegmentId === row.segId && savingSegmentId !== row.segId && (
+                  <span className="seg-saved">✓ saved</span>
+                )}
+              </div>
+
+              <div className="seg-refs">
+                <div className="seg-col">
+                  <div className="seg-col-label">Pāli</div>
+                  <div className="seg-text text-pali">{row.root || <span className="seg-none">—</span>}</div>
+                  {row.root && (
+                    <button
+                      className="seg-copy-btn"
+                      title="Insert Pāli at cursor"
+                      onClick={() => insertIntoEditor(row.segId, row.root)}
+                    >
+                      <ClipboardPaste size={12} /> insert
+                    </button>
+                  )}
+                </div>
+                <div className="seg-col">
+                  <div className="seg-col-label">English (Sujato)</div>
+                  <div className="seg-text text-english">{row.ref || <span className="seg-none">—</span>}</div>
+                  {row.ref && (
+                    <button
+                      className="seg-copy-btn"
+                      title="Insert English at cursor"
+                      onClick={() => insertIntoEditor(row.segId, row.ref)}
+                    >
+                      <ClipboardPaste size={12} /> insert
+                    </button>
+                  )}
                 </div>
               </div>
 
-              {/* Column 1: Pali Root */}
-              <div className="text-pali">{row.root || <span style={{ color: 'var(--text-dim)' }}>—</span>}</div>
-
-              {/* Column 2: English Reference */}
-              <div className="text-english">{row.ref || <span style={{ color: 'var(--text-dim)' }}>—</span>}</div>
-
-              {/* Column 3: Vernacular Editor */}
-              <div>
-                <textarea
-                  className="text-target-editor"
+              <div className="seg-target">
+                <div className="seg-col-label">{review.lang_name} — your translation</div>
+                <AutoTextarea
                   value={row.target}
-                  placeholder={`Enter ${review.lang_name} translation...`}
-                  onChange={(e) => handleSegmentChange(row.segId, e.target.value)}
-                  onBlur={(e) => handleSegmentBlur(row.segId, e.target.value)}
+                  placeholder={`Translate ${row.segId}…`}
+                  lang={review.lang}
+                  fontScale={fontScale}
+                  inputRef={(el) => (editorRefs.current[row.segId] = el)}
+                  onChange={(text) => handleSegmentChange(row.segId, text)}
+                  onFocus={() => setFocusedSegId(row.segId)}
+                  onBlur={(text) => {
+                    setFocusedSegId(null);
+                    handleSegmentBlur(row.segId, text);
+                  }}
+                  onKeyDown={(e) => handleEditorKeyDown(e, row.segId)}
                 />
-                {savingSegmentId === row.segId && (
-                  <span style={{ fontSize: '0.7rem', color: 'var(--saffron-400)', display: 'block', marginTop: '0.2rem' }}>
-                    Autosaving...
-                  </span>
-                )}
               </div>
             </div>
-          ))}
+          );
+        })}
 
-          {filteredRows.length === 0 && (
-            <div style={{ textAlign: 'center', padding: '3rem', color: 'var(--text-dim)' }}>
-              No segments match the active filter.
-            </div>
-          )}
-        </div>
+        {filteredRows.length === 0 && (
+          <div className="studio-card" style={{ textAlign: 'center', padding: '3rem', color: 'var(--text-dim)' }}>
+            <BookOpen size={32} style={{ margin: '0 auto 0.75rem', opacity: 0.5 }} />
+            <p>No segments match the active filter.</p>
+          </div>
+        )}
       </div>
     </div>
   );
