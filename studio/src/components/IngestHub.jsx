@@ -227,7 +227,7 @@ export default function IngestHub({ onOpenReview, showToast }) {
                     style={{
                       padding: '0.7rem 1rem',
                       cursor: 'pointer',
-                      borderBottom: '1px solid rgba(255,255,255,0.05)',
+                      borderBottom: '1px solid var(--border-color)',
                       display: 'flex',
                       justifyContent: 'space-between',
                       alignItems: 'center',
@@ -400,7 +400,7 @@ export default function IngestHub({ onOpenReview, showToast }) {
             style={{
               marginTop: '1.5rem',
               padding: '1.25rem',
-              background: 'rgba(20, 184, 166, 0.1)',
+              background: 'var(--teal-glow)',
               border: '1px solid var(--teal-500)',
               borderRadius: 'var(--radius-md)',
             }}
@@ -490,7 +490,7 @@ export default function IngestHub({ onOpenReview, showToast }) {
                     <span className="seg-id-badge" style={{ marginBottom: '0.3rem' }}>
                       {seg.key}
                     </span>
-                    <div style={{ color: '#f7df94', fontSize: '0.9rem', marginBottom: '0.2rem', fontFamily: 'Georgia, serif' }}>
+                    <div style={{ color: 'var(--text-pali)', fontSize: '0.9rem', marginBottom: '0.2rem', fontFamily: 'Georgia, serif' }}>
                       {seg.root}
                     </div>
                     <div style={{ color: 'var(--text-muted)', fontSize: '0.85rem' }}>

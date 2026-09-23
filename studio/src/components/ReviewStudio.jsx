@@ -279,7 +279,7 @@ export default function ReviewStudio({ token, onBack, showToast }) {
 
             <div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem' }}>
-                <span className="brand-badge" style={{ background: 'rgba(229, 169, 60, 0.2)' }}>
+                <span className="brand-badge" style={{ background: 'var(--saffron-glow)' }}>
                   {review.acronym}
                 </span>
                 <h2 style={{ fontFamily: 'var(--font-canonical)', fontSize: '1.35rem', color: 'var(--text-main)' }}>
@@ -317,7 +317,7 @@ export default function ReviewStudio({ token, onBack, showToast }) {
                 <span>{isPublishing ? 'Publishing...' : 'Publish to Saddhamma'}</span>
               </button>
             ) : review.status === 'published' ? (
-              <span className="brand-badge" style={{ background: 'rgba(52, 211, 153, 0.2)', color: 'var(--emerald-400)', borderColor: 'var(--emerald-400)' }}>
+              <span className="brand-badge" style={{ background: 'var(--emerald-glow)', color: 'var(--emerald-400)', borderColor: 'var(--emerald-400)' }}>
                 ✓ Published in Bilara
               </span>
             ) : null}
