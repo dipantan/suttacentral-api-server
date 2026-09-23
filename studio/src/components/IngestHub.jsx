@@ -165,7 +165,7 @@ export default function IngestHub({ onOpenReview, showToast }) {
   };
 
   const copyReviewLink = (token) => {
-    const link = `${window.location.origin}/studio/?token=${token}`;
+    const link = `${window.location.origin}/?token=${token}`;
     navigator.clipboard.writeText(link);
     setCopiedLink(true);
     showToast('Direct review link copied to clipboard!');

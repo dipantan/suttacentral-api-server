@@ -35,7 +35,7 @@ export default function CatalogView({ onOpenReview, showToast }) {
   }, []);
 
   const copyReviewLink = (token) => {
-    const link = `${window.location.origin}/studio/?token=${token}`;
+    const link = `${window.location.origin}/?token=${token}`;
     navigator.clipboard.writeText(link);
     setCopiedToken(token);
     showToast('Direct review link copied to clipboard!');

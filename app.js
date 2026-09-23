@@ -811,22 +811,22 @@ app.post("/api/studio/reviews/:token/publish", (req, res) => {
   }
 });
 
-// Root route: redirect to Studio dashboard
-app.get("/", (req, res) => {
-  res.redirect("/studio");
-});
-
-// Serve Studio frontend static files
+// Serve Studio frontend static files (root + /studio alias for old links)
 const STUDIO_DIST = path.join(__dirname, "public/studio");
-app.use("/studio", express.static(STUDIO_DIST));
-app.get(/^\/studio($|\/.*)/, (req, res) => {
-  const indexHtml = path.join(STUDIO_DIST, "index.html");
-  if (fs.existsSync(indexHtml)) {
-    res.sendFile(indexHtml);
+const STUDIO_INDEX = path.join(STUDIO_DIST, "index.html");
+
+const sendStudioIndex = (req, res) => {
+  if (fs.existsSync(STUDIO_INDEX)) {
+    res.sendFile(STUDIO_INDEX);
   } else {
     res.status(404).send("Studio frontend is compiling. Please run 'npm run build' in the studio/ directory.");
   }
-});
+};
+
+app.use("/studio", express.static(STUDIO_DIST));
+app.use(express.static(STUDIO_DIST));
+app.get("/", sendStudioIndex);
+app.get(/^\/studio($|\/.*)/, sendStudioIndex);
 
 // Restore persisted studio data from R2 (if configured), then start.
 (async () => {

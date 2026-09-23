@@ -79,7 +79,7 @@ export default function ReviewStudio({ token, onBack, showToast }) {
   };
 
   const copyReviewLink = () => {
-    const link = `${window.location.origin}/studio/?token=${token}`;
+    const link = `${window.location.origin}/?token=${token}`;
     navigator.clipboard.writeText(link);
     setCopiedLink(true);
     showToast('Direct review link copied to clipboard!');
