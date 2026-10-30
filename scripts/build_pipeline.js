@@ -1,5 +1,6 @@
 const { execSync } = require("child_process");
 const fs = require("fs");
+const path = require("path");
 const { generateBundle } = require("./generate_data_bundle");
 const { generateSqliteDb } = require("./generate_sqlite_db");
 
