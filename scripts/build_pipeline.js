@@ -1,7 +1,7 @@
 const { execSync } = require("child_process");
 const fs = require("fs");
-const path = require("path");
 const { generateBundle } = require("./generate_data_bundle");
+const { generateSqliteDb } = require("./generate_sqlite_db");
 
 const SERVER_DIR = path.resolve(__dirname, "..");
 const BILARA_DATA_DIR = path.join(SERVER_DIR, "data/bilara-data-published");
@@ -151,14 +151,19 @@ async function buildPipeline() {
   console.log("\n--- Step 8: Generating Zip Bundle ---");
   try {
     const finalZipPath = await generateBundle();
-    console.log(`✅ Zip successfully generated at: ${finalZipPath}`);
+    // --- Step 9: Generate Pre-indexed SQLite Database Bundle ---
+    console.log("\n--- Step 9: Generating Pre-indexed SQLite Database ---");
+    const sqliteZipPath = await generateSqliteDb();
+    console.log(`✅ SQLite bundle successfully generated at: ${sqliteZipPath}`);
 
-    // --- Step 9: Write Version Tracker ---
-    console.log("\n--- Step 9: Writing Version History ---");
+    // --- Step 10: Write Version Tracker ---
+    console.log("\n--- Step 10: Writing Version History ---");
+    versionInfo.sqlite_bundle = "sutta_db.zip";
+    versionInfo.sqlite_db = "sutta_db.sqlite";
     fs.writeFileSync(VERSION_FILE, JSON.stringify(versionInfo, null, 2));
     console.log(`✅ Version tracking saved to ${VERSION_FILE}`);
   } catch (err) {
-    console.error("❌ Zip generation failed:", err);
+    console.error("❌ Bundle or SQLite generation failed:", err);
     process.exit(1);
   }
 

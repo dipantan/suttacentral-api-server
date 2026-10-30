@@ -118,6 +118,7 @@ jobs:
           files: |
             public/data.zip
             public/data.json
+            public/sutta_db.zip
           draft: false
           prerelease: false
         env:
